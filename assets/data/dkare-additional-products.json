@@ -1,0 +1,61 @@
+{
+  "source": "Các dòng sản phẩm do chủ website xác nhận; chưa có hồ sơ mã và quy cách.",
+  "products": [
+    {
+      "id": "dkare-son-chrome",
+      "code": "Đang cập nhật",
+      "name": "Sơn bạc hiệu ứng Chrome D.KARE",
+      "path": "san-pham/vat-tu/son-chrome.html",
+      "intro": "Dòng sơn bạc hiệu ứng Chrome trong danh mục D.KARE. Mã, quy cách và hướng dẫn kỹ thuật đang được bổ sung.",
+      "industries": [
+        "auto"
+      ],
+      "surfaces": [],
+      "functions": [
+        "chrome"
+      ],
+      "hold": false,
+      "note": "Ảnh bao bì minh họa. Chưa xác nhận hệ sơn, nền áp dụng, quy cách hoặc giá bán.",
+      "variants": [],
+      "status": "awaiting_details"
+    },
+    {
+      "id": "dkare-keo-boc",
+      "code": "Đang cập nhật",
+      "name": "Keo dán bọc nội thất D.KARE",
+      "path": "san-pham/vat-tu/keo-dan-boc-noi-that.html",
+      "intro": "Dòng keo dán bọc nội thất trong danh mục D.KARE. Cần xác nhận vật liệu bọc và bề mặt nền trước khi chọn sản phẩm.",
+      "industries": [
+        "auto"
+      ],
+      "surfaces": [],
+      "functions": [
+        "adhesive"
+      ],
+      "hold": false,
+      "note": "Chưa xác nhận mã, quy cách, vật liệu tương thích và quy trình. Không đồng nhất với keo sửa da 809G.",
+      "variants": [],
+      "status": "awaiting_details"
+    },
+    {
+      "id": "dkare-cam-giac-da",
+      "code": "Đang cập nhật",
+      "name": "Chất tạo cảm giác da D.KARE",
+      "path": "san-pham/vat-tu/chat-tao-cam-giac-da.html",
+      "intro": "Dòng vật tư tạo cảm giác bề mặt da trong danh mục D.KARE. Công thức và cách phối cùng hệ hoàn thiện đang được bổ sung.",
+      "industries": [
+        "auto"
+      ],
+      "surfaces": [
+        "leather"
+      ],
+      "functions": [
+        "touch"
+      ],
+      "hold": false,
+      "note": "Chưa xác nhận mã, tỷ lệ phối hoặc khả năng dùng trực tiếp. Không tự thay lớp phủ hoặc chất dưỡng da.",
+      "variants": [],
+      "status": "awaiting_details"
+    }
+  ]
+}

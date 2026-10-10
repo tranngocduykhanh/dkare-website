@@ -3,79 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Liên hệ D.KARE Việt Nam — Sơn phục hồi nội thất ô tô chuyên nghiệp. Hotline 079 539 7519, Email dkarevn@gmail.com, Đà Nẵng.">
-    <title>Liên Hệ — D.KARE Sơn Phục Hồi Nội Thất Ô Tô | Đà Nẵng</title>
+
+    <meta name="keywords" content="liên hệ D.KARE, sơn nhựa ô tô, sơn da ô tô, phục hồi nội thất, Đà Nẵng">
+
+
+    <link rel="icon" type="image/png" href="images/logo/logo/1.png">
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Montserrat','sans-serif']},colors:{primary:'#111111',accent:'#B22222',surface:'#F5F5F5','text-primary':'#1A1A1A','text-secondary':'#666666',border:'#E5E5E5'}}}}</script>
     <style>
-        body { font-family: 'Montserrat', sans-serif; background: #fff; color: #1A1A1A; }
-        .glass-nav { background: rgba(255,255,255,.85); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(0,0,0,.06); }
-        .ember { position: absolute; border-radius: 50%; pointer-events: none; opacity: 0; background: #B22222; animation: emberFloat 4s ease-in infinite; }
-        @keyframes emberFloat { 0% { opacity: 0; transform: translateY(0) translateX(0) scale(1); } 10% { opacity: .8; } 50% { opacity: .4; transform: translateY(-80px) translateX(20px) scale(.6); } 100% { opacity: 0; transform: translateY(-160px) translateX(-10px) scale(.2); } }
-        .nav-link::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: #B22222; transition: width .3s; }
-        .nav-link:hover::after { width: 100%; }
+        html{scroll-behavior:smooth;scroll-padding-top:80px}
+        body{font-family:'Montserrat',sans-serif;background:#fff;color:#1A1A1A;-webkit-font-smoothing:antialiased}
+        .fade-in{opacity:0;transform:translateY(20px);transition:opacity .6s,transform .6s}.fade-in.visible{opacity:1;transform:translateY(0)}
+        .glass-nav{background:rgba(255,255,255,.9);backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,0,0,.08)}
+        .nav-link{position:relative}.nav-link::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:#B22222;transition:width .3s}.nav-link:hover::after{width:100%}
+        .parallax-section{position:relative;overflow:hidden}
+        .parallax-bg{position:absolute;inset:0;background-size:cover;background-position:center;will-change:transform;z-index:0}
+        .btn-cta{background:#B22222;color:#fff;border-radius:4px;transition:all .3s ease}.btn-cta:hover{background:#111;color:#fff;transform:translateY(-2px)}
+        .btn-outline{border:2px solid #B22222;color:#B22222;border-radius:4px;transition:all .3s ease}.btn-outline:hover{background:#B22222;color:#fff}
+        .card-hover{transition:all .3s ease;border:1px solid #E5E5E5}.card-hover:hover{border-color:#B22222;transform:translateY(-4px);box-shadow:0 12px 24px rgba(178,34,34,.1)}
+        .input-field{width:100%;padding:14px 16px;border:1px solid #E5E5E5;border-radius:8px;font-size:15px;transition:all .2s;outline:none;font-family:'Montserrat',sans-serif}
+        .input-field:focus{border-color:#B22222;box-shadow:0 0 0 3px rgba(178,34,34,.08)}
+        label{font-weight:600;font-size:14px;color:#111;margin-bottom:6px;display:block}
+        .success-box{background:#f0fdf4;border:1px solid #bbf7d0;color:#166534;padding:20px;border-radius:12px;text-align:center}
+        .error-box{background:#fef2f2;border:1px solid #fecaca;color:#991b1b;padding:20px;border-radius:12px;text-align:center}
     </style>
+<link rel="stylesheet" href="assets/site.css?v=20260925-4">
+<script defer src="assets/site.js?v=20260928-3"></script>
+<noscript><style>.fade-in,.section-reveal,.dkare-hero-kicker,.dkare-hero-title,.dkare-hero-tagline,.dkare-hero-description,.dkare-hero-actions{opacity:1!important;transform:none!important}</style></noscript>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/header-type.css?v=20260928-1">
+<link rel="stylesheet" href="assets/shared-footer.css?v=20261010-1">
+<link rel="stylesheet" href="assets/navigation-groups.css?v=20260928-2">
+
+<title>Liên hệ D.KARE | Sơn nhựa và sơn da nội thất ô tô</title>
+<link rel="canonical" href="https://dkare.vn/lien-he.html">
+<meta name="description" content="Liên hệ D.KARE để được tư vấn sơn nhựa, sơn da và giải pháp phục hồi nội thất ô tô dành cho gara, detailing studio và kỹ thuật viên chuyên nghiệp.">
+<meta name="robots" content="index, follow">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="D.KARE">
+<meta property="og:title" content="Liên hệ D.KARE | Sơn nhựa và sơn da nội thất ô tô">
+<meta property="og:description" content="Liên hệ D.KARE để được tư vấn sơn nhựa, sơn da và giải pháp phục hồi nội thất ô tô dành cho gara, detailing studio và kỹ thuật viên chuyên nghiệp.">
+<meta property="og:url" content="https://dkare.vn/lien-he.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Liên hệ D.KARE | Sơn nhựa và sơn da nội thất ô tô">
+<meta name="twitter:description" content="Liên hệ D.KARE để được tư vấn sơn nhựa, sơn da và giải pháp phục hồi nội thất ô tô dành cho gara, detailing studio và kỹ thuật viên chuyên nghiệp.">
+<script id="dkare-page-schema" type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://dkare.vn/lien-he.html#webpage", "url": "https://dkare.vn/lien-he.html", "name": "Liên hệ D.KARE | Sơn nhựa và sơn da nội thất ô tô", "description": "Liên hệ D.KARE để được tư vấn sơn nhựa, sơn da và giải pháp phục hồi nội thất ô tô dành cho gara, detailing studio và kỹ thuật viên chuyên nghiệp.", "inLanguage": "vi-VN", "isPartOf": {"@id": "https://dkare.vn/#website"}}]}</script>
 </head>
 <body>
 
-<header class="fixed top-0 left-0 w-full z-50 glass-nav">
-    <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-        <a href="index.html" class="flex items-center gap-2 no-underline"><span class="text-2xl font-bold text-primary">D.KARE</span></a>
-        <nav class="hidden lg:flex items-center gap-8">
-            <a href="index.html" class="nav-link text-sm font-medium text-text-primary relative">Trang chủ</a>
-            <a href="san-pham.html" class="nav-link text-sm font-medium text-text-primary relative">Sản phẩm</a>
-            <a href="quy-trinh.html" class="nav-link text-sm font-medium text-text-primary relative">Quy trình</a>
-            <a href="blog.html" class="nav-link text-sm font-medium text-text-primary relative">Blog</a>
-            <a href="lien-he.html" class="nav-link text-sm font-medium text-accent relative">Liên hệ</a>
+<!-- ==================== HEADER ==================== -->
+<header class="fixed top-0 left-0 w-full z-50 glass-nav" role="banner">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        <a href="index.html" class="dk-brand" aria-label="D.KARE — Trang chủ"><img src="images/logo/logo-ngang/1.png" alt="D.KARE" width="582" height="133"></a>
+        <nav class="hidden lg:flex items-center gap-6">
+            <a href="index.html#about" class="nav-link text-sm font-medium text-primary hover:text-accent">Về chúng tôi</a>
+            <a href="gioi-thieu.html" class="nav-link text-sm font-medium text-primary hover:text-accent">Giới thiệu</a>
+            <a href="san-pham.html" class="nav-link text-sm font-medium text-primary hover:text-accent">Sản phẩm</a>
+            <a href="quy-trinh.html" class="nav-link text-sm font-medium text-primary hover:text-accent">Quy trình</a>
+            <a href="blog.html" class="nav-link text-sm font-medium text-primary hover:text-accent">Blog</a>
+            <a href="cau-hoi.html" class="nav-link text-sm font-medium text-primary hover:text-accent">FAQ</a>
+            <a href="lien-he.html" class="nav-link text-sm font-medium text-accent">Liên hệ</a>
         </nav>
-        <a href="tel:0795397519" class="hidden lg:flex items-center gap-2 text-sm font-semibold"><i data-lucide="phone" class="w-4 h-4"></i>079 539 7519</a>
-        <button id="mobile-menu-btn" class="lg:hidden p-2"><i data-lucide="menu" class="w-6 h-6" id="menu-icon"></i></button>
+        <div class="flex items-center gap-3">
+            <a href="https://www.facebook.com/profile.php?id=61592756672301" target="_blank" rel="noopener" class="text-[#1877F2] hover:opacity-80 transition-opacity" title="Facebook D.KARE"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#1877F2" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+            <a href="https://www.youtube.com/@dkarepaint" target="_blank" rel="noopener" class="text-[#FF0000] hover:opacity-80 transition-opacity" title="YouTube D.KARE"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FF0000" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+            <a href="tel:0795397519" class="bg-accent text-white px-5 py-2.5 rounded-full text-sm font-semibold">Liên hệ</a>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-primary" aria-label="Menu"><i data-lucide="menu" class="w-6 h-6" id="menu-icon"></i></button>
     </div>
-    <div id="mobile-menu" class="lg:hidden hidden px-6 pb-6 bg-white/95 border-t"><nav class="flex flex-col gap-3 pt-4"><a href="index.html" class="text-sm py-2">Trang chủ</a><a href="san-pham.html" class="text-sm py-2">Sản phẩm</a><a href="quy-trinh.html" class="text-sm py-2">Quy trình</a><a href="blog.html" class="text-sm py-2">Blog</a><a href="lien-he.html" class="text-sm py-2 text-accent font-semibold">Liên hệ</a></nav></div>
+    <div id="mobile-menu" class="lg:hidden hidden px-6 pb-6 bg-white/95 border-t"><nav class="flex flex-col gap-3 pt-4"><a href="index.html" class="text-sm py-2 text-primary">Trang chủ</a><a href="gioi-thieu.html" class="text-sm py-2 text-primary">Giới thiệu</a><a href="san-pham.html" class="text-sm py-2 text-primary">Sản phẩm</a><a href="quy-trinh.html" class="text-sm py-2 text-primary">Quy trình</a><a href="blog.html" class="text-sm py-2 text-primary">Blog</a><a href="cau-hoi.html" class="text-sm py-2 text-primary">FAQ</a><a href="lien-he.html" class="text-sm py-2 text-accent font-semibold">Liên hệ</a><a href="tel:0795397519" class="bg-accent text-white text-center px-5 py-3 rounded-full text-sm font-semibold mt-2">Gọi ngay</a></nav></div>
 </header>
 
-<main class="pt-24">
-    <div class="max-w-6xl mx-auto px-6 py-4 text-sm text-text-secondary"><a href="index.html" class="hover:text-accent">Trang chủ</a> <span class="mx-2">/</span> <span class="text-primary font-medium">Liên hệ</span></div>
+<main class="pt-20">
 
-    <section class="py-16 bg-primary text-white relative overflow-hidden" id="contact-section">
-        <div class="max-w-6xl mx-auto px-6 relative z-10">
-            <div class="text-center mb-16"><h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Sẵn sàng hỗ trợ</h1><p class="text-white/70 text-lg max-w-xl mx-auto">Để lại thông tin, chúng tôi sẽ liên hệ lại trong thời gian sớm nhất.</p></div>
-            <div class="grid md:grid-cols-2 gap-12 lg:gap-20">
-                <div>
-                    <h2 class="text-xl font-bold mb-6">Thông tin liên hệ</h2>
-                    <div class="space-y-6">
-                        <div class="flex items-start gap-4"><div class="w-10 h-10 bg-accent rounded-lg flex items-center justify-center"><i data-lucide="phone" class="w-5 h-5"></i></div><div><p class="text-white/60 text-sm">Hotline</p><a href="tel:0795397519" class="text-white font-semibold text-lg">079 539 7519</a></div></div>
-                        <div class="flex items-start gap-4"><div class="w-10 h-10 bg-accent rounded-lg flex items-center justify-center"><i data-lucide="mail" class="w-5 h-5"></i></div><div><p class="text-white/60 text-sm">Email</p><a href="mailto:dkarevn@gmail.com" class="text-white font-semibold text-lg">dkarevn@gmail.com</a></div></div>
-                        <div class="flex items-start gap-4"><div class="w-10 h-10 bg-accent rounded-lg flex items-center justify-center"><i data-lucide="map-pin" class="w-5 h-5"></i></div><div><p class="text-white/60 text-sm">Khu vực</p><p class="text-white font-semibold text-lg">Đà Nẵng, Việt Nam</p></div></div>
-                    </div>
-                    <div class="mt-10 p-6 bg-white/5 rounded-xl border border-white/10"><div class="flex items-center gap-2 mb-3"><i data-lucide="clock" class="w-4 h-4 text-accent"></i><p class="text-white/80 text-sm font-medium">Giờ làm việc</p></div><p class="text-white/60 text-sm">Thứ 2 - Thứ 7: 8:00 - 17:30</p><p class="text-white/60 text-sm">Chủ nhật: Nghỉ</p></div>
+<!-- ==================== BREADCRUMB ==================== -->
+<nav class="max-w-7xl mx-auto px-6 py-4 text-sm text-text-secondary"><a href="index.html" class="hover:text-accent">Trang chủ</a> / <span class="text-accent font-medium">Liên hệ</span></nav>
+
+<!-- ==================== HERO ==================== -->
+<section class="parallax-section relative py-24 md:py-32">
+    <div class="parallax-bg" style="background-image:url('images/contact/hero.jpg')"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/50 z-10"></div>
+    <div class="relative z-20 max-w-4xl mx-auto px-6 text-center text-white">
+        <span class="text-accent text-xs font-semibold tracking-[0.2em] uppercase">LIÊN HỆ D.KARE</span>
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mt-4 mb-6">Kết nối cùng D.KARE</h1>
+        <p class="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-8">Bạn đang tìm giải pháp sơn nhựa, sơn da hoặc phục hồi nội thất ô tô? Hãy để lại thông tin, đội ngũ D.KARE sẽ liên hệ và tư vấn giải pháp phù hợp.</p>
+        <a href="#contact-form" class="btn-cta px-8 py-4 text-lg font-semibold inline-flex items-center gap-2">Gửi yêu cầu tư vấn <i data-lucide="arrow-down" class="w-5 h-5"></i></a>
+    </div>
+</section>
+
+<!-- ==================== LIÊN HỆ CHÍNH ==================== -->
+<section id="contact-form" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-12 lg:gap-20">
+            <!-- Cột trái: Thông tin -->
+            <div class="fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Hãy trao đổi với D.KARE</h2>
+                <p class="text-text-secondary text-lg leading-relaxed mb-8">D.KARE đồng hành cùng gara, detailing studio, kỹ thuật viên và đối tác trong lĩnh vực sơn và phục hồi nội thất ô tô.</p>
+
+                <div class="space-y-3 mb-8">
+                    <p class="text-text-secondary text-sm flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-accent"></i> Sơn nhựa nội thất ô tô</p>
+                    <p class="text-text-secondary text-sm flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-accent"></i> Sơn da nội thất ô tô</p>
+                    <p class="text-text-secondary text-sm flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-accent"></i> Dịch vụ sơn nội thất cho Garage &amp; Đối tác</p>
+                    <p class="text-text-secondary text-sm flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-accent"></i> Phân phối vật tư</p>
+                    <p class="text-text-secondary text-sm flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-accent"></i> Đào tạo kỹ thuật</p>
+                    <p class="text-text-secondary text-sm flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-accent"></i> Đổi màu nội thất</p>
+                    <p class="text-text-secondary text-sm flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-accent"></i> Hợp tác đối tác / gara</p>
                 </div>
-                <div>
-                    <h2 class="text-xl font-bold mb-6">Gửi yêu cầu</h2>
-                    <form id="contact-form" class="space-y-5" novalidate>
-                        <div><label for="name" class="block text-white/80 text-sm font-medium mb-2">Họ và tên <span class="text-accent">*</span></label><input type="text" id="name" required autocomplete="name" placeholder="Nguyễn Văn A" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-accent"><p id="name-error" class="text-red-400 text-xs mt-1 hidden">Vui lòng nhập họ tên</p></div>
-                        <div><label for="phone" class="block text-white/80 text-sm font-medium mb-2">Số điện thoại <span class="text-accent">*</span></label><input type="tel" id="phone" required autocomplete="tel" placeholder="0901 234 567" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-accent"><p id="phone-error" class="text-red-400 text-xs mt-1 hidden">Vui lòng nhập số điện thoại hợp lệ</p></div>
-                        <div><label for="message" class="block text-white/80 text-sm font-medium mb-2">Tin nhắn</label><textarea id="message" rows="4" placeholder="Cho chúng tôi biết bạn cần hỗ trợ gì..." class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-accent resize-none"></textarea></div>
-                        <button type="submit" class="w-full bg-accent text-white px-6 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary transition-all"><span id="submit-text">Gửi yêu cầu</span><span id="submit-loading" class="hidden"><svg class="animate-spin h-5 w-5 inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path></svg> Đang gửi...</span></button>
-                        <div id="form-success" class="hidden bg-green-500/20 border border-green-500/30 rounded-lg p-4 text-center"><i data-lucide="check-circle" class="w-8 h-8 text-green-400 mx-auto mb-2"></i><p class="text-white font-semibold">Đã gửi thành công!</p><p class="text-white/70 text-sm mt-1">Chúng tôi sẽ liên hệ lại sớm nhất.</p></div>
-                    </form>
+
+                <div class="space-y-4 p-6 bg-surface rounded-2xl border">
+                    <div class="flex items-center gap-3"><i data-lucide="phone" class="w-5 h-5 text-accent"></i><div><p class="text-xs text-text-secondary">Điện thoại</p><a href="tel:0795397519" class="font-semibold text-primary">079 539 7519</a></div></div>
+                    <div class="flex items-center gap-3"><i data-lucide="mail" class="w-5 h-5 text-accent"></i><div><p class="text-xs text-text-secondary">Email</p><a href="mailto:dkarepaint@gmail.com" class="font-semibold text-primary">dkarepaint@gmail.com</a></div></div>
+                    <div class="flex items-center gap-3"><i data-lucide="globe" class="w-5 h-5 text-accent"></i><div><p class="text-xs text-text-secondary">Website</p><p class="font-semibold text-primary">dkare.vn</p></div></div>
+                </div>
+
+                <div class="flex gap-3 mt-6">
+                    <a href="tel:0795397519" class="btn-cta px-6 py-3 font-semibold text-sm inline-flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> Gọi ngay</a>
+                    <a href="mailto:dkarepaint@gmail.com" class="btn-outline px-6 py-3 font-semibold text-sm inline-flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> Email</a>
                 </div>
             </div>
+
+            <!-- Cột phải: Form -->
+            <div class="fade-in">
+                <h2 class="text-2xl font-bold text-primary mb-2">Gửi yêu cầu tư vấn</h2>
+                <p class="text-text-secondary text-sm mb-6">Hãy để lại thông tin và nhu cầu của bạn. D.KARE sẽ phản hồi trong thời gian sớm nhất.</p>
+
+                <form id="dkare-contact-form" class="space-y-5">
+                    <input type="hidden" name="access_key" value="1ee39e6a-8105-43db-8ab1-1726681c181c">
+                    <input type="hidden" name="subject" value="D.KARE — Yêu cầu liên hệ mới từ website">
+                    <input type="hidden" name="from_name" value="D.KARE Website">
+                    <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" aria-hidden="true">
+
+                    <div><label for="name">Họ và tên <span class="text-accent">*</span></label><input type="text" id="name" name="name" class="input-field" placeholder="Nhập họ tên của bạn" required></div>
+                    <div><label for="phone">Số điện thoại <span class="text-accent">*</span></label><input type="tel" id="phone" name="phone" class="input-field" placeholder="Nhập số điện thoại" required></div>
+                    <div><label for="email">Email</label><input type="email" id="email" name="email" class="input-field" placeholder="Nhập địa chỉ email"></div>
+                    <div><label for="company">Gara / Đơn vị</label><input type="text" id="company" name="company" class="input-field" placeholder="Tên gara hoặc đơn vị của bạn"></div>
+                    <div>
+                        <label for="service">Bạn quan tâm đến <span class="text-accent">*</span></label>
+                        <select id="service" name="service" class="input-field" required>
+                            <option value="">— Chọn lĩnh vực quan tâm —</option>
+                            <option value="Sơn nhựa ô tô">Sơn nhựa ô tô</option>
+                            <option value="Sơn da ô tô">Sơn da ô tô</option>
+                            <option value="Dịch vụ sơn nội thất cho Garage &amp; Đối tác">Dịch vụ sơn nội thất cho Garage &amp; Đối tác</option>
+                            <option value="Phân phối vật tư">Phân phối vật tư</option>
+                            <option value="Đào tạo">Đào tạo</option>
+                            <option value="Đổi màu nội thất">Đổi màu nội thất</option>
+                            <option value="Hợp tác gara / đối tác">Hợp tác gara / đối tác</option>
+                            <option value="Khác">Khác</option>
+                        </select>
+                    </div>
+                    <div><label for="message">Nội dung cần tư vấn <span class="text-accent">*</span></label><textarea id="message" name="message" rows="4" class="input-field" placeholder="Mô tả nhu cầu của bạn..." required></textarea></div>
+
+                    <label class="flex items-start gap-3 text-sm text-text-secondary"><input type="checkbox" name="privacy_consent" value="Đồng ý" required class="mt-1"><span>Tôi đồng ý để D.KARE sử dụng thông tin này nhằm phản hồi yêu cầu tư vấn theo <a href="chinh-sach-bao-mat.html" class="text-accent font-semibold hover:underline" target="_blank" rel="noopener">Chính sách bảo mật</a>. <span data-form-provider>Biểu mẫu được truyền qua Web3Forms.</span></span></label>
+<button type="submit" id="submit-btn" class="btn-cta w-full py-4 text-lg font-semibold flex items-center justify-center gap-2">
+                        <span id="submit-text">Gửi yêu cầu tư vấn</span>
+                        <span id="submit-spinner" class="hidden"><svg class="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path></svg> Đang gửi...</span>
+                    </button>
+
+                    <div id="form-response" class="hidden"></div>
+                </form>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- ==================== GIẢI PHÁP ==================== -->
+<section class="py-20 bg-surface"><div class="max-w-6xl mx-auto px-6 text-center"><h2 class="text-3xl md:text-4xl font-bold text-primary mb-12">Bạn đang tìm giải pháp nào?</h2>
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <a href="gia-cong-son.html" class="card-hover bg-white rounded-2xl p-6 text-left no-underline block fade-in"><i data-lucide="factory" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-primary mb-2">Dịch vụ sơn nội thất cho Garage &amp; Đối tác</h3><p class="text-text-secondary text-sm">Sản xuất và gia công các dòng sơn phục vụ nhu cầu chuyên nghiệp.</p></a>
+    <a href="phan-phoi-vat-tu.html" class="card-hover bg-white rounded-2xl p-6 text-left no-underline block fade-in"><i data-lucide="package" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-primary mb-2">Phân phối vật tư</h3><p class="text-text-secondary text-sm">Cung cấp vật tư và sản phẩm D.KARE cho gara và đối tác.</p></a>
+    <a href="dao-tao.html" class="card-hover bg-white rounded-2xl p-6 text-left no-underline block fade-in"><i data-lucide="graduation-cap" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-primary mb-2">Đào tạo</h3><p class="text-text-secondary text-sm">Chương trình đào tạo kỹ thuật sơn và phục hồi nội thất ô tô.</p></a>
+    <a href="doi-mau.html" class="card-hover bg-white rounded-2xl p-6 text-left no-underline block fade-in"><i data-lucide="palette" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-primary mb-2">Đổi màu</h3><p class="text-text-secondary text-sm">Giải pháp đổi màu và tái tạo bề mặt nội thất theo yêu cầu.</p></a>
+</div></div></section>
+
+<!-- ==================== CTA CUỐI ==================== -->
+<section class="py-20 bg-primary text-white text-center"><div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Sẵn sàng nâng cấp giải pháp phục hồi nội thất?</h2>
+    <p class="text-white/70 text-lg mb-8">Kết nối cùng D.KARE để tìm giải pháp phù hợp cho gara và công việc của bạn.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:0795397519" class="btn-cta px-8 py-4 text-lg font-semibold">Liên hệ D.KARE</a>
+        <a href="san-pham.html" class="border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 transition-all">Khám phá sản phẩm</a>
+    </div>
+</div></section>
+
 </main>
 
-<footer class="bg-primary py-12"><div class="max-w-6xl mx-auto px-6 text-center"><p class="text-white/40 text-sm">&copy; 2025 D.KARE Việt Nam.</p></div></footer>
+<!-- ==================== FOOTER ==================== -->
+<footer class="dk-sticky-footer" role="contentinfo"><div class="dk-footer-glow" aria-hidden="true"></div><div class="dk-footer-inner"><div class="dk-footer-main"><div class="dk-footer-brand"><a href="index.html" aria-label="D.KARE — Trang chủ"><img src="images/logo/logo-ngang/2.png" alt="D.KARE" width="582" height="133"></a><p>Sơn và giải pháp hoàn thiện nội thất ô tô cho garage, kỹ thuật viên và chủ xe.</p><div class="dk-footer-social"><a href="https://www.facebook.com/profile.php?id=61592756672301" aria-label="Facebook D.KARE" target="_blank" rel="noopener">f</a><a href="https://www.youtube.com/@dkarepaint" aria-label="YouTube D.KARE" target="_blank" rel="noopener">▶</a><a href="mailto:dkarepaint@gmail.com" aria-label="Email D.KARE">@</a></div></div><div class="dk-footer-group"><h3>Sản phẩm</h3><a href="san-pham.html#tab-nhua">Sơn nhựa</a><a href="san-pham.html#tab-da">Sơn da</a><a href="san-pham.html#tab-ni">Sơn nỉ</a></div><div class="dk-footer-group"><h3>Giải pháp</h3><a href="giai-phap.html#phuc-hoi-da">Phục hồi da nội thất ô tô</a><a href="gia-cong-son.html">Dịch vụ sơn nội thất cho Garage &amp; Đối tác</a><a href="phan-phoi-vat-tu.html">Phân phối vật tư</a><a href="dao-tao.html">Đào tạo 3 tháng</a><a href="doi-mau.html">Đổi màu nội thất</a></div><div class="dk-footer-group"><h3>Chính sách</h3><a href="bao-hanh.html">Bảo hành</a><a href="doi-tra.html">Đổi trả</a><a href="van-chuyen.html">Vận chuyển</a><a href="chinh-sach-bao-mat.html">Bảo mật</a></div><div class="dk-footer-group"><h3>Hỗ trợ</h3><a href="du-an.html">Dự án</a><a href="blog.html">Kiến thức</a><a href="tai-lieu.html">Tài liệu</a><a href="lien-he.html">Liên hệ</a></div></div><div class="dk-footer-bottom"><span>© 2026 D.KARE Việt Nam · Đà Nẵng</span><span><a href="tel:0795397519">079 539 7519</a> · <a href="mailto:dkarepaint@gmail.com">dkarepaint@gmail.com</a></span></div></div></footer>
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","name":"Liên hệ D.KARE","url":"https://dkare.vn/lien-he.html","mainEntity":{"@type":"Organization","name":"D.KARE Việt Nam","telephone":"+84795397519","email":"dkarevn@gmail.com"}}</script>
+<!-- ==================== SCHEMA ==================== -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"D.KARE Việt Nam","url":"https://dkare.vn","telephone":"+84795397519","email":"dkarepaint@gmail.com","address":{"@type":"PostalAddress","streetAddress":"476 Nguyễn Tri Phương, Hòa Cường","addressLocality":"Đà Nẵng","addressCountry":"VN"},"sameAs":["https://www.facebook.com/profile.php?id=61592756672301","https://www.youtube.com/@dkarepaint"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","name":"Liên hệ D.KARE","url":"https://dkare.vn/lien-he.html","description":"Liên hệ D.KARE để được tư vấn sơn nhựa, sơn da và giải pháp phục hồi nội thất ô tô."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang chủ","item":"https://dkare.vn/"},{"@type":"ListItem","position":2,"name":"Liên hệ","item":"https://dkare.vn/lien-he.html"}]}</script>
+
 <script>
-lucide.createIcons();
-document.getElementById('mobile-menu-btn').addEventListener('click',()=>{const m=document.getElementById('mobile-menu'),i=document.getElementById('menu-icon'),o=m.classList.contains('hidden');m.classList.toggle('hidden');i.setAttribute('data-lucide',o?'x':'menu');lucide.createIcons()});
-const form=document.getElementById('contact-form');
-form.addEventListener('submit',e=>{e.preventDefault();const n=document.getElementById('name'),p=document.getElementById('phone'),ne=document.getElementById('name-error'),pe=document.getElementById('phone-error');ne.classList.add('hidden');pe.classList.add('hidden');let v=true;if(!n.value.trim()){ne.classList.remove('hidden');v=false}if(!p.value.trim()||!/(84|0[3|5|7|8|9])+([0-9]{8})\b/.test(p.value.replace(/\s/g,''))){pe.classList.remove('hidden');if(v)p.focus();v=false}if(!v)return;document.getElementById('submit-text').classList.add('hidden');document.getElementById('submit-loading').classList.remove('hidden');setTimeout(()=>{document.getElementById('submit-text').classList.remove('hidden');document.getElementById('submit-loading').classList.add('hidden');form.reset();document.getElementById('form-success').classList.remove('hidden')},1500)});
-(function(){const s=document.getElementById('contact-section');if(!s)return;setInterval(()=>{const e=document.createElement('div');e.className='ember';e.style.left=Math.random()*100+'%';e.style.bottom=Math.random()*40+'%';e.style.animationDuration=(Math.random()*3+3)+'s';const w=Math.random()*4+2;e.style.width=w+'px';e.style.height=w+'px';s.appendChild(e);setTimeout(()=>e.remove(),6000)},400)})();
+window.lucide?.createIcons();
+const menuBtn=document.getElementById('mobile-menu-btn'),mobileMenu=document.getElementById('mobile-menu'),menuIcon=document.getElementById('menu-icon');
+menuBtn.addEventListener('click',()=>{const o=mobileMenu.classList.contains('hidden');mobileMenu.classList.toggle('hidden');menuIcon.setAttribute('data-lucide',o?'x':'menu');window.lucide?.createIcons()});
+document.querySelectorAll('#mobile-menu a').forEach(l=>l.addEventListener('click',()=>{mobileMenu.classList.add('hidden');menuIcon.setAttribute('data-lucide','menu');window.lucide?.createIcons()}));
+const observer=new IntersectionObserver(e=>e.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.08});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+window.addEventListener('scroll',()=>{const scrolled=window.pageYOffset;document.querySelectorAll('.parallax-bg').forEach(bg=>{const speed=0.4,parent=bg.parentElement,pTop=parent.offsetTop,pHeight=parent.offsetHeight;if(scrolled+window.innerHeight>pTop&&scrolled<pTop+pHeight)bg.style.transform=`translateY(${(scrolled-pTop)*speed}px)`})},{passive:true});
+
+const requestedProduct=new URLSearchParams(location.search).get('san-pham');if(requestedProduct){document.getElementById('message').value='Tôi cần tư vấn sản phẩm '+requestedProduct.slice(0,50)+'.';document.getElementById('service').value=requestedProduct.startsWith('DN-')?'Sơn nhựa ô tô':requestedProduct.startsWith('DL-')?'Sơn da ô tô':'Phân phối vật tư';}
 </script>
-</body>
+<script defer src="assets/api-config.js?v=20261003-1"></script><script defer src="assets/contact-form.js?v=20261003-1"></script></body>
 </html>

@@ -1,0 +1,13 @@
+.catalog-group-tabs{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:32px}
+.catalog-group-label{flex-basis:100%;text-align:center;font:600 12px/1.5 Inter,Arial,sans-serif;letter-spacing:.08em;color:#737373;margin-bottom:2px}
+.catalog-group-label-next{margin-top:18px;padding-top:22px;border-top:1px solid #ddd}
+.catalog-group-tabs .tab-btn{min-height:44px}
+.catalog-group-tabs .tab-btn.active .btn-text,.catalog-group-tabs .tab-btn:hover .btn-text{color:#fff}
+.catalog-pending{grid-column:1/-1;padding:32px;border:1px solid #e4e4e4;border-radius:16px;background:#fff}
+.catalog-pending h3{font-size:22px;font-weight:600;margin-bottom:10px}
+.catalog-pending p{max-width:65ch;color:#666;line-height:1.65}
+.catalog-pending a{display:inline-block;margin-top:18px;color:#b22222;text-decoration:underline;text-underline-offset:4px}
+.catalog-membership{margin-top:12px;font-size:12px;color:#737373}
+.catalog-status{min-height:24px}
+.tab-content[hidden],.product-card[hidden]{display:none!important}
+@media(max-width:600px){.catalog-group-tabs{gap:8px}.catalog-group-tabs .tab-btn{padding:10px 16px;font-size:13px}.catalog-pending{padding:24px}}

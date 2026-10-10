@@ -1,0 +1,3379 @@
+{
+  "version": 1,
+  "review_date": "2026-10-08",
+  "base_url": "https://dkare.vn",
+  "products": [
+    {
+      "code": "00",
+      "slug": "00-bo-ve-sinh-giay",
+      "name": "Bộ bọt vệ sinh giày",
+      "intro": "Bộ chăm sóc giày gồm bọt làm sạch 100 ml, khăn và bàn chải. Phù hợp nhu cầu xử lý vết bẩn bề mặt mà không ngâm toàn bộ đôi giày.",
+      "surfaces": "Giày trắng, giày thể thao, giày vải và giày lưới theo mô tả nhà cung cấp.",
+      "exclude": "Chưa xác nhận cho da lộn, nubuck, da bóng và da nhạy cảm. Không dùng làm chất chuẩn bị bề mặt trước khi sơn ghế ô tô.",
+      "specs": {
+        "Quy cách bộ": "Bọt 100 ml + khăn + bàn chải"
+      },
+      "steps": [
+        "Thử lượng nhỏ tại vị trí kín; kiểm tra lem màu hoặc thay đổi bề mặt.",
+        "Lắc nhẹ chai, nhấn bọt lên vùng bẩn.",
+        "Dùng bàn chải làm sạch nhẹ vùng đã có bọt.",
+        "Lau bằng khăn, để bề mặt khô tự nhiên trước khi sử dụng."
+      ],
+      "faq": [
+        "Có dùng bộ này để chuẩn bị ghế trước khi sơn không?",
+        "Chưa có căn cứ dùng thay chất tẩy dầu hoặc tẩy màng trong hệ phục hồi da ô tô."
+      ],
+      "video": "dung dịch về sinh giày trắng.mp4",
+      "id": "aoyate-00_bo_ve_sinh_giay_bot",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/00_Bo_ve_sinh_giay_bot",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Vệ sinh",
+      "priority": "Mồi",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/00-bo-ve-sinh-giay.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/00-bo-ve-sinh-giay-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Bộ bọt vệ sinh giày",
+          "caption": "Bao bì minh họa — Bộ bọt vệ sinh giày",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-bo-ve-sinh-giay-02-cong-dung.svg",
+          "alt": "Công dụng — Bộ bọt vệ sinh giày",
+          "caption": "Công dụng — Bộ bọt vệ sinh giày",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-bo-ve-sinh-giay-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Bộ bọt vệ sinh giày",
+          "caption": "Bề mặt phù hợp — Bộ bọt vệ sinh giày",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-bo-ve-sinh-giay-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Bộ bọt vệ sinh giày",
+          "caption": "Cách dùng tham khảo — Bộ bọt vệ sinh giày",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-bo-ve-sinh-giay-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Bộ bọt vệ sinh giày",
+          "caption": "Lưu ý trước khi dùng — Bộ bọt vệ sinh giày",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/47eeb822a0271b94.mp4",
+          "caption": "Video được cung cấp cho 00 — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "dung dịch về sinh giày trắng.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-bo-ve-sinh-giay/01.png",
+          "alt": "Bộ bọt vệ sinh giày — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-bo-ve-sinh-giay/02.png",
+          "alt": "Bộ bọt vệ sinh giày — Thông tin, tư liệu nhà cung cấp",
+          "caption": "Thông tin — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-bo-ve-sinh-giay/03.png",
+          "alt": "Bộ bọt vệ sinh giày — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-bo-ve-sinh-giay/04.png",
+          "alt": "Bộ bọt vệ sinh giày — Bộ sản phẩm, tư liệu nhà cung cấp",
+          "caption": "Bộ sản phẩm — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "00",
+      "slug": "00-mau-da-bong",
+      "name": "Màu phục hồi da bóng",
+      "intro": "Sản phẩm bổ sung hoặc đổi màu cho da bóng kiểu patent, dành cho công việc phục hồi giày và đồ da có bề mặt đặc thù.",
+      "surfaces": "Giày, túi và đồ da bóng patent theo phạm vi nhà cung cấp.",
+      "exclude": "Chưa xác nhận dùng thay sơn ghế da mờ hoặc phối cùng lớp phủ mờ của hệ nước.",
+      "specs": {
+        "Loại sản phẩm": "Màu cho da bóng patent"
+      },
+      "steps": [
+        "Xác định đúng bề mặt da bóng và thử mẫu.",
+        "Xác nhận chất pha, tỷ lệ và quy trình chuẩn bị nền trước khi thi công.",
+        "Phối và thi công theo hướng dẫn của đúng công thức đã chọn."
+      ],
+      "faq": [
+        "Có dùng cho ghế ô tô mờ không?",
+        "Trang bán mô tả sản phẩm cho da bóng. Cần chọn hệ màu phù hợp bề mặt và độ bóng của ghế."
+      ],
+      "id": "aoyate-00_mau_doi_mau_da_bong",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/00_Mau_doi_mau_da_bong",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Lên màu chuyên biệt",
+      "priority": "Sau",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/00-mau-da-bong.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/00-mau-da-bong-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Màu phục hồi da bóng",
+          "caption": "Bao bì minh họa — Màu phục hồi da bóng",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-mau-da-bong-02-cong-dung.svg",
+          "alt": "Công dụng — Màu phục hồi da bóng",
+          "caption": "Công dụng — Màu phục hồi da bóng",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-mau-da-bong-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Màu phục hồi da bóng",
+          "caption": "Bề mặt phù hợp — Màu phục hồi da bóng",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-mau-da-bong-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Màu phục hồi da bóng",
+          "caption": "Cách dùng tham khảo — Màu phục hồi da bóng",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/00-mau-da-bong-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Màu phục hồi da bóng",
+          "caption": "Lưu ý trước khi dùng — Màu phục hồi da bóng",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-mau-da-bong/01.png",
+          "alt": "Màu phục hồi da bóng — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-mau-da-bong/02.png",
+          "alt": "Màu phục hồi da bóng — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-mau-da-bong/03.png",
+          "alt": "Màu phục hồi da bóng — Trước sau, tư liệu nhà cung cấp",
+          "caption": "Trước sau — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-mau-da-bong/04.png",
+          "alt": "Màu phục hồi da bóng — Màu, tư liệu nhà cung cấp",
+          "caption": "Màu — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/00-mau-da-bong/05.png",
+          "alt": "Màu phục hồi da bóng — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "003T",
+      "slug": "003t-co-dinh-mau",
+      "name": "Chất cố định màu 003T",
+      "intro": "Lớp hoàn thiện cho da trơn sau khi lên màu, có lựa chọn độ bóng theo nhà cung cấp. Quy cách chai nhỏ thuận tiện cho thao tác và chia lượng sử dụng.",
+      "surfaces": "Da trơn trên giày, túi, áo và sofa; ứng dụng ghế ô tô cần xác nhận theo hệ màu.",
+      "exclude": "Chưa xác nhận cho da lộn, nỉ hoặc Alcantara. Không phối chồng nhiều loại phủ khi chưa biết tương thích.",
+      "specs": {
+        "Quy cách": "100 g",
+        "Thi công": "Dùng trực tiếp theo hướng dẫn nhà cung cấp",
+        "Lựa chọn": "Ba mức độ bóng theo trang bán; chốt đúng biến thể khi tư vấn"
+      },
+      "steps": [
+        "Chọn đúng độ bóng và thử trên hệ màu cần phủ.",
+        "Chờ lớp màu khô theo hướng dẫn của hệ.",
+        "Thi công trực tiếp lớp phủ theo hướng dẫn đúng biến thể.",
+        "Chờ đóng rắn và kiểm tra cảm giác, độ bóng, chuyển màu trước sử dụng."
+      ],
+      "faq": [
+        "Chai 100 g có phải quy cách mua mẫu lẻ không?",
+        "Trang nguồn có mức đặt tối thiểu 50 chai. D.KARE sẽ xác nhận quy cách cung cấp và báo giá theo nhu cầu."
+      ],
+      "video": "chất cố định gốc nước 003T.mp4",
+      "id": "aoyate-003t_co_dinh_mau_100g",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/003T_Co_dinh_mau_100g",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Phủ cuối",
+      "priority": "So sánh",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/003t-co-dinh-mau.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/003t-co-dinh-mau-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu 003T",
+          "caption": "Bao bì minh họa — Chất cố định màu 003T",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/003t-co-dinh-mau-02-cong-dung.svg",
+          "alt": "Công dụng — Chất cố định màu 003T",
+          "caption": "Công dụng — Chất cố định màu 003T",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/003t-co-dinh-mau-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất cố định màu 003T",
+          "caption": "Bề mặt phù hợp — Chất cố định màu 003T",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/003t-co-dinh-mau-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất cố định màu 003T",
+          "caption": "Cách dùng tham khảo — Chất cố định màu 003T",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/003t-co-dinh-mau-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất cố định màu 003T",
+          "caption": "Lưu ý trước khi dùng — Chất cố định màu 003T",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/fd0d26bba14a59c8.mp4",
+          "caption": "Video nhóm lớp phủ — cùng một file được cung cấp dưới tên 003T, 1209D và 017F–025F; cần đối chiếu mã trên nhãn.",
+          "source_name": "chất cố định gốc nước 003T.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/01.png",
+          "alt": "Chất cố định màu 003T — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/02.png",
+          "alt": "Chất cố định màu 003T — Công dụng quảng cáo, tư liệu nhà cung cấp",
+          "caption": "Công dụng quảng cáo — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/03.png",
+          "alt": "Chất cố định màu 003T — Độ bóng, tư liệu nhà cung cấp",
+          "caption": "Độ bóng — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/04.png",
+          "alt": "Chất cố định màu 003T — Bảo vệ, tư liệu nhà cung cấp",
+          "caption": "Bảo vệ — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/05.png",
+          "alt": "Chất cố định màu 003T — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/06.png",
+          "alt": "Chất cố định màu 003T — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "06.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/07.png",
+          "alt": "Chất cố định màu 003T — Bao bì bán lẻ, tư liệu nhà cung cấp",
+          "caption": "Bao bì bán lẻ — tư liệu nhà cung cấp",
+          "source_name": "07.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/003t-co-dinh-mau/08.png",
+          "alt": "Chất cố định màu 003T — Quy cách, tư liệu nhà cung cấp",
+          "caption": "Quy cách — tư liệu nhà cung cấp",
+          "source_name": "08.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "04",
+      "slug": "04-bo-phuc-hoi-noi-that",
+      "name": "Bộ phục hồi da nội thất ô tô",
+      "intro": "Bộ vật liệu cho các bước chuẩn bị bề mặt, trám sửa, lên màu và phủ hoàn thiện da nội thất ô tô. Có bốn cấu hình theo số chai màu.",
+      "surfaces": "Vùng da nội thất ô tô phù hợp hệ vật liệu, sau khi xác định nền và mức hư hỏng.",
+      "exclude": "Không mặc định sửa được nền đã mục, bong rộng hoặc mọi lỗ thủng. Bộ không có A+B tạo khuôn vân; súng phun và vật liệu gia cố không nằm trong danh sách cấu phần.",
+      "specs": {
+        "Cấu phần chung": "Tẩy màng 100 ml; lót 100 g; phủ mờ 100 g; bả 10 g; 2 cọ; 1 dụng cụ gạt",
+        "Bộ 1": "1 chai màu 100 g, ảnh minh họa đen",
+        "Bộ 2": "2 chai màu 100 g, ảnh minh họa trắng và đen",
+        "Bộ 3": "3 chai màu 100 g, ảnh minh họa vàng, xanh và đỏ",
+        "Bộ 4": "5 chai màu 100 g, ảnh minh họa trắng, vàng, xanh, đen và đỏ"
+      },
+      "steps": [
+        "Xác định vật liệu, vùng cần sửa và cấu hình màu phù hợp.",
+        "Làm sạch và chuẩn bị bề mặt theo hướng dẫn của thành phần tẩy màng.",
+        "Nếu cần trám: dùng bả, chờ khô và làm phẳng theo hướng dẫn; rách xuyên cần đánh giá gia cố.",
+        "Dùng lót và lên màu theo hệ của bộ. Chất tạo màng hoặc pha loãng cần chốt riêng trước khi phối.",
+        "Chờ màu khô, thi công lớp phủ mờ; chỉ đưa vào sử dụng sau thời gian đóng rắn được xác nhận."
+      ],
+      "faq": [
+        "Bộ có đủ vật liệu để ép lại vân da không?",
+        "Danh sách bốn cấu hình không có bộ A+B. Vùng sửa mất vân cần bổ sung bộ tạo khuôn và chốt loại bả tương thích."
+      ],
+      "id": "aoyate-04_bo_phuc_hoi_noi_that",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/04_Bo_phuc_hoi_noi_that",
+      "industries": [
+        "automotive_leather"
+      ],
+      "candidate_industries": [
+        "other_leather"
+      ],
+      "stage": "Bộ sản phẩm",
+      "priority": "Chính",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/04-bo-phuc-hoi-noi-that.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/04-bo-phuc-hoi-noi-that-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Bộ phục hồi da nội thất ô tô",
+          "caption": "Bao bì minh họa — Bộ phục hồi da nội thất ô tô",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/04-bo-phuc-hoi-noi-that-02-cong-dung.svg",
+          "alt": "Công dụng — Bộ phục hồi da nội thất ô tô",
+          "caption": "Công dụng — Bộ phục hồi da nội thất ô tô",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/04-bo-phuc-hoi-noi-that-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Bộ phục hồi da nội thất ô tô",
+          "caption": "Bề mặt phù hợp — Bộ phục hồi da nội thất ô tô",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/04-bo-phuc-hoi-noi-that-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Bộ phục hồi da nội thất ô tô",
+          "caption": "Cách dùng tham khảo — Bộ phục hồi da nội thất ô tô",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/04-bo-phuc-hoi-noi-that-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Bộ phục hồi da nội thất ô tô",
+          "caption": "Lưu ý trước khi dùng — Bộ phục hồi da nội thất ô tô",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/01.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 1, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 1 — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/02.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 2, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 2 — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/03.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 3, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 3 — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/04.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 4, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 4 — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/05.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 5, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 5 — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/06.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 6, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 6 — tư liệu nhà cung cấp",
+          "source_name": "06.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/07.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 7, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 7 — tư liệu nhà cung cấp",
+          "source_name": "07.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/08.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 8, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 8 — tư liệu nhà cung cấp",
+          "source_name": "08.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/09.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 9, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 9 — tư liệu nhà cung cấp",
+          "source_name": "09.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/10.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 10, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 10 — tư liệu nhà cung cấp",
+          "source_name": "10.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/11.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 11, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 11 — tư liệu nhà cung cấp",
+          "source_name": "11.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/12.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 12, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 12 — tư liệu nhà cung cấp",
+          "source_name": "12.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/04-bo-phuc-hoi-noi-that/13.png",
+          "alt": "Bộ phục hồi da nội thất ô tô — Ảnh thông tin sản phẩm 13, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 13 — tư liệu nhà cung cấp",
+          "source_name": "13.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "101D–110D",
+      "slug": "101d-110d-mau-da-lon",
+      "name": "Màu phục hồi da lộn và nubuck",
+      "intro": "Dòng màu chuyên cho da có mặt lông, dùng bổ sung hoặc thay đổi màu theo quy trình riêng của da lộn và nubuck.",
+      "surfaces": "Da lộn và nubuck trên giày, túi và đồ da có vật liệu phù hợp.",
+      "exclude": "Chưa xác nhận cho nỉ trần xe, vải polyester, microfiber hoặc Alcantara. Tên file video “sơn nỉ” không mở rộng phạm vi sản phẩm.",
+      "specs": {
+        "Vật liệu": "Da lộn / nubuck",
+        "Thi công": "Phun màu trực tiếp theo hướng dẫn nhà cung cấp"
+      },
+      "steps": [
+        "Xác định da lộn/nubuck và thử màu ở vùng kín.",
+        "Vệ sinh bằng sản phẩm phù hợp vật liệu, xử lý mặt lông.",
+        "Phối màu mong muốn và phun đều theo hướng dẫn nhà cung cấp.",
+        "Chờ khô rồi dùng chất tăng sắc hoặc cố định của đúng hệ sau khi xác nhận trình tự."
+      ],
+      "faq": [
+        "Có dùng nhuộm nỉ trần hoặc Alcantara không?",
+        "Chưa có tài liệu xác nhận cho hai vật liệu này. Cần thử đúng nền và nhận hướng dẫn trước khi dùng."
+      ],
+      "video": "sơn nỉ 101D.mp4",
+      "id": "aoyate-101d_110d_mau_da_lon",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/101D_110D_Mau_da_lon",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Lên màu chuyên biệt",
+      "priority": "Sau",
+      "evidence": "catalog 56,83–84; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/101d-110d-mau-da-lon.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/101d-110d-mau-da-lon-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Màu phục hồi da lộn và nubuck",
+          "caption": "Bao bì minh họa — Màu phục hồi da lộn và nubuck",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/101d-110d-mau-da-lon-02-cong-dung.svg",
+          "alt": "Công dụng — Màu phục hồi da lộn và nubuck",
+          "caption": "Công dụng — Màu phục hồi da lộn và nubuck",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/101d-110d-mau-da-lon-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Màu phục hồi da lộn và nubuck",
+          "caption": "Bề mặt phù hợp — Màu phục hồi da lộn và nubuck",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/101d-110d-mau-da-lon-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Màu phục hồi da lộn và nubuck",
+          "caption": "Cách dùng tham khảo — Màu phục hồi da lộn và nubuck",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/101d-110d-mau-da-lon-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Màu phục hồi da lộn và nubuck",
+          "caption": "Lưu ý trước khi dùng — Màu phục hồi da lộn và nubuck",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/2ee1fd762374e672.mp4",
+          "caption": "Video được cung cấp cho 101D–110D — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "sơn nỉ 101D.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/101d-110d-mau-da-lon/01.png",
+          "alt": "Màu phục hồi da lộn và nubuck — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/101d-110d-mau-da-lon/02.png",
+          "alt": "Màu phục hồi da lộn và nubuck — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/101d-110d-mau-da-lon/03.png",
+          "alt": "Màu phục hồi da lộn và nubuck — Ứng dụng, tư liệu nhà cung cấp",
+          "caption": "Ứng dụng — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/101d-110d-mau-da-lon/04.png",
+          "alt": "Màu phục hồi da lộn và nubuck — So sánh, tư liệu nhà cung cấp",
+          "caption": "So sánh — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/101d-110d-mau-da-lon/05.png",
+          "alt": "Màu phục hồi da lộn và nubuck — Phối hợp, tư liệu nhà cung cấp",
+          "caption": "Phối hợp — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/101d-110d-mau-da-lon/06.png",
+          "alt": "Màu phục hồi da lộn và nubuck — Bao bì, tư liệu nhà cung cấp",
+          "caption": "Bao bì — tư liệu nhà cung cấp",
+          "source_name": "06.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "1201D–1252D",
+      "slug": "1201d-1252d-kem-bo-sung-mau",
+      "name": "Kem bổ sung màu da",
+      "intro": "Kem bổ sung màu bề mặt cho vùng da trơn bạc màu hoặc mòn màu. Có nhiều lựa chọn màu theo trang bán, cần phối phù hợp màu và độ bóng của đồ da.",
+      "surfaces": "Giày, túi, áo, sofa và ghế ô tô theo công bố nhà cung cấp, với da trơn phù hợp.",
+      "exclude": "Thông số nguồn loại trừ da bóng patent, nubuck và da mặt lông. Kem bổ sung màu không thay bả trám hoặc keo dán.",
+      "specs": {
+        "Loại sản phẩm": "Kem bổ sung màu da",
+        "Màu": "Chọn theo bảng màu và mẫu thực tế; xác nhận biến thể trước khi đặt"
+      },
+      "steps": [
+        "Kiểm tra nền và so màu trên vùng nhỏ sau khi khô.",
+        "Làm sạch vùng cần bổ sung màu bằng quy trình phù hợp.",
+        "Thi công theo hướng dẫn đúng màu và bản mờ/bóng của nhà cung cấp.",
+        "Chốt yêu cầu lớp phủ và thời gian đóng rắn; kiểm tra chuyển màu trước sử dụng."
+      ],
+      "faq": [
+        "Kem này có trám được vết rách hoặc lỗ không?",
+        "Vai trò là bổ sung màu. Vết rách, lỗ hoặc vùng lõm cần vật liệu sửa kết cấu/bả phù hợp trước khi hoàn thiện màu."
+      ],
+      "video": "SƠN MÀU DA 1201D.mp4",
+      "id": "aoyate-1201d_1252d_kem_bo_sung_mau",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/1201D_1252D_Kem_bo_sung_mau",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Bổ sung màu",
+      "priority": "Mồi",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/1201d-1252d-kem-bo-sung-mau.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/1201d-1252d-kem-bo-sung-mau-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Kem bổ sung màu da",
+          "caption": "Bao bì minh họa — Kem bổ sung màu da",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/1201d-1252d-kem-bo-sung-mau-02-cong-dung.svg",
+          "alt": "Công dụng — Kem bổ sung màu da",
+          "caption": "Công dụng — Kem bổ sung màu da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1201d-1252d-kem-bo-sung-mau-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Kem bổ sung màu da",
+          "caption": "Bề mặt phù hợp — Kem bổ sung màu da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1201d-1252d-kem-bo-sung-mau-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Kem bổ sung màu da",
+          "caption": "Cách dùng tham khảo — Kem bổ sung màu da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1201d-1252d-kem-bo-sung-mau-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Kem bổ sung màu da",
+          "caption": "Lưu ý trước khi dùng — Kem bổ sung màu da",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/c2be207ebd5ef9ca.mp4",
+          "caption": "Video được cung cấp cho 1201D–1252D — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "SƠN MÀU DA 1201D.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1201d-1252d-kem-bo-sung-mau/01.png",
+          "alt": "Kem bổ sung màu da — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1201d-1252d-kem-bo-sung-mau/02.png",
+          "alt": "Kem bổ sung màu da — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1201d-1252d-kem-bo-sung-mau/03.png",
+          "alt": "Kem bổ sung màu da — So sánh, tư liệu nhà cung cấp",
+          "caption": "So sánh — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1201d-1252d-kem-bo-sung-mau/04.png",
+          "alt": "Kem bổ sung màu da — Màu minh họa, tư liệu nhà cung cấp",
+          "caption": "Màu minh họa — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1201d-1252d-kem-bo-sung-mau/05.png",
+          "alt": "Kem bổ sung màu da — Bảng màu gốc, tư liệu nhà cung cấp",
+          "caption": "Bảng màu gốc — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1201d-1252d-kem-bo-sung-mau/06.png",
+          "alt": "Kem bổ sung màu da — Phối màu, tư liệu nhà cung cấp",
+          "caption": "Phối màu — tư liệu nhà cung cấp",
+          "source_name": "06.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1201d-1252d-kem-bo-sung-mau/07.png",
+          "alt": "Kem bổ sung màu da — Cách dùng, tư liệu nhà cung cấp",
+          "caption": "Cách dùng — tư liệu nhà cung cấp",
+          "source_name": "07.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "1203 / 017F–025F",
+      "slug": "1203-phu-mo-goc-nuoc",
+      "name": "Lớp phủ mờ gốc nước",
+      "intro": "Lớp hoàn thiện mờ cho da trơn sau khi lên màu, giúp điều chỉnh vẻ ngoài và cảm giác bề mặt theo mô tả nhà cung cấp.",
+      "surfaces": "Da trơn, da thật và PU phù hợp hệ phủ; ảnh nhà cung cấp có giày, túi, sofa và ghế ô tô.",
+      "exclude": "Chưa xác nhận cho da lộn, nỉ và Alcantara. Mã 1203 trong ảnh và 017F–025F trong thuộc tính cần đối chiếu khi chọn hàng.",
+      "specs": {
+        "Hệ": "Gốc nước",
+        "Lựa chọn độ bóng": "Mờ theo ảnh thông số; chốt biến thể khi tư vấn"
+      },
+      "steps": [
+        "Chọn đúng biến thể và thử lớp phủ trên hệ màu dự định dùng.",
+        "Chờ màu khô và chuẩn bị bề mặt theo hướng dẫn của hệ.",
+        "Thi công theo TDS của biến thể được xác nhận.",
+        "Chờ đủ thời gian đóng rắn rồi kiểm tra độ bóng và cảm giác bề mặt."
+      ],
+      "faq": [
+        "Có cùng sản phẩm với 1209D hoặc 705K không?",
+        "Chưa có xác nhận các mã dùng cùng công thức. Chọn theo mẫu và tài liệu kỹ thuật, không tự thay thế."
+      ],
+      "video": "017F-025F.mp4",
+      "id": "aoyate-1203_lop_phu_mo_goc_nuoc",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/1203_Lop_phu_mo_goc_nuoc",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Phủ cuối",
+      "priority": "Chính",
+      "evidence": "listing",
+      "status": "needs_confirmation",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/1203-phu-mo-goc-nuoc.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/1203-phu-mo-goc-nuoc-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Lớp phủ mờ gốc nước",
+          "caption": "Bao bì minh họa — Lớp phủ mờ gốc nước",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/1203-phu-mo-goc-nuoc-02-cong-dung.svg",
+          "alt": "Công dụng — Lớp phủ mờ gốc nước",
+          "caption": "Công dụng — Lớp phủ mờ gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1203-phu-mo-goc-nuoc-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Lớp phủ mờ gốc nước",
+          "caption": "Bề mặt phù hợp — Lớp phủ mờ gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1203-phu-mo-goc-nuoc-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Lớp phủ mờ gốc nước",
+          "caption": "Cách dùng tham khảo — Lớp phủ mờ gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1203-phu-mo-goc-nuoc-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Lớp phủ mờ gốc nước",
+          "caption": "Lưu ý trước khi dùng — Lớp phủ mờ gốc nước",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/fd0d26bba14a59c8.mp4",
+          "caption": "Video nhóm lớp phủ — cùng một file được cung cấp dưới tên 003T, 1209D và 017F–025F; cần đối chiếu mã trên nhãn.",
+          "source_name": "017F-025F.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/01.png",
+          "alt": "Lớp phủ mờ gốc nước — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/02.png",
+          "alt": "Lớp phủ mờ gốc nước — Cố định màu, tư liệu nhà cung cấp",
+          "caption": "Cố định màu — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/03.png",
+          "alt": "Lớp phủ mờ gốc nước — Cảm giác bề mặt, tư liệu nhà cung cấp",
+          "caption": "Cảm giác bề mặt — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/04.png",
+          "alt": "Lớp phủ mờ gốc nước — Cảm giác như sáp, tư liệu nhà cung cấp",
+          "caption": "Cảm giác như sáp — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/05.png",
+          "alt": "Lớp phủ mờ gốc nước — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/06.png",
+          "alt": "Lớp phủ mờ gốc nước — Minh họa thử, tư liệu nhà cung cấp",
+          "caption": "Minh họa thử — tư liệu nhà cung cấp",
+          "source_name": "06.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/07.png",
+          "alt": "Lớp phủ mờ gốc nước — Bao bì, tư liệu nhà cung cấp",
+          "caption": "Bao bì — tư liệu nhà cung cấp",
+          "source_name": "07.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1203-phu-mo-goc-nuoc/08.png",
+          "alt": "Lớp phủ mờ gốc nước — Đối tác quảng cáo, tư liệu nhà cung cấp",
+          "caption": "Đối tác quảng cáo — tư liệu nhà cung cấp",
+          "source_name": "08.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "1209D",
+      "slug": "1209d-co-dinh-goc-nuoc",
+      "name": "Chất cố định màu gốc nước 1209D",
+      "intro": "Lớp phủ sau bước lên màu trên da trơn. Trang bán có lựa chọn độ bóng để hoàn thiện theo yêu cầu bề mặt.",
+      "surfaces": "Da trơn và đồ da phù hợp hệ màu, gồm ứng dụng nội thất ô tô theo hồ sơ.",
+      "exclude": "Chọn đúng bản mờ/satin/bóng; tên chất cố định không chứng minh mọi biến thể phù hợp ghế mờ.",
+      "specs": {
+        "Hệ": "Gốc nước",
+        "Thi công": "Phun hoặc quét trực tiếp sau khi màu khô, theo nhà cung cấp"
+      },
+      "steps": [
+        "Xác nhận đúng độ bóng và thử trên lớp màu đã chọn.",
+        "Chờ màu khô theo hướng dẫn của hệ.",
+        "Phun hoặc quét trực tiếp một lớp theo mô tả nhà cung cấp.",
+        "Chờ đủ thời gian đóng rắn và kiểm tra độ bóng, độ dính, chuyển màu."
+      ],
+      "faq": [
+        "Có cần pha 806D vào lớp phủ không?",
+        "Hồ sơ hiện có hướng dẫn dùng trực tiếp. Chưa có căn cứ thêm chất pha loãng hoặc phụ gia khi chưa nhận hướng dẫn đúng biến thể."
+      ],
+      "video": "chất phủ bảo vệ da 1209D.mp4",
+      "id": "aoyate-1209d_co_dinh_goc_nuoc",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/1209D_Co_dinh_goc_nuoc",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Phủ cuối",
+      "priority": "Chính",
+      "evidence": "catalog 76; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/1209d-co-dinh-goc-nuoc.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/1209d-co-dinh-goc-nuoc-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu gốc nước 1209D",
+          "caption": "Bao bì minh họa — Chất cố định màu gốc nước 1209D",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/1209d-co-dinh-goc-nuoc-02-cong-dung.svg",
+          "alt": "Công dụng — Chất cố định màu gốc nước 1209D",
+          "caption": "Công dụng — Chất cố định màu gốc nước 1209D",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1209d-co-dinh-goc-nuoc-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất cố định màu gốc nước 1209D",
+          "caption": "Bề mặt phù hợp — Chất cố định màu gốc nước 1209D",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1209d-co-dinh-goc-nuoc-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất cố định màu gốc nước 1209D",
+          "caption": "Cách dùng tham khảo — Chất cố định màu gốc nước 1209D",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1209d-co-dinh-goc-nuoc-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất cố định màu gốc nước 1209D",
+          "caption": "Lưu ý trước khi dùng — Chất cố định màu gốc nước 1209D",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/fd0d26bba14a59c8.mp4",
+          "caption": "Video nhóm lớp phủ — cùng một file được cung cấp dưới tên 003T, 1209D và 017F–025F; cần đối chiếu mã trên nhãn.",
+          "source_name": "chất phủ bảo vệ da 1209D.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1209d-co-dinh-goc-nuoc/01.png",
+          "alt": "Chất cố định màu gốc nước 1209D — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1209d-co-dinh-goc-nuoc/02.png",
+          "alt": "Chất cố định màu gốc nước 1209D — Đặc tính, tư liệu nhà cung cấp",
+          "caption": "Đặc tính — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1209d-co-dinh-goc-nuoc/03.png",
+          "alt": "Chất cố định màu gốc nước 1209D — Thông tin, tư liệu nhà cung cấp",
+          "caption": "Thông tin — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1209d-co-dinh-goc-nuoc/04.png",
+          "alt": "Chất cố định màu gốc nước 1209D — Bao bì, tư liệu nhà cung cấp",
+          "caption": "Bao bì — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1209d-co-dinh-goc-nuoc/05.png",
+          "alt": "Chất cố định màu gốc nước 1209D — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "1230D / 803D",
+      "slug": "1230d-ba-sua-da",
+      "name": "Bả sửa da và phục hồi vân",
+      "intro": "Bả lấp vùng lõm và hư hỏng bề mặt da trơn trước khi lên màu. Hồ sơ nhà cung cấp có hướng dẫn chà phẳng và ép lại vân trên vùng trám.",
+      "surfaces": "Da trơn trên giày, túi, sofa và ghế ô tô theo catalog và trang bán.",
+      "exclude": "Không thay keo hoặc miếng gia cố cho lỗ/rách cần chịu lực. Mã hàng 1230D và model 803D cần đối chiếu trên quy cách giao.",
+      "specs": {
+        "Loại": "Bả sửa da tổng hợp",
+        "Dạng ngoài": "Kem trắng khá đặc theo ảnh thông số"
+      },
+      "steps": [
+        "Làm sạch vùng hỏng và làm phẳng phần không đều theo hướng dẫn phù hợp nền.",
+        "Trét lượng bả phù hợp để lấp vùng lõm.",
+        "Nếu cần ép vân: xác nhận trạng thái khô và cách dùng khuôn với nhà cung cấp trước khi ép.",
+        "Chờ bả khô, kiểm tra độ phẳng/vân rồi tiếp tục hệ lót và màu tương thích."
+      ],
+      "faq": [
+        "Khi nào ép vân trên bả?",
+        "Listing mô tả bả khô khoảng 70–80%, trong khi sơ đồ catalog có trình tự khác. Cần chốt hướng dẫn cập nhật cho đúng bả và khuôn trước khi thi công."
+      ],
+      "id": "aoyate-1230d_803d_ba_sua_da_tong_hop",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/1230D_803D_Ba_sua_da_tong_hop",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Trám và phục hồi vân",
+      "priority": "Chính",
+      "evidence": "catalog 62,103; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/1230d-ba-sua-da.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/1230d-ba-sua-da-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Bả sửa da và phục hồi vân",
+          "caption": "Bao bì minh họa — Bả sửa da và phục hồi vân",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/1230d-ba-sua-da-02-cong-dung.svg",
+          "alt": "Công dụng — Bả sửa da và phục hồi vân",
+          "caption": "Công dụng — Bả sửa da và phục hồi vân",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1230d-ba-sua-da-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Bả sửa da và phục hồi vân",
+          "caption": "Bề mặt phù hợp — Bả sửa da và phục hồi vân",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1230d-ba-sua-da-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Bả sửa da và phục hồi vân",
+          "caption": "Cách dùng tham khảo — Bả sửa da và phục hồi vân",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1230d-ba-sua-da-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Bả sửa da và phục hồi vân",
+          "caption": "Lưu ý trước khi dùng — Bả sửa da và phục hồi vân",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1230d-ba-sua-da/01.png",
+          "alt": "Bả sửa da và phục hồi vân — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1230d-ba-sua-da/02.png",
+          "alt": "Bả sửa da và phục hồi vân — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1230d-ba-sua-da/03.png",
+          "alt": "Bả sửa da và phục hồi vân — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1230d-ba-sua-da/04.png",
+          "alt": "Bả sửa da và phục hồi vân — Hiệu quả, tư liệu nhà cung cấp",
+          "caption": "Hiệu quả — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "1307A",
+      "slug": "1307a-son-phuc-hoi-da",
+      "name": "Sơn phục hồi và đổi màu da gốc nước",
+      "intro": "Dòng màu cho công việc bổ sung màu, phục hồi và đổi màu da trơn. Dùng cho ghế ô tô và đồ da phù hợp sau bước chuẩn bị bề mặt.",
+      "surfaces": "Da trơn trên ghế ô tô, sofa, túi và giày theo catalog.",
+      "exclude": "Chưa xác nhận dùng trên nỉ, Alcantara hoặc nhựa. Catalog dùng 1307A cho màu nâu; trang bán dùng mã này cho nhiều màu, cần chốt mã từng màu.",
+      "specs": {
+        "Hệ": "Gốc nước",
+        "Màu trang bán": "Đỏ, vàng, đen, trắng, nâu, xanh, tím đỏ",
+        "Thi công": "Quét trực tiếp hoặc phun với chất pha được xác nhận"
+      },
+      "steps": [
+        "Xác định nền, phối màu và thử màu/độ bóng khi khô.",
+        "Vệ sinh, xử lý bề mặt; sửa và lót khi hệ yêu cầu.",
+        "Quét trực tiếp theo hướng dẫn; nếu phun, xác nhận chất pha và yêu cầu chất tạo màng của công thức hiện hành.",
+        "Thi công lớp màu đều, chờ khô theo TDS.",
+        "Dùng lớp phủ tương thích, chờ đóng rắn và kiểm tra hoàn thiện."
+      ],
+      "faq": [
+        "Có thể dùng một tỷ lệ pha cho mọi màu không?",
+        "Catalog và hướng dẫn bộ có mô tả khác về chất tạo màng. Cần chốt theo đúng màu, cách quét/phun và công thức đang cung cấp."
+      ],
+      "id": "aoyate-1307a_son_phuc_hoi_doi_mau_goc_nuoc",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/1307A_Son_phuc_hoi_doi_mau_goc_nuoc",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Lên màu",
+      "priority": "Chính",
+      "evidence": "catalog 58,72,77; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/1307a-son-phuc-hoi-da.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/1307a-son-phuc-hoi-da-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Sơn phục hồi và đổi màu da gốc nước",
+          "caption": "Bao bì minh họa — Sơn phục hồi và đổi màu da gốc nước",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/1307a-son-phuc-hoi-da-02-cong-dung.svg",
+          "alt": "Công dụng — Sơn phục hồi và đổi màu da gốc nước",
+          "caption": "Công dụng — Sơn phục hồi và đổi màu da gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1307a-son-phuc-hoi-da-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Sơn phục hồi và đổi màu da gốc nước",
+          "caption": "Bề mặt phù hợp — Sơn phục hồi và đổi màu da gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1307a-son-phuc-hoi-da-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Sơn phục hồi và đổi màu da gốc nước",
+          "caption": "Cách dùng tham khảo — Sơn phục hồi và đổi màu da gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1307a-son-phuc-hoi-da-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Sơn phục hồi và đổi màu da gốc nước",
+          "caption": "Lưu ý trước khi dùng — Sơn phục hồi và đổi màu da gốc nước",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "1708D",
+      "slug": "1708d-xu-ly-nen-da-nut",
+      "name": "Chất xử lý nền da nứt",
+      "intro": "Vật liệu hỗ trợ kết dính vùng bề mặt nứt và làm phẳng sơ bộ trước công đoạn sửa và lên màu.",
+      "surfaces": "Vùng bề mặt da nứt phù hợp theo mô tả nhà cung cấp; cần đánh giá nền còn đủ chắc.",
+      "exclude": "Dùng riêng không phục hồi hoàn chỉnh theo chính hướng dẫn nguồn. Không thay bả, keo dán hoặc tự đồng nhất với lót tăng bám.",
+      "specs": {
+        "Vai trò": "Xử lý nền trước khi sửa và lên màu"
+      },
+      "steps": [
+        "Đánh giá loại nứt và tình trạng nền da.",
+        "Làm sạch và chốt vị trí dùng 1708D trong hệ sửa dự định thi công.",
+        "Thi công theo hướng dẫn được xác nhận của nhà cung cấp.",
+        "Tiếp tục bả, lót hoặc màu theo nhu cầu và hệ tương thích."
+      ],
+      "faq": [
+        "Có dùng riêng để sửa hết vết nứt không?",
+        "Nhà cung cấp nêu sản phẩm chỉ hỗ trợ xử lý bề mặt và làm phẳng sơ bộ. Vùng hỏng có thể cần bả và các bước hoàn thiện khác."
+      ],
+      "id": "aoyate-1708d_xu_ly_nen_da_nut",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/1708D_Xu_ly_nen_da_nut",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Xử lý nền",
+      "priority": "Theo ca",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/1708d-xu-ly-nen-da-nut.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/1708d-xu-ly-nen-da-nut-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất xử lý nền da nứt",
+          "caption": "Bao bì minh họa — Chất xử lý nền da nứt",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/1708d-xu-ly-nen-da-nut-02-cong-dung.svg",
+          "alt": "Công dụng — Chất xử lý nền da nứt",
+          "caption": "Công dụng — Chất xử lý nền da nứt",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1708d-xu-ly-nen-da-nut-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất xử lý nền da nứt",
+          "caption": "Bề mặt phù hợp — Chất xử lý nền da nứt",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1708d-xu-ly-nen-da-nut-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất xử lý nền da nứt",
+          "caption": "Cách dùng tham khảo — Chất xử lý nền da nứt",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/1708d-xu-ly-nen-da-nut-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất xử lý nền da nứt",
+          "caption": "Lưu ý trước khi dùng — Chất xử lý nền da nứt",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/03.png",
+          "alt": "Chất xử lý nền da nứt — Sản phẩm, tư liệu nhà cung cấp",
+          "caption": "Sản phẩm — tư liệu nhà cung cấp",
+          "source_name": "03_San_pham.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/01.png",
+          "alt": "Chất xử lý nền da nứt — Nhà máy, tư liệu nhà cung cấp",
+          "caption": "Nhà máy — tư liệu nhà cung cấp",
+          "source_name": "01_Nha_may.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/02.png",
+          "alt": "Chất xử lý nền da nứt — Nhóm ứng dụng, tư liệu nhà cung cấp",
+          "caption": "Nhóm ứng dụng — tư liệu nhà cung cấp",
+          "source_name": "02_Nhom_ung_dung.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/04.png",
+          "alt": "Chất xử lý nền da nứt — Công dụng, tư liệu nhà cung cấp",
+          "caption": "Công dụng — tư liệu nhà cung cấp",
+          "source_name": "04_Cong_dung.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/05.png",
+          "alt": "Chất xử lý nền da nứt — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "05_Thong_so.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/06.png",
+          "alt": "Chất xử lý nền da nứt — Hư hỏng minh họa, tư liệu nhà cung cấp",
+          "caption": "Hư hỏng minh họa — tư liệu nhà cung cấp",
+          "source_name": "06_Hu_hong_minh_hoa.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/07.png",
+          "alt": "Chất xử lý nền da nứt — Cách dùng và giới hạn, tư liệu nhà cung cấp",
+          "caption": "Cách dùng và giới hạn — tư liệu nhà cung cấp",
+          "source_name": "07_Cach_dung_va_gioi_han.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/08.png",
+          "alt": "Chất xử lý nền da nứt — Kích thước, tư liệu nhà cung cấp",
+          "caption": "Kích thước — tư liệu nhà cung cấp",
+          "source_name": "08_Kich_thuoc.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/1708d-xu-ly-nen-da-nut/09.png",
+          "alt": "Chất xử lý nền da nứt — Nhà cung cấp, tư liệu nhà cung cấp",
+          "caption": "Nhà cung cấp — tư liệu nhà cung cấp",
+          "source_name": "09_Nha_cung_cap.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "2008D",
+      "slug": "2008d-lien-ket-cheo",
+      "name": "Chất liên kết chéo hệ nước",
+      "intro": "Phụ gia phối trong hệ hoàn thiện da gốc nước phù hợp. Dành cho kỹ thuật viên đã xác nhận công thức và điều kiện sử dụng sau pha.",
+      "surfaces": "Hệ sơn hoặc lớp phủ gốc nước được nhà cung cấp xác nhận tương thích.",
+      "exclude": "Không dùng trực tiếp như lớp dưỡng da; không nhầm với A+B tạo khuôn vân. Chưa chốt cơ sở tính tỷ lệ và thời gian dùng hỗn hợp.",
+      "specs": {
+        "Vai trò": "Phụ gia liên kết chéo",
+        "Hệ phối": "Hệ nước tương thích, cần xác nhận mã"
+      },
+      "steps": [
+        "Xác nhận sản phẩm phối, tỷ lệ theo khối lượng/thể tích và thời gian dùng sau pha.",
+        "Chuẩn bị lượng hỗn hợp vừa đủ theo hướng dẫn kỹ thuật.",
+        "Phối và thi công trong điều kiện đã xác nhận.",
+        "Kiểm tra sau thời gian đóng rắn của hệ."
+      ],
+      "faq": [
+        "2008D có dùng để làm khuôn ép vân không?",
+        "Bộ tạo khuôn là 2009D A+B. 2008D là phụ gia phối hệ nước, có vai trò khác."
+      ],
+      "video": "chát đóng rắn - 2008D.mp4",
+      "id": "aoyate-2008d_lien_ket_cheo_goc_nuoc",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/2008D_Lien_ket_cheo_goc_nuoc",
+      "industries": [],
+      "candidate_industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "stage": "Phụ gia chuyên nghiệp",
+      "priority": "Chờ",
+      "evidence": "catalog 32; listing",
+      "status": "needs_confirmation",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/2008d-lien-ket-cheo.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất liên kết chéo hệ nước",
+          "caption": "Bao bì minh họa — Chất liên kết chéo hệ nước",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-02-cong-dung.svg",
+          "alt": "Công dụng — Chất liên kết chéo hệ nước",
+          "caption": "Công dụng — Chất liên kết chéo hệ nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất liên kết chéo hệ nước",
+          "caption": "Bề mặt phù hợp — Chất liên kết chéo hệ nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất liên kết chéo hệ nước",
+          "caption": "Cách dùng tham khảo — Chất liên kết chéo hệ nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất liên kết chéo hệ nước",
+          "caption": "Lưu ý trước khi dùng — Chất liên kết chéo hệ nước",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/c46521cca2cf2ad7.mp4",
+          "caption": "Video được cung cấp cho 2008D — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "chát đóng rắn - 2008D.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "2009D",
+      "slug": "2009d-bo-tao-khuon-van-da",
+      "name": "Bộ A+B tạo khuôn vân da",
+      "intro": "Bộ hai thành phần dùng sao chép vân da thành khuôn. Khuôn đã tạo được dùng để phục hồi vân trên vùng bả trước khi lên màu, phù hợp công việc sửa ghế ô tô, sofa và đồ da trơn.",
+      "surfaces": "Da trơn có vân cần sao chép; vùng sửa dùng bả tương thích trên ghế ô tô, sofa, túi hoặc đồ da.",
+      "exclude": "Không dùng cho da lộn, nubuck hoặc nỉ theo suy đoán. Không đổ A+B vào vùng hỏng hoặc pha vào sơn. Cần chốt nhiệt, thời gian và trạng thái bả trước khi ép.",
+      "specs": {
+        "Thành phần minh họa": "A 100 g + B 10 g; cần xác nhận cấu phần quy cách giao",
+        "Vai trò": "Tạo khuôn sao chép vân, sau đó dùng khuôn ép vân",
+        "Bảo quản": "Kín, mát, tránh nắng; nguồn ghi trên 5°C; B tránh ánh sáng"
+      },
+      "steps": [
+        "Chọn vùng vân làm mẫu và xác nhận cách bảo vệ bề mặt mẫu.",
+        "Trộn A và B theo tỷ lệ nhà cung cấp đã chốt. Nguồn ghi 10:1 nhưng chưa xác nhận theo g hay ml.",
+        "Đổ hỗn hợp lên vùng lấy vân, loại bọt và làm phẳng; dùng tấm phẳng và vật nặng theo hướng dẫn tạo khuôn.",
+        "Chờ khuôn đóng rắn theo hướng dẫn. Nguồn mô tả khoảng 20–30 phút cho giai đoạn tạo khuôn.",
+        "Dùng khuôn với bả tương thích để ép lại vân. Chốt nhiệt/thời gian và trạng thái bả; catalog và listing hiện có thông số khác nhau.",
+        "Kiểm tra vân vùng sửa, chờ bả hoàn thiện rồi tiếp tục lên màu và phủ."
+      ],
+      "faq": [
+        "Bộ A+B có dùng cho cả ô tô và sofa, túi không?",
+        "Có phạm vi đồ da trơn theo hồ sơ nhà cung cấp. Cần chọn vân mẫu và bả phù hợp từng bề mặt; một bộ không có nghĩa phù hợp mọi vật liệu."
+      ],
+      "video": "Tạo Vân A + B.mp4",
+      "id": "aoyate-2009d_bo_tao_khuon_van_da",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/2009D_Bo_tao_khuon_van_da",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Trám và phục hồi vân",
+      "priority": "Chính",
+      "evidence": "catalog 53,103; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/2009d-bo-tao-khuon-van-da.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/2009d-bo-tao-khuon-van-da-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Bộ A+B tạo khuôn vân da",
+          "caption": "Bao bì minh họa — Bộ A+B tạo khuôn vân da",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/2009d-bo-tao-khuon-van-da-02-cong-dung.svg",
+          "alt": "Công dụng — Bộ A+B tạo khuôn vân da",
+          "caption": "Công dụng — Bộ A+B tạo khuôn vân da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/2009d-bo-tao-khuon-van-da-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Bộ A+B tạo khuôn vân da",
+          "caption": "Bề mặt phù hợp — Bộ A+B tạo khuôn vân da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/2009d-bo-tao-khuon-van-da-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Bộ A+B tạo khuôn vân da",
+          "caption": "Cách dùng tham khảo — Bộ A+B tạo khuôn vân da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/2009d-bo-tao-khuon-van-da-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Bộ A+B tạo khuôn vân da",
+          "caption": "Lưu ý trước khi dùng — Bộ A+B tạo khuôn vân da",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/54a02d42075aa7d1.mp4",
+          "caption": "Video được cung cấp cho 2009D — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "Tạo Vân A + B.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/2009d-bo-tao-khuon-van-da/01.png",
+          "alt": "Bộ A+B tạo khuôn vân da — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/2009d-bo-tao-khuon-van-da/02.png",
+          "alt": "Bộ A+B tạo khuôn vân da — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/2009d-bo-tao-khuon-van-da/03.png",
+          "alt": "Bộ A+B tạo khuôn vân da — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/2009d-bo-tao-khuon-van-da/04.png",
+          "alt": "Bộ A+B tạo khuôn vân da — Tạo khuôn, tư liệu nhà cung cấp",
+          "caption": "Tạo khuôn — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/2009d-bo-tao-khuon-van-da/05.png",
+          "alt": "Bộ A+B tạo khuôn vân da — Phối hợp, tư liệu nhà cung cấp",
+          "caption": "Phối hợp — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "201G",
+      "slug": "201g-tay-dau-tay-mang",
+      "name": "Chất tẩy dầu và tẩy màng",
+      "intro": "Vật liệu chuẩn bị bề mặt cho công việc phục hồi da, dùng xử lý dầu hoặc lớp màng theo phạm vi của nhà cung cấp.",
+      "surfaces": "Bề mặt da trơn phù hợp hướng dẫn tẩy dầu/màng; ứng dụng ghế cần xác nhận lớp phủ cũ.",
+      "exclude": "Không dùng mặc định như cleaner chăm sóc thường xuyên. Có thể ảnh hưởng màu/lớp phủ cũ; phải thử vị trí kín.",
+      "specs": {
+        "Vai trò": "Chuẩn bị bề mặt trước phục hồi"
+      },
+      "steps": [
+        "Xác định lớp phủ, vùng cần xử lý và thử tại vị trí kín.",
+        "Chốt cách lau, lượng sử dụng và yêu cầu bảo hộ theo tài liệu đúng sản phẩm.",
+        "Xử lý vùng cần chuẩn bị theo hướng dẫn, kiểm tra lớp màu cũ.",
+        "Chờ bề mặt đạt điều kiện cho bước lót/màu của hệ đã chọn."
+      ],
+      "faq": [
+        "Có dùng thay chất vệ sinh nhẹ 403D không?",
+        "Hai sản phẩm có mục đích khác nhau. Chọn theo nhu cầu vệ sinh định kỳ hoặc chuẩn bị bề mặt để sơn."
+      ],
+      "video": "dung dịch làm sạch loại bỏ lớp màng mạnh mẻ  201G.mp4",
+      "id": "aoyate-201g_tay_dau_va_tay_mang",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/201G_Tay_dau_va_tay_mang",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Chuẩn bị bề mặt",
+      "priority": "Chính",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/201g-tay-dau-tay-mang.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/201g-tay-dau-tay-mang-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất tẩy dầu và tẩy màng",
+          "caption": "Bao bì minh họa — Chất tẩy dầu và tẩy màng",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/201g-tay-dau-tay-mang-02-cong-dung.svg",
+          "alt": "Công dụng — Chất tẩy dầu và tẩy màng",
+          "caption": "Công dụng — Chất tẩy dầu và tẩy màng",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/201g-tay-dau-tay-mang-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất tẩy dầu và tẩy màng",
+          "caption": "Bề mặt phù hợp — Chất tẩy dầu và tẩy màng",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/201g-tay-dau-tay-mang-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất tẩy dầu và tẩy màng",
+          "caption": "Cách dùng tham khảo — Chất tẩy dầu và tẩy màng",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/201g-tay-dau-tay-mang-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất tẩy dầu và tẩy màng",
+          "caption": "Lưu ý trước khi dùng — Chất tẩy dầu và tẩy màng",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/efc4bcdf01cf2493.mp4",
+          "caption": "Video được cung cấp cho 201G — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "dung dịch làm sạch loại bỏ lớp màng mạnh mẻ  201G.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/201g-tay-dau-tay-mang/01.png",
+          "alt": "Chất tẩy dầu và tẩy màng — Thông số và cách dùng, tư liệu nhà cung cấp",
+          "caption": "Thông số và cách dùng — tư liệu nhà cung cấp",
+          "source_name": "01_Thong_so_va_cach_dung.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/201g-tay-dau-tay-mang/02.png",
+          "alt": "Chất tẩy dầu và tẩy màng — Công dụng, tư liệu nhà cung cấp",
+          "caption": "Công dụng — tư liệu nhà cung cấp",
+          "source_name": "02_Cong_dung.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/201g-tay-dau-tay-mang/03.png",
+          "alt": "Chất tẩy dầu và tẩy màng — Làm sạch và tẩy lớp phủ, tư liệu nhà cung cấp",
+          "caption": "Làm sạch và tẩy lớp phủ — tư liệu nhà cung cấp",
+          "source_name": "03_Lam_sach_va_tay_lop_phu.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/201g-tay-dau-tay-mang/04.png",
+          "alt": "Chất tẩy dầu và tẩy màng — Quy cách bao bì, tư liệu nhà cung cấp",
+          "caption": "Quy cách bao bì — tư liệu nhà cung cấp",
+          "source_name": "04_Quy_cach_bao_bi.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "328C",
+      "slug": "328c-lop-phu-bong",
+      "name": "Lớp phủ bóng gốc nước 328C",
+      "intro": "Vật liệu hoàn thiện bề mặt da theo hướng bóng. Catalog mô tả sản phẩm là phân tán nitrocellulose gốc nước cho lớp phủ trên cùng.",
+      "surfaces": "Đồ da có yêu cầu hoàn thiện bóng, thuộc hệ vật liệu phù hợp.",
+      "exclude": "Chưa chọn làm phủ mặc định cho ghế mờ. Cần xác nhận tương thích với lớp màu và độ bóng mong muốn.",
+      "specs": {
+        "Hệ theo catalog": "Nitrocellulose gốc nước",
+        "Thi công": "Phun, có thể pha nước theo hướng dẫn đúng hệ"
+      },
+      "steps": [
+        "Chọn bề mặt và thử độ bóng/tương thích với màu.",
+        "Xác nhận tỷ lệ pha theo TDS và dụng cụ phun.",
+        "Phun theo hướng dẫn nhà cung cấp.",
+        "Chờ đóng rắn rồi đánh giá độ bóng và cảm giác bề mặt."
+      ],
+      "faq": [
+        "328C có phải lớp phủ mờ ghế ô tô không?",
+        "Catalog mô tả sản phẩm hướng độ bóng cao. Với ghế mờ cần chọn lớp phủ và biến thể đúng yêu cầu."
+      ],
+      "video": "sơn phủ 328C.mp4",
+      "id": "aoyate-328c_lop_phu_bong",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/328C_Lop_phu_bong",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Phủ cuối chuyên biệt",
+      "priority": "Sau",
+      "evidence": "catalog 54; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/328c-lop-phu-bong.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/328c-lop-phu-bong-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Lớp phủ bóng gốc nước 328C",
+          "caption": "Bao bì minh họa — Lớp phủ bóng gốc nước 328C",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/328c-lop-phu-bong-02-cong-dung.svg",
+          "alt": "Công dụng — Lớp phủ bóng gốc nước 328C",
+          "caption": "Công dụng — Lớp phủ bóng gốc nước 328C",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/328c-lop-phu-bong-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Lớp phủ bóng gốc nước 328C",
+          "caption": "Bề mặt phù hợp — Lớp phủ bóng gốc nước 328C",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/328c-lop-phu-bong-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Lớp phủ bóng gốc nước 328C",
+          "caption": "Cách dùng tham khảo — Lớp phủ bóng gốc nước 328C",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/328c-lop-phu-bong-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Lớp phủ bóng gốc nước 328C",
+          "caption": "Lưu ý trước khi dùng — Lớp phủ bóng gốc nước 328C",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/db0699f0440a9808.mp4",
+          "caption": "Video được cung cấp cho 328C — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "sơn phủ 328C.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/328c-lop-phu-bong/01.png",
+          "alt": "Lớp phủ bóng gốc nước 328C — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/328c-lop-phu-bong/02.png",
+          "alt": "Lớp phủ bóng gốc nước 328C — Đặc điểm, tư liệu nhà cung cấp",
+          "caption": "Đặc điểm — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/328c-lop-phu-bong/03.png",
+          "alt": "Lớp phủ bóng gốc nước 328C — Bao bì, tư liệu nhà cung cấp",
+          "caption": "Bao bì — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/328c-lop-phu-bong/04.png",
+          "alt": "Lớp phủ bóng gốc nước 328C — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/328c-lop-phu-bong/05.png",
+          "alt": "Lớp phủ bóng gốc nước 328C — Thông tin, tư liệu nhà cung cấp",
+          "caption": "Thông tin — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "401A",
+      "slug": "401a-rua-sung-phun",
+      "name": "Dung dịch rửa súng phun",
+      "intro": "Vật tư xưởng dùng làm sạch súng phun sau thi công, theo loại màu và thiết bị tương thích.",
+      "surfaces": "Bộ phận súng phun được nhà cung cấp cho phép tiếp xúc với dung dịch.",
+      "exclude": "Không dùng trực tiếp lên da và không dùng thay chất pha sơn. Catalog ghi 401D, cần đối chiếu với mã 401A hiện tại.",
+      "specs": {
+        "Công dụng": "Làm sạch dụng cụ phun"
+      },
+      "steps": [
+        "Xác nhận dung dịch phù hợp sơn và súng đang dùng.",
+        "Thực hiện vệ sinh theo hướng dẫn của thiết bị và sản phẩm.",
+        "Thu gom dung dịch sau vệ sinh theo tài liệu an toàn.",
+        "Kiểm tra súng sạch trước công việc tiếp theo."
+      ],
+      "faq": [
+        "Có dùng 401A để pha sơn không?",
+        "Đây là dung dịch làm sạch dụng cụ. Chất pha sơn cần dùng đúng mã tương thích của hệ."
+      ],
+      "video": "Làm sạch súng sơn 401A.mp4",
+      "id": "aoyate-401a_dung_dich_rua_sung_phun",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/401A_Dung_dich_rua_sung_phun",
+      "industries": [],
+      "candidate_industries": [],
+      "stage": "Vật tư xưởng",
+      "priority": "Phụ trợ",
+      "evidence": "catalog 12; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/401a-rua-sung-phun.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Dung dịch rửa súng phun",
+          "caption": "Bao bì minh họa — Dung dịch rửa súng phun",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/401a-rua-sung-phun-02-cong-dung.svg",
+          "alt": "Công dụng — Dung dịch rửa súng phun",
+          "caption": "Công dụng — Dung dịch rửa súng phun",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/401a-rua-sung-phun-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Dung dịch rửa súng phun",
+          "caption": "Bề mặt phù hợp — Dung dịch rửa súng phun",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/401a-rua-sung-phun-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Dung dịch rửa súng phun",
+          "caption": "Cách dùng tham khảo — Dung dịch rửa súng phun",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/401a-rua-sung-phun-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Dung dịch rửa súng phun",
+          "caption": "Lưu ý trước khi dùng — Dung dịch rửa súng phun",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/250e468b2f8037b7.mp4",
+          "caption": "Video được cung cấp cho 401A — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "Làm sạch súng sơn 401A.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/401a-rua-sung-phun/01.png",
+          "alt": "Dung dịch rửa súng phun — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/401a-rua-sung-phun/02.png",
+          "alt": "Dung dịch rửa súng phun — Vệ sinh chuyên dụng, tư liệu nhà cung cấp",
+          "caption": "Vệ sinh chuyên dụng — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/401a-rua-sung-phun/03.png",
+          "alt": "Dung dịch rửa súng phun — Trước và sau, tư liệu nhà cung cấp",
+          "caption": "Trước và sau — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/401a-rua-sung-phun/04.png",
+          "alt": "Dung dịch rửa súng phun — Thông tin sản phẩm, tư liệu nhà cung cấp",
+          "caption": "Thông tin sản phẩm — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "402A",
+      "slug": "402a-lam-sach-manh",
+      "name": "Chất làm sạch mạnh 402A",
+      "intro": "Sản phẩm xử lý vết bẩn và bề mặt theo mức làm sạch mạnh. Cần chọn theo nền và tình trạng lớp phủ cũ trước khi phục hồi.",
+      "surfaces": "Bề mặt da phù hợp với hướng dẫn của công thức hiện hành.",
+      "exclude": "Chưa đồng nhất với cleaner 402D trong catalog. Không dùng mặc định cho mọi da hoặc làm sạch định kỳ.",
+      "specs": {
+        "Loại": "Chất làm sạch mạnh"
+      },
+      "steps": [
+        "Xác nhận mã và loại da phù hợp; thử vùng kín.",
+        "Làm sạch đúng lượng và phương pháp của nhà cung cấp.",
+        "Kiểm tra màu/lớp phủ gốc sau xử lý.",
+        "Chờ bề mặt đạt điều kiện trước bước sửa hoặc sơn."
+      ],
+      "faq": [
+        "402A có cùng sản phẩm với 402D không?",
+        "Chưa có xác nhận đổi mã. D.KARE cần đối chiếu công thức và hướng dẫn trước khi dùng quy trình catalog cho 402A."
+      ],
+      "video": "Dung dịch chăm sóc da - 402A.mp4",
+      "id": "aoyate-402a_chat_lam_sach_manh",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/402A_Chat_lam_sach_manh",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Chuẩn bị bề mặt",
+      "priority": "Chính",
+      "evidence": "catalog 10,103 đối chiếu; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/402a-lam-sach-manh.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/402a-lam-sach-manh-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất làm sạch mạnh 402A",
+          "caption": "Bao bì minh họa — Chất làm sạch mạnh 402A",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/402a-lam-sach-manh-02-cong-dung.svg",
+          "alt": "Công dụng — Chất làm sạch mạnh 402A",
+          "caption": "Công dụng — Chất làm sạch mạnh 402A",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/402a-lam-sach-manh-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất làm sạch mạnh 402A",
+          "caption": "Bề mặt phù hợp — Chất làm sạch mạnh 402A",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/402a-lam-sach-manh-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất làm sạch mạnh 402A",
+          "caption": "Cách dùng tham khảo — Chất làm sạch mạnh 402A",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/402a-lam-sach-manh-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất làm sạch mạnh 402A",
+          "caption": "Lưu ý trước khi dùng — Chất làm sạch mạnh 402A",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/1ddde9aee26debe5.mp4",
+          "caption": "Video được cung cấp cho 402A — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "Dung dịch chăm sóc da - 402A.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "403D",
+      "slug": "403d-lam-sach-nhe",
+      "name": "Chất làm sạch nhẹ cho da",
+      "intro": "Chất vệ sinh cho bước làm sạch bề mặt trước chăm sóc hoặc phục hồi. Catalog có nêu 403D trong quy trình sofa và ghế ô tô ở mức bẩn nhẹ.",
+      "surfaces": "Da và đồ da phù hợp theo hồ sơ, gồm ghế ô tô và sofa; thử riêng với da nhạy cảm.",
+      "exclude": "Không tự dùng trên mọi da hút nước hoặc vải tổng hợp. Không thay chất tẩy màng khi hệ sơn yêu cầu xử lý sâu.",
+      "specs": {
+        "Mã": "403D",
+        "Mức làm sạch": "Nhẹ theo mô tả nhà cung cấp"
+      },
+      "steps": [
+        "Kiểm tra vật liệu và thử vị trí kín.",
+        "Dùng theo lượng và cách vệ sinh được nhà cung cấp xác nhận.",
+        "Lau/kiểm tra vùng xử lý và để khô theo hướng dẫn.",
+        "Đánh giá mức sạch trước bước chăm sóc hoặc sửa."
+      ],
+      "faq": [
+        "Có bắt buộc dùng thêm cleaner mạnh sau 403D không?",
+        "Không. Chọn mức vệ sinh theo độ bẩn và nền; chất mạnh chỉ dùng khi nhu cầu và bề mặt phù hợp."
+      ],
+      "video": "vệ sinh 403D.mp4",
+      "id": "aoyate-403d_lam_sach_nhe",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/403D_Lam_sach_nhe",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Vệ sinh",
+      "priority": "Chính",
+      "evidence": "catalog 7,103; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/403d-lam-sach-nhe.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/403d-lam-sach-nhe-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất làm sạch nhẹ cho da",
+          "caption": "Bao bì minh họa — Chất làm sạch nhẹ cho da",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/403d-lam-sach-nhe-02-cong-dung.svg",
+          "alt": "Công dụng — Chất làm sạch nhẹ cho da",
+          "caption": "Công dụng — Chất làm sạch nhẹ cho da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/403d-lam-sach-nhe-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất làm sạch nhẹ cho da",
+          "caption": "Bề mặt phù hợp — Chất làm sạch nhẹ cho da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/403d-lam-sach-nhe-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất làm sạch nhẹ cho da",
+          "caption": "Cách dùng tham khảo — Chất làm sạch nhẹ cho da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/403d-lam-sach-nhe-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất làm sạch nhẹ cho da",
+          "caption": "Lưu ý trước khi dùng — Chất làm sạch nhẹ cho da",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/dc91531e557639cf.mp4",
+          "caption": "Video được cung cấp cho 403D — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "vệ sinh 403D.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/403d-lam-sach-nhe/01.png",
+          "alt": "Chất làm sạch nhẹ cho da — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/403d-lam-sach-nhe/02.png",
+          "alt": "Chất làm sạch nhẹ cho da — Công dụng, tư liệu nhà cung cấp",
+          "caption": "Công dụng — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/403d-lam-sach-nhe/03.png",
+          "alt": "Chất làm sạch nhẹ cho da — Trước sau, tư liệu nhà cung cấp",
+          "caption": "Trước sau — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/403d-lam-sach-nhe/04.png",
+          "alt": "Chất làm sạch nhẹ cho da — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "412D",
+      "slug": "412d-lam-sach-trung-binh-manh",
+      "name": "Chất làm sạch trung bình–mạnh",
+      "intro": "Cleaner cho bề mặt cần xử lý mức bẩn cao hơn. Catalog đưa 412D vào nhánh vệ sinh sofa và ghế ô tô bị bẩn nặng.",
+      "surfaces": "Bề mặt da phù hợp hướng dẫn, với tình trạng bẩn cần mức xử lý trung bình–mạnh.",
+      "exclude": "Cần thử lớp màu cũ trước sử dụng. Không dùng chỉ vì muốn tăng số bước trong quy trình.",
+      "specs": {
+        "Mã": "412D",
+        "Mức làm sạch": "Trung bình–mạnh theo hồ sơ"
+      },
+      "steps": [
+        "Đánh giá độ bẩn và tình trạng bề mặt, thử vùng kín.",
+        "Làm sạch theo cách dùng của nhà cung cấp.",
+        "Kiểm tra bề mặt, màu cũ và cặn sau vệ sinh.",
+        "Chờ đạt điều kiện trước công đoạn tiếp theo."
+      ],
+      "faq": [
+        "Chọn 403D hay 412D?",
+        "403D thuộc nhóm nhẹ; 412D dành mức bẩn cao hơn khi bề mặt phù hợp. Nên thử và chọn mức cần thiết."
+      ],
+      "id": "aoyate-412d_lam_sach_trung_binh_manh",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/412D_Lam_sach_trung_binh_manh",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Vệ sinh",
+      "priority": "Theo ca",
+      "evidence": "catalog 8,103; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/412d-lam-sach-trung-binh-manh.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/412d-lam-sach-trung-binh-manh-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất làm sạch trung bình–mạnh",
+          "caption": "Bao bì minh họa — Chất làm sạch trung bình–mạnh",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/412d-lam-sach-trung-binh-manh-02-cong-dung.svg",
+          "alt": "Công dụng — Chất làm sạch trung bình–mạnh",
+          "caption": "Công dụng — Chất làm sạch trung bình–mạnh",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/412d-lam-sach-trung-binh-manh-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất làm sạch trung bình–mạnh",
+          "caption": "Bề mặt phù hợp — Chất làm sạch trung bình–mạnh",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/412d-lam-sach-trung-binh-manh-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất làm sạch trung bình–mạnh",
+          "caption": "Cách dùng tham khảo — Chất làm sạch trung bình–mạnh",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/412d-lam-sach-trung-binh-manh-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất làm sạch trung bình–mạnh",
+          "caption": "Lưu ý trước khi dùng — Chất làm sạch trung bình–mạnh",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412d-lam-sach-trung-binh-manh/01.png",
+          "alt": "Chất làm sạch trung bình–mạnh — Thông tin và hướng dẫn, tư liệu nhà cung cấp",
+          "caption": "Thông tin và hướng dẫn — tư liệu nhà cung cấp",
+          "source_name": "01_Thong_tin.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "412K",
+      "slug": "412k-tay-lem-mau",
+      "name": "Chất tẩy lem màu trên da",
+      "intro": "Vật liệu xử lý ca lem màu trên đồ da, cần đánh giá khả năng ảnh hưởng màu gốc trước khi dùng.",
+      "surfaces": "Đồ da thuộc phạm vi hướng dẫn của công thức được xác nhận.",
+      "exclude": "Ứng dụng ghế ô tô còn cần chốt theo nền. Không dùng làm bước bắt buộc cho mọi lần phục hồi.",
+      "specs": {
+        "Loại": "Chất xử lý lem màu"
+      },
+      "steps": [
+        "Phân biệt lem màu với mất màu/lớp phủ đã hỏng.",
+        "Thử vùng kín và xác nhận cách dùng với nhà cung cấp.",
+        "Xử lý vùng lem theo hướng dẫn được xác nhận.",
+        "Kiểm tra màu gốc và nhu cầu phục hồi tiếp theo."
+      ],
+      "faq": [
+        "Tẩy lem có bảo đảm giữ nguyên màu ghế không?",
+        "Chưa có kết quả xác nhận cho mọi nền. Cần thử vị trí kín và đánh giá lớp màu gốc trước khi xử lý."
+      ],
+      "id": "aoyate-412k_tay_lem_mau",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/412K_Tay_lem_mau",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Xử lý vết bẩn",
+      "priority": "Theo ca",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/412k-tay-lem-mau.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/412k-tay-lem-mau-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất tẩy lem màu trên da",
+          "caption": "Bao bì minh họa — Chất tẩy lem màu trên da",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/412k-tay-lem-mau-02-cong-dung.svg",
+          "alt": "Công dụng — Chất tẩy lem màu trên da",
+          "caption": "Công dụng — Chất tẩy lem màu trên da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/412k-tay-lem-mau-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất tẩy lem màu trên da",
+          "caption": "Bề mặt phù hợp — Chất tẩy lem màu trên da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/412k-tay-lem-mau-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất tẩy lem màu trên da",
+          "caption": "Cách dùng tham khảo — Chất tẩy lem màu trên da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/412k-tay-lem-mau-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất tẩy lem màu trên da",
+          "caption": "Lưu ý trước khi dùng — Chất tẩy lem màu trên da",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/01.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 1, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 1 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_55_35 8 thg 10, 2026.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/02.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 2, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 2 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_55_52 8 thg 10, 2026.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/03.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 3, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 3 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_55_56 8 thg 10, 2026.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/04.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 4, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 4 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_56_00 8 thg 10, 2026.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/05.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 5, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 5 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_56_04 8 thg 10, 2026.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/06.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 6, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 6 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_56_08 8 thg 10, 2026.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/07.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 7, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 7 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_56_12 8 thg 10, 2026.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/412k-tay-lem-mau/08.png",
+          "alt": "Chất tẩy lem màu trên da — Ảnh thông tin sản phẩm 8, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 8 — tư liệu nhà cung cấp",
+          "source_name": "Ảnh ChatGPT 10_56_15 8 thg 10, 2026.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "506D",
+      "slug": "506d-co-dinh-da-lon",
+      "name": "Chất cố định màu da lộn",
+      "intro": "Sản phẩm phối cùng hệ màu da lộn/nubuck theo catalog, dùng ở công đoạn cố định sau lên màu được xác nhận.",
+      "surfaces": "Da lộn và nubuck thuộc hệ màu phù hợp.",
+      "exclude": "Không thay lớp phủ mờ da trơn và chưa xác nhận dùng nỉ/Alcantara. Có hồ sơ khác cùng mã 506D cần đối chiếu danh tính.",
+      "specs": {
+        "Hệ ứng dụng": "Da lộn / nubuck"
+      },
+      "steps": [
+        "Chọn đúng 506D và xác nhận trình tự với màu da lộn.",
+        "Hoàn thành vệ sinh và lên màu theo hệ.",
+        "Chờ khô, phun cố định theo hướng dẫn đúng công thức.",
+        "Kiểm tra mặt lông, cảm giác và chuyển màu sau hoàn thiện."
+      ],
+      "faq": [
+        "506D có cùng nhựa không tạo màng cùng mã không?",
+        "Hồ sơ nguồn có hai cách gọi và vai trò khác nhau. Chưa có xác nhận cùng công thức, cần đối chiếu trước khi chọn."
+      ],
+      "video": "chất độ định 506D da lộn.mp4",
+      "id": "aoyate-506d_co_dinh_mau_da_lon",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/506D_Co_dinh_mau_da_lon",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Cố định màu da lộn",
+      "priority": "Sau",
+      "evidence": "catalog 28,96; listing",
+      "status": "needs_confirmation",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/506d-co-dinh-da-lon.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/506d-co-dinh-da-lon-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu da lộn",
+          "caption": "Bao bì minh họa — Chất cố định màu da lộn",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-co-dinh-da-lon-02-cong-dung.svg",
+          "alt": "Công dụng — Chất cố định màu da lộn",
+          "caption": "Công dụng — Chất cố định màu da lộn",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-co-dinh-da-lon-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất cố định màu da lộn",
+          "caption": "Bề mặt phù hợp — Chất cố định màu da lộn",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-co-dinh-da-lon-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất cố định màu da lộn",
+          "caption": "Cách dùng tham khảo — Chất cố định màu da lộn",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-co-dinh-da-lon-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất cố định màu da lộn",
+          "caption": "Lưu ý trước khi dùng — Chất cố định màu da lộn",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/7bacfda9b8f00801.mp4",
+          "caption": "Video được cung cấp cho 506D — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "chất độ định 506D da lộn.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/506d-co-dinh-da-lon/01.png",
+          "alt": "Chất cố định màu da lộn — Ảnh phối hợp từ hồ sơ 101D–110D, không phải ảnh mới của trang 506D, tư liệu nhà cung cấp",
+          "caption": "Ảnh phối hợp từ hồ sơ 101D–110D, không phải ảnh mới của trang 506D — tư liệu nhà cung cấp",
+          "source_name": "01_Anh_phoi_hop_tu_101D.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "506D",
+      "slug": "506d-nhua-phoi-da-lon",
+      "name": "Nhựa phối màu da lộn — hồ sơ 506D",
+      "intro": "Hồ sơ nhựa lót/phối màu cho da mặt lông, đang được đối chiếu với chất cố định da lộn có cùng mã 506D.",
+      "surfaces": "Hệ da mặt lông theo mô tả nguồn; cần xác nhận công thức.",
+      "exclude": "Mô tả không tạo màng và tạo màng mỏng chưa nhất quán. Chưa có cơ sở xuất bản tỷ lệ pha hoặc dùng cho ô tô.",
+      "specs": {
+        "Mã nguồn": "506D",
+        "Trạng thái hướng dẫn": "Chờ đối chiếu đúng công thức"
+      },
+      "steps": [
+        "Đối chiếu mã nhãn, công thức và vai trò lót/phối/phủ.",
+        "Nhận hướng dẫn đúng sản phẩm trước khi phối và thử mẫu."
+      ],
+      "faq": [
+        "Có cần mua cả hai sản phẩm 506D không?",
+        "Chưa nên coi đây là hai bước khác nhau. Cần xác nhận hai hồ sơ có trùng công thức hay không."
+      ],
+      "id": "aoyate-506d_nhua_khong_tao_mang",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/506D_Nhua_khong_tao_mang",
+      "industries": [],
+      "candidate_industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "stage": "Lót / phối màu da lộn",
+      "priority": "Chờ",
+      "evidence": "listing; catalog 28 đối chiếu",
+      "status": "needs_confirmation",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/506d-nhua-phoi-da-lon.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/506d-nhua-phoi-da-lon-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Nhựa phối màu da lộn — hồ sơ 506D",
+          "caption": "Bao bì minh họa — Nhựa phối màu da lộn — hồ sơ 506D",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-nhua-phoi-da-lon-02-cong-dung.svg",
+          "alt": "Công dụng — Nhựa phối màu da lộn — hồ sơ 506D",
+          "caption": "Công dụng — Nhựa phối màu da lộn — hồ sơ 506D",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-nhua-phoi-da-lon-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Nhựa phối màu da lộn — hồ sơ 506D",
+          "caption": "Bề mặt phù hợp — Nhựa phối màu da lộn — hồ sơ 506D",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-nhua-phoi-da-lon-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Nhựa phối màu da lộn — hồ sơ 506D",
+          "caption": "Cách dùng tham khảo — Nhựa phối màu da lộn — hồ sơ 506D",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/506d-nhua-phoi-da-lon-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Nhựa phối màu da lộn — hồ sơ 506D",
+          "caption": "Lưu ý trước khi dùng — Nhựa phối màu da lộn — hồ sơ 506D",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/506d-nhua-phoi-da-lon/04.png",
+          "alt": "Nhựa phối màu da lộn — hồ sơ 506D — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/506d-nhua-phoi-da-lon/01.png",
+          "alt": "Nhựa phối màu da lộn — hồ sơ 506D — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/506d-nhua-phoi-da-lon/02.png",
+          "alt": "Nhựa phối màu da lộn — hồ sơ 506D — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/506d-nhua-phoi-da-lon/03.png",
+          "alt": "Nhựa phối màu da lộn — hồ sơ 506D — Vật liệu, tư liệu nhà cung cấp",
+          "caption": "Vật liệu — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "509G / ảnh 705K",
+      "slug": "509g-co-dinh-goc-dau",
+      "name": "Chất cố định màu gốc dầu",
+      "intro": "Hồ sơ lớp hoàn thiện gốc dầu cho da trơn sau lên màu. Mã thuộc tính và ảnh thông số chưa thống nhất, cần chốt sản phẩm giao.",
+      "surfaces": "Da trơn, da thật và PU theo ảnh nhà cung cấp, với hệ màu phù hợp được xác nhận.",
+      "exclude": "Không gộp với 705K gốc nước. Không tự dùng lên sơn nước khi chưa có xác nhận tương thích.",
+      "specs": {
+        "Hệ theo ảnh": "Gốc dầu",
+        "Mã trang bán": "509G",
+        "Mã trong ảnh": "705K"
+      },
+      "steps": [
+        "Đối chiếu mã và chốt hệ màu tương thích.",
+        "Chờ màu khô theo hướng dẫn đã xác nhận.",
+        "Thi công lớp cố định theo TDS của đúng sản phẩm.",
+        "Chờ đóng rắn và kiểm tra trước sử dụng."
+      ],
+      "faq": [
+        "Mã 705K trong ảnh có phải sản phẩm 705K gốc nước không?",
+        "Chưa có xác nhận. Hai hồ sơ được giữ riêng để tránh dùng nhầm hệ."
+      ],
+      "id": "aoyate-509g_705k_co_dinh_dau_goc_dau",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/509G_705K_Co_dinh_dau_goc_dau",
+      "industries": [],
+      "candidate_industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "stage": "Phủ cuối hệ dầu",
+      "priority": "Chờ",
+      "evidence": "catalog 69 đối chiếu; listing",
+      "status": "needs_confirmation",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/509g-co-dinh-goc-dau.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/509g-co-dinh-goc-dau-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu gốc dầu",
+          "caption": "Bao bì minh họa — Chất cố định màu gốc dầu",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/509g-co-dinh-goc-dau-02-cong-dung.svg",
+          "alt": "Công dụng — Chất cố định màu gốc dầu",
+          "caption": "Công dụng — Chất cố định màu gốc dầu",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/509g-co-dinh-goc-dau-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất cố định màu gốc dầu",
+          "caption": "Bề mặt phù hợp — Chất cố định màu gốc dầu",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/509g-co-dinh-goc-dau-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất cố định màu gốc dầu",
+          "caption": "Cách dùng tham khảo — Chất cố định màu gốc dầu",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/509g-co-dinh-goc-dau-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất cố định màu gốc dầu",
+          "caption": "Lưu ý trước khi dùng — Chất cố định màu gốc dầu",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/509g-co-dinh-goc-dau/01.png",
+          "alt": "Chất cố định màu gốc dầu — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/509g-co-dinh-goc-dau/02.png",
+          "alt": "Chất cố định màu gốc dầu — Tính năng 1, tư liệu nhà cung cấp",
+          "caption": "Tính năng 1 — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/509g-co-dinh-goc-dau/03.png",
+          "alt": "Chất cố định màu gốc dầu — Tính năng 2, tư liệu nhà cung cấp",
+          "caption": "Tính năng 2 — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/509g-co-dinh-goc-dau/04.png",
+          "alt": "Chất cố định màu gốc dầu — Bao bì, tư liệu nhà cung cấp",
+          "caption": "Bao bì — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/509g-co-dinh-goc-dau/05.png",
+          "alt": "Chất cố định màu gốc dầu — Ảnh thông tin sản phẩm 5, tư liệu nhà cung cấp",
+          "caption": "Ảnh thông tin sản phẩm 5 — tư liệu nhà cung cấp",
+          "source_name": "05_Thong_so_gui_lai.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "705K",
+      "slug": "705k-co-dinh-goc-nuoc",
+      "name": "Chất cố định màu gốc nước 705K",
+      "intro": "Lớp hoàn thiện cho da trơn sau lên màu, có các quy cách nhỏ đến can theo trang bán.",
+      "surfaces": "Da trơn trên đồ da, sofa và nội thất ô tô theo ảnh nhà cung cấp.",
+      "exclude": "Chưa chốt độ bóng và tương thích với từng màu. Không đồng nhất 1209D, 1203 hoặc mã 705K của hồ sơ gốc dầu.",
+      "specs": {
+        "Hệ theo trang bán": "Gốc nước",
+        "Quy cách nguồn": "100 g, 200 g, 500 g, 1 kg, 5 kg"
+      },
+      "steps": [
+        "Chọn đúng quy cách, độ bóng và hệ màu đã xác nhận.",
+        "Chuẩn bị lớp màu theo hướng dẫn.",
+        "Thi công phủ theo TDS đúng sản phẩm.",
+        "Chờ đóng rắn và kiểm tra màu/độ bóng/cảm giác."
+      ],
+      "faq": [
+        "Có thay trực tiếp 1209D hoặc 1203 không?",
+        "Chưa xác nhận cùng công thức hoặc hiệu quả. Cần thử trên hệ màu và chọn một dòng phù hợp."
+      ],
+      "id": "aoyate-705k_co_dinh_mau_goc_nuoc",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/705K_Co_dinh_mau_goc_nuoc",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Phủ cuối",
+      "priority": "So sánh",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/705k-co-dinh-goc-nuoc.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/705k-co-dinh-goc-nuoc-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu gốc nước 705K",
+          "caption": "Bao bì minh họa — Chất cố định màu gốc nước 705K",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/705k-co-dinh-goc-nuoc-02-cong-dung.svg",
+          "alt": "Công dụng — Chất cố định màu gốc nước 705K",
+          "caption": "Công dụng — Chất cố định màu gốc nước 705K",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/705k-co-dinh-goc-nuoc-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất cố định màu gốc nước 705K",
+          "caption": "Bề mặt phù hợp — Chất cố định màu gốc nước 705K",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/705k-co-dinh-goc-nuoc-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất cố định màu gốc nước 705K",
+          "caption": "Cách dùng tham khảo — Chất cố định màu gốc nước 705K",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/705k-co-dinh-goc-nuoc-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất cố định màu gốc nước 705K",
+          "caption": "Lưu ý trước khi dùng — Chất cố định màu gốc nước 705K",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/705k-co-dinh-goc-nuoc/02.png",
+          "alt": "Chất cố định màu gốc nước 705K — Chất cố định màu gốc nước, tư liệu nhà cung cấp",
+          "caption": "Chất cố định màu gốc nước — tư liệu nhà cung cấp",
+          "source_name": "02_San_pham.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/705k-co-dinh-goc-nuoc/01.png",
+          "alt": "Chất cố định màu gốc nước 705K — Nhà máy AOYATE, tư liệu nhà cung cấp",
+          "caption": "Nhà máy AOYATE — tư liệu nhà cung cấp",
+          "source_name": "01_Nha_may.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/705k-co-dinh-goc-nuoc/03.png",
+          "alt": "Chất cố định màu gốc nước 705K — Đặc tính sản phẩm, tư liệu nhà cung cấp",
+          "caption": "Đặc tính sản phẩm — tư liệu nhà cung cấp",
+          "source_name": "03_Dac_tinh.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/705k-co-dinh-goc-nuoc/04.png",
+          "alt": "Chất cố định màu gốc nước 705K — Thông số và cách dùng, tư liệu nhà cung cấp",
+          "caption": "Thông số và cách dùng — tư liệu nhà cung cấp",
+          "source_name": "04_Thong_so_va_cach_dung.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/705k-co-dinh-goc-nuoc/05.png",
+          "alt": "Chất cố định màu gốc nước 705K — Quy cách bao bì, tư liệu nhà cung cấp",
+          "caption": "Quy cách bao bì — tư liệu nhà cung cấp",
+          "source_name": "05_Quy_cach.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/705k-co-dinh-goc-nuoc/06.png",
+          "alt": "Chất cố định màu gốc nước 705K — Phạm vi ứng dụng, tư liệu nhà cung cấp",
+          "caption": "Phạm vi ứng dụng — tư liệu nhà cung cấp",
+          "source_name": "06_Pham_vi_su_dung.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/705k-co-dinh-goc-nuoc/07.png",
+          "alt": "Chất cố định màu gốc nước 705K — Giới thiệu nhà cung cấp, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu nhà cung cấp — tư liệu nhà cung cấp",
+          "source_name": "07_Gioi_thieu_nha_cung_cap.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "802C",
+      "slug": "802c-lot-tang-bam",
+      "name": "Lót tăng bám — hồ sơ 802C",
+      "intro": "Trang bán mô tả vật liệu lót liên kết nền da với lớp màu. Cần đối chiếu với catalog 802C mô tả nhựa acrylic trước khi chốt hướng dẫn.",
+      "surfaces": "Da trơn phù hợp hệ lót, gồm ứng dụng đồ da và ghế ô tô theo hồ sơ.",
+      "exclude": "Nguồn loại trừ da dầu/sáp. Không dùng làm lớp ngoài cùng; chưa đồng nhất với lót 1608D trong catalog.",
+      "specs": {
+        "Mã trang bán": "802C",
+        "Vai trò trang bán": "Lót trước màu; cần đối chiếu công thức"
+      },
+      "steps": [
+        "Chốt danh tính 802C, phạm vi nền và vị trí trong hệ sửa.",
+        "Chuẩn bị bề mặt theo hướng dẫn của hệ.",
+        "Thi công lót và màu theo TDS đã xác nhận."
+      ],
+      "faq": [
+        "802C có phải lót 1608D đổi mã không?",
+        "Chưa có bằng chứng đổi mã. Catalog mô tả hai sản phẩm khác vai trò, cần nhà cung cấp xác nhận."
+      ],
+      "id": "aoyate-802c_lot_tang_bam_dinh",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/802C_Lot_tang_bam_dinh",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Lót",
+      "priority": "Chờ",
+      "evidence": "catalog 41,45; listing",
+      "status": "needs_confirmation",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/802c-lot-tang-bam.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/802c-lot-tang-bam-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Lót tăng bám — hồ sơ 802C",
+          "caption": "Bao bì minh họa — Lót tăng bám — hồ sơ 802C",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/802c-lot-tang-bam-02-cong-dung.svg",
+          "alt": "Công dụng — Lót tăng bám — hồ sơ 802C",
+          "caption": "Công dụng — Lót tăng bám — hồ sơ 802C",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/802c-lot-tang-bam-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Lót tăng bám — hồ sơ 802C",
+          "caption": "Bề mặt phù hợp — Lót tăng bám — hồ sơ 802C",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/802c-lot-tang-bam-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Lót tăng bám — hồ sơ 802C",
+          "caption": "Cách dùng tham khảo — Lót tăng bám — hồ sơ 802C",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/802c-lot-tang-bam-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Lót tăng bám — hồ sơ 802C",
+          "caption": "Lưu ý trước khi dùng — Lót tăng bám — hồ sơ 802C",
+          "kind": "information"
+        }
+      ],
+      "videos": [],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/802c-lot-tang-bam/01.png",
+          "alt": "Lót tăng bám — hồ sơ 802C — Lót trước màu, tư liệu nhà cung cấp",
+          "caption": "Lót trước màu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/802c-lot-tang-bam/02.png",
+          "alt": "Lót tăng bám — hồ sơ 802C — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/802c-lot-tang-bam/03.png",
+          "alt": "Lót tăng bám — hồ sơ 802C — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "806D",
+      "slug": "806d-pha-loang-goc-nuoc",
+      "name": "Chất pha loãng sơn da gốc nước",
+      "intro": "Vật liệu phối với sơn sửa da gốc nước phù hợp để điều chỉnh độ đặc cho thi công, nhất là khi dùng súng phun.",
+      "surfaces": "Sơn hoặc vật liệu hệ nước được nhà cung cấp xác nhận dùng cùng 806D.",
+      "exclude": "Không dùng trực tiếp như dưỡng da; không pha vào mọi keo/bả/lớp phủ. Không thay dung dịch rửa súng 401A.",
+      "specs": {
+        "Hệ phối": "Sơn sửa da gốc nước tương thích",
+        "Vai trò": "Điều chỉnh độ đặc khi phối sơn"
+      },
+      "steps": [
+        "Xác nhận sơn, cách phun và tỷ lệ tính theo g hay ml.",
+        "Chuẩn bị lượng sơn cần dùng, thêm 806D theo hướng dẫn đúng công thức.",
+        "Khuấy/đồng nhất hỗn hợp và thử phun trước thi công.",
+        "Thi công và hoàn thiện theo quy trình của sơn."
+      ],
+      "faq": [
+        "Có pha 806D vào mọi lớp phủ gốc nước được không?",
+        "Chưa có căn cứ. Một số lớp phủ hướng dẫn dùng trực tiếp; chỉ thêm khi có hướng dẫn cho đúng mã."
+      ],
+      "video": "dung môi gốc nước 806d.mp4",
+      "id": "aoyate-806d_dung_dich_pha_loang",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/806D_Dung_dich_pha_loang",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Phụ trợ lên màu",
+      "priority": "Chính",
+      "evidence": "catalog 75; listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/806d-pha-loang-goc-nuoc.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/806d-pha-loang-goc-nuoc-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Chất pha loãng sơn da gốc nước",
+          "caption": "Bao bì minh họa — Chất pha loãng sơn da gốc nước",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/806d-pha-loang-goc-nuoc-02-cong-dung.svg",
+          "alt": "Công dụng — Chất pha loãng sơn da gốc nước",
+          "caption": "Công dụng — Chất pha loãng sơn da gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/806d-pha-loang-goc-nuoc-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Chất pha loãng sơn da gốc nước",
+          "caption": "Bề mặt phù hợp — Chất pha loãng sơn da gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/806d-pha-loang-goc-nuoc-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Chất pha loãng sơn da gốc nước",
+          "caption": "Cách dùng tham khảo — Chất pha loãng sơn da gốc nước",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/806d-pha-loang-goc-nuoc-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Chất pha loãng sơn da gốc nước",
+          "caption": "Lưu ý trước khi dùng — Chất pha loãng sơn da gốc nước",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/f4ee269619a7582e.mp4",
+          "caption": "Video được cung cấp cho 806D — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "dung môi gốc nước 806d.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/806d-pha-loang-goc-nuoc/01.png",
+          "alt": "Chất pha loãng sơn da gốc nước — Thông số, tư liệu nhà cung cấp",
+          "caption": "Thông số — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/806d-pha-loang-goc-nuoc/02.png",
+          "alt": "Chất pha loãng sơn da gốc nước — Điều chỉnh độ đặc, tư liệu nhà cung cấp",
+          "caption": "Điều chỉnh độ đặc — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/806d-pha-loang-goc-nuoc/03.png",
+          "alt": "Chất pha loãng sơn da gốc nước — Chất lượng và khô, tư liệu nhà cung cấp",
+          "caption": "Chất lượng và khô — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/806d-pha-loang-goc-nuoc/04.png",
+          "alt": "Chất pha loãng sơn da gốc nước — Tuyên bố môi trường, tư liệu nhà cung cấp",
+          "caption": "Tuyên bố môi trường — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/806d-pha-loang-goc-nuoc/05.png",
+          "alt": "Chất pha loãng sơn da gốc nước — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/806d-pha-loang-goc-nuoc/06.png",
+          "alt": "Chất pha loãng sơn da gốc nước — Minh họa, tư liệu nhà cung cấp",
+          "caption": "Minh họa — tư liệu nhà cung cấp",
+          "source_name": "06.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "809G",
+      "slug": "809g-keo-mem-dan-da",
+      "name": "Keo mềm dán sửa da",
+      "intro": "Keo dùng dán vùng da trơn rách, nứt hoặc bong mép trước các công đoạn sửa và hoàn thiện màu.",
+      "surfaces": "Da trơn trên giày, túi, sofa và ghế ô tô theo hồ sơ nhà cung cấp.",
+      "exclude": "Không phải keo dán trần xe. Lỗ hoặc vùng rách chịu lực cần đánh giá vật liệu gia cố; không tự gộp với keo 1225D.",
+      "specs": {
+        "Hệ theo ảnh": "Gốc dung môi, nhà bán gọi gốc dầu",
+        "Vai trò": "Dán vùng da hư hỏng"
+      },
+      "steps": [
+        "Đánh giá vùng rách và nhu cầu miếng gia cố.",
+        "Chuẩn bị mép và nền theo hướng dẫn đúng sản phẩm.",
+        "Dán theo thời gian mở, ép và đóng rắn được nhà cung cấp xác nhận.",
+        "Kiểm tra liên kết trước trám, tạo vân và lên màu."
+      ],
+      "faq": [
+        "809G có dùng dán nỉ trần không?",
+        "Hồ sơ mô tả dán sửa da trơn. Chưa có xác nhận cho hệ nỉ/mút/keo trần ô tô."
+      ],
+      "video": "kéo dán 809G.mp4",
+      "id": "aoyate-809g_keo_mem_dan_da",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/809G_Keo_mem_dan_da",
+      "industries": [
+        "automotive_leather",
+        "other_leather"
+      ],
+      "candidate_industries": [],
+      "stage": "Dán sửa rách",
+      "priority": "Theo ca",
+      "evidence": "listing; catalog 62 đối chiếu",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/809g-keo-mem-dan-da.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/809g-keo-mem-dan-da-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Keo mềm dán sửa da",
+          "caption": "Bao bì minh họa — Keo mềm dán sửa da",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/809g-keo-mem-dan-da-02-cong-dung.svg",
+          "alt": "Công dụng — Keo mềm dán sửa da",
+          "caption": "Công dụng — Keo mềm dán sửa da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/809g-keo-mem-dan-da-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Keo mềm dán sửa da",
+          "caption": "Bề mặt phù hợp — Keo mềm dán sửa da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/809g-keo-mem-dan-da-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Keo mềm dán sửa da",
+          "caption": "Cách dùng tham khảo — Keo mềm dán sửa da",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/809g-keo-mem-dan-da-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Keo mềm dán sửa da",
+          "caption": "Lưu ý trước khi dùng — Keo mềm dán sửa da",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/40899de6fe5312d0.mp4",
+          "caption": "Video được cung cấp cho 809G — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "kéo dán 809G.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/809g-keo-mem-dan-da/01.png",
+          "alt": "Keo mềm dán sửa da — Giới thiệu, tư liệu nhà cung cấp",
+          "caption": "Giới thiệu — tư liệu nhà cung cấp",
+          "source_name": "01.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/809g-keo-mem-dan-da/02.png",
+          "alt": "Keo mềm dán sửa da — Đặc điểm, tư liệu nhà cung cấp",
+          "caption": "Đặc điểm — tư liệu nhà cung cấp",
+          "source_name": "02.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/809g-keo-mem-dan-da/03.png",
+          "alt": "Keo mềm dán sửa da — Hiệu quả, tư liệu nhà cung cấp",
+          "caption": "Hiệu quả — tư liệu nhà cung cấp",
+          "source_name": "03.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/809g-keo-mem-dan-da/04.png",
+          "alt": "Keo mềm dán sửa da — Thông tin, tư liệu nhà cung cấp",
+          "caption": "Thông tin — tư liệu nhà cung cấp",
+          "source_name": "04.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/809g-keo-mem-dan-da/05.png",
+          "alt": "Keo mềm dán sửa da — Phạm vi, tư liệu nhà cung cấp",
+          "caption": "Phạm vi — tư liệu nhà cung cấp",
+          "source_name": "05.png"
+        },
+        {
+          "kind": "image",
+          "path": "images/products/aoyate/809g-keo-mem-dan-da/06.png",
+          "alt": "Keo mềm dán sửa da — So sánh, tư liệu nhà cung cấp",
+          "caption": "So sánh — tư liệu nhà cung cấp",
+          "source_name": "06.png"
+        }
+      ],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    },
+    {
+      "code": "902K",
+      "slug": "902k-ba-sua-da",
+      "name": "Bả sửa hư hỏng da 902K",
+      "intro": "Bả trám sửa bề mặt trước khi lên màu. Phạm vi ghế ô tô và khả năng ép vân cần xác nhận theo công thức hiện hành.",
+      "surfaces": "Đồ da thuộc phạm vi được nhà cung cấp xác nhận.",
+      "exclude": "Chưa đồng nhất với 1230D; chưa xác nhận khả năng ép vân nóng. Bả không thay kết cấu gia cố cho lỗ thủng.",
+      "specs": {
+        "Loại": "Bả sửa hư hỏng da"
+      },
+      "steps": [
+        "Đánh giá nền và xác nhận phạm vi sửa của 902K.",
+        "Chuẩn bị vùng hỏng theo hướng dẫn.",
+        "Trám theo độ dày và thời gian khô của TDS đúng sản phẩm.",
+        "Kiểm tra độ phẳng và tiếp tục hệ màu tương thích."
+      ],
+      "faq": [
+        "902K có dùng với khuôn A+B không?",
+        "Chưa có xác nhận khả năng ép vân cho 902K. Cần chốt loại bả tương thích trước khi dùng khuôn."
+      ],
+      "video": "kem sữa chửa da thuộc 902K.mp4",
+      "id": "aoyate-902k_ba_sua_da",
+      "source_folder": "03_SAN_PHAM_VA_GIA_NHAP/Aoyate/San_pham/902K_Ba_sua_da",
+      "industries": [
+        "other_leather"
+      ],
+      "candidate_industries": [
+        "automotive_leather"
+      ],
+      "stage": "Trám sửa",
+      "priority": "So sánh",
+      "evidence": "listing",
+      "status": "content_draft",
+      "brand": "AOYATE",
+      "price": null,
+      "documents": [
+        {
+          "label": "Catalog và quy trình AOYATE (nguồn tham khảo)",
+          "path": "documents/aoyate/catalog-quy-trinh.pdf"
+        }
+      ],
+      "path": "san-pham/aoyate/902k-ba-sua-da.html",
+      "images": [
+        {
+          "path": "images/products/dkare-packaging/902k-ba-sua-da-dkare-v1.png",
+          "alt": "Thiết kế bao bì D.KARE — Bả sửa hư hỏng da 902K",
+          "caption": "Bao bì minh họa — Bả sửa hư hỏng da 902K",
+          "kind": "mockup"
+        },
+        {
+          "path": "images/products/dkare-packaging/902k-ba-sua-da-02-cong-dung.svg",
+          "alt": "Công dụng — Bả sửa hư hỏng da 902K",
+          "caption": "Công dụng — Bả sửa hư hỏng da 902K",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/902k-ba-sua-da-03-be-mat.svg",
+          "alt": "Bề mặt phù hợp — Bả sửa hư hỏng da 902K",
+          "caption": "Bề mặt phù hợp — Bả sửa hư hỏng da 902K",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/902k-ba-sua-da-04-cach-dung.svg",
+          "alt": "Cách dùng tham khảo — Bả sửa hư hỏng da 902K",
+          "caption": "Cách dùng tham khảo — Bả sửa hư hỏng da 902K",
+          "kind": "information"
+        },
+        {
+          "path": "images/products/dkare-packaging/902k-ba-sua-da-05-luu-y.svg",
+          "alt": "Lưu ý trước khi dùng — Bả sửa hư hỏng da 902K",
+          "caption": "Lưu ý trước khi dùng — Bả sửa hư hỏng da 902K",
+          "kind": "information"
+        }
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "path": "videos/products/280e6cf6b262d165.mp4",
+          "caption": "Video được cung cấp cho 902K — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.",
+          "source_name": "kem sữa chửa da thuộc 902K.mp4",
+          "matching_basis": "Tên file người dùng cung cấp; chưa xác nhận mã trên nhãn trong toàn bộ video"
+        }
+      ],
+      "source_images": [],
+      "packaging_mockup": {
+        "version": 1,
+        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
+      }
+    }
+  ],
+  "note": "Giữ mã hãng; giá bán và dữ liệu kỹ thuật chưa chốt được để trống. Trang là bản nội dung nháp, noindex cho đến khi duyệt."
+}

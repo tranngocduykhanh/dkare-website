@@ -1,0 +1,9 @@
+@media (min-width:801px){
+  .car3d__copy{max-width:480px}
+  .car3d__copy h1{font-size:clamp(44px,4.8vw,76px);letter-spacing:-.055em;line-height:.96}
+  .car3d__copy>p:last-child{max-width:40ch}
+  .car3d__panel{left:clamp(22px,9vw,150px);right:auto;top:58%;bottom:auto;border-color:rgba(17,22,30,.9)}
+  .car3d__controls{left:auto;right:clamp(22px,4vw,64px);max-width:460px;justify-content:flex-end}
+  .car3d__hint{left:clamp(22px,9vw,150px);right:auto;bottom:56px}
+}
+.car3d-credit{margin-top:24px!important;color:#7a818c!important;font-size:12px;line-height:1.6}

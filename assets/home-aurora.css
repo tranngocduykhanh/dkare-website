@@ -1,0 +1,30 @@
+/* Aurora reference translated to the site's existing CSS structure. */
+.home-quordix.home-liquid-hero{background:#fafafa;color:#111827}
+.home-liquid-hero::before{background:#fafafa}
+.home-aurora-background{
+  --aurora-white:repeating-linear-gradient(100deg,#fff 0%,#fff 7%,transparent 10%,transparent 12%,#fff 16%);
+  --aurora-colors:repeating-linear-gradient(100deg,#3b82f6 10%,#a5b4fc 15%,#93c5fd 20%,#ddd6fe 25%,#60a5fa 30%);
+  position:absolute;inset:-10px;z-index:0;pointer-events:none;
+  background-image:var(--aurora-white),var(--aurora-colors);
+  background-size:300%,200%;background-position:50% 50%,50% 50%;
+  filter:blur(10px) invert(1);opacity:.5;
+  mask-image:radial-gradient(ellipse at 100% 0%,#000 10%,transparent 70%);
+}
+.home-aurora-background::after{
+  content:"";position:absolute;inset:-15%;
+  background-image:var(--aurora-white),var(--aurora-colors);
+  background-size:200%,100%;background-position:50% 50%,50% 50%;
+  mix-blend-mode:difference;animation:dk-aurora 24s ease-in-out infinite alternate;
+  will-change:transform;
+}
+.home-liquid-canvas{z-index:1;filter:none}
+.dk-home .home-liquid-hero h1,.dk-home .home-liquid-hero h1 span{color:#111827}
+.dk-home .home-liquid-hero h1 span:last-child{color:#27354b}
+.dk-home .home-liquid-description{color:#374151;text-shadow:0 1px 12px #fff}
+.dk-home .home-liquid-badge{color:#27354b;background:rgba(255,255,255,.8);border-color:rgba(39,53,75,.16)}
+@keyframes dk-aurora{
+  from{transform:translate3d(-5%,0,0)}
+  to{transform:translate3d(5%,3%,0)}
+}
+.home-liquid-hero.is-motion-paused .home-aurora-background::after{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.home-aurora-background::after{animation:none;will-change:auto}}

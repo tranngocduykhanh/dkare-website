@@ -1,0 +1,27 @@
+# Local agent settings and development previews
+.agents/
+.codex/
+.impeccable/
+tools/
+node_modules/
+images/products/dkare-packaging/manifest.json
+
+# Credentials, private configuration, and local data
+.env
+.env.*
+!.env.example
+credentials*
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.bak
+backups/
+customer-data/
+Thumbs.db
+.DS_Store

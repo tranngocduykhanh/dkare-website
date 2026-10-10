@@ -1,0 +1,18 @@
+.home-quordix.home-liquid-hero{background:#0a0a0a;color:#fff}
+.home-liquid-hero::before{background:#0a0a0a}
+.home-beams-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-2;filter:blur(35px);pointer-events:none}
+.home-liquid-canvas{z-index:1;filter:none;opacity:1}
+.home-liquid-hero::after{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:rgba(10,10,10,.08);backdrop-filter:blur(15px);
+}
+.dk-home .home-liquid-hero h1,
+.dk-home .home-liquid-hero h1 span,
+.dk-home .home-liquid-hero h1 span:last-child{color:#fff}
+.dk-home .home-liquid-description{color:rgba(255,255,255,.75);text-shadow:none}
+.dk-home .home-liquid-badge{
+  color:#f3f4f6;background:rgba(255,255,255,.06);
+  border-color:rgba(255,255,255,.2);box-shadow:none;
+}
+.home-liquid-secondary{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.3);color:#fff}
+.home-liquid-secondary:hover,.home-liquid-secondary:focus-visible{background:rgba(255,255,255,.13);color:#fff;border-color:#fff}

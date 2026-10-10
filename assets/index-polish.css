@@ -1,0 +1,113 @@
+/* Shared visual polish for the D.KARE homepage. */
+.dk-home{
+  --dk-red:#b22222;
+  --dk-ink:#171717;
+  --dk-blue:#2864a8;
+  --dk-teal:#348b83;
+  --dk-gold:#b88732;
+  --dk-paper:#f7f7f5;
+}
+
+.dk-home .home-section-heading,
+.dk-home .home-heading-row>div:first-child{
+  text-align:center;
+}
+.dk-home .home-section-heading>p:last-child,
+.dk-home .home-heading-row p:last-child{max-width:680px;margin-left:auto;margin-right:auto}
+.dk-home .home-section-heading h2,
+.dk-home .home-heading-row h2{max-width:760px;margin-left:auto;margin-right:auto}
+.dk-home .home-eyebrow,
+.dk-home .home-feature-badge{color:var(--dk-red)}
+
+/* Quiet colour rhythm between sections. */
+.dk-home #why-recolor{background:#fffdfb}
+.dk-home #products{background:linear-gradient(135deg,#f8f7f3 0%,#f4f7f8 100%)}
+.dk-home #solutions{background:linear-gradient(135deg,#f7fafb 0%,#f7f7f5 100%)}
+.dk-home #details{background:linear-gradient(135deg,#fffdf9 0%,#f7f5f1 100%)}
+.dk-home #projects{background:#f7f9fa}
+.dk-home .home-section-heading{position:relative}
+.dk-home .home-section-heading::after{
+  content:"";
+  display:block;
+  width:54px;
+  height:4px;
+  margin:20px auto 0;
+  border-radius:99px;
+  background:linear-gradient(90deg,var(--dk-red),#e4a02f,#3b8f8a);
+}
+.dk-home #products .home-section-heading::after{margin-top:18px}
+
+/* Keep visual language consistent across image blocks and cards. */
+.dk-home .home-why-photo,
+.dk-home .home-why-copy,
+.dk-home .dk-home-product-media,
+.dk-home .dk-solutions-media,
+.dk-home .home-project-card>a:first-child,
+.dk-home .home-detail-layout figure img{border-radius:22px}
+.dk-home .home-why-copy{border-top-width:4px;box-shadow:0 18px 50px rgba(36,45,52,.08)}
+.dk-home .home-project-card>a:first-child{box-shadow:0 12px 30px rgba(36,45,52,.07)}
+.dk-home .home-project-card h3{font-size:clamp(20px,2vw,26px)}
+
+/* Small colour cues make the catalogue easier to scan. */
+.dk-home .dk-product-row-title h3{display:flex;align-items:center;gap:12px}
+.dk-home .dk-product-row-title h3::before{
+  content:"";
+  display:inline-block;
+  flex:none;
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:var(--dk-red);
+  box-shadow:0 0 0 6px rgba(178,34,34,.11);
+}
+.dk-home .dk-product-row+.dk-product-row .dk-product-row-title h3::before{background:var(--dk-blue);box-shadow:0 0 0 6px rgba(40,100,168,.11)}
+.dk-home .dk-home-product-media{position:relative}
+.dk-home .dk-home-product-media::after{
+  content:"";
+  position:absolute;
+  right:12px;
+  top:12px;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:var(--dk-gold);
+  box-shadow:0 0 0 5px rgba(184,135,50,.13);
+}
+.dk-home .dk-product-row+.dk-product-row .dk-home-product-media::after{background:var(--dk-blue);box-shadow:0 0 0 5px rgba(40,100,168,.13)}
+
+/* Solution stories receive a restrained colour marker instead of heavy cards. */
+.dk-home .dk-solution-story{position:relative}
+.dk-home .dk-solution-story h3::before{
+  content:"";
+  display:inline-block;
+  width:11px;
+  height:11px;
+  margin:0 14px 7px 0;
+  border-radius:50%;
+  background:var(--dk-teal);
+  box-shadow:0 0 0 6px rgba(52,139,131,.12);
+}
+.dk-home .dk-solution-story:nth-child(2) h3::before{background:var(--dk-red);box-shadow:0 0 0 6px rgba(178,34,34,.12)}
+.dk-home .dk-solution-story:nth-child(3) h3::before{background:var(--dk-gold);box-shadow:0 0 0 6px rgba(184,135,50,.12)}
+.dk-home .dk-solution-story:nth-child(4) h3::before{background:var(--dk-blue);box-shadow:0 0 0 6px rgba(40,100,168,.12)}
+.dk-home .dk-solution-story:nth-child(5) h3::before{background:#7d5aa6;box-shadow:0 0 0 6px rgba(125,90,166,.12)}
+.dk-home .dk-solution-story-link{color:var(--dk-red);border-bottom-color:currentColor}
+
+/* Centered hero copy follows the reference direction while preserving the slider. */
+.dk-home .home-hero-slider .home-quordix-content{text-align:center}
+.dk-home .home-hero-slider h1{align-items:center;margin-left:auto;margin-right:auto}
+.dk-home .home-hero-slider .home-quordix-description{margin-left:auto;margin-right:auto}
+.dk-home .home-hero-slider .home-hero-actions{justify-content:center}
+.dk-home .home-hero-slider .home-quordix-tagline{text-align:center}
+
+@media(max-width:700px){
+  .dk-home .home-section-heading::after{margin-top:16px}
+  .dk-home .home-hero-slider .home-quordix-content{text-align:center}
+  .dk-home .home-hero-slider .home-quordix-tagline{text-align:center}
+  .dk-home .home-hero-slider .home-hero-actions{justify-content:center}
+  .dk-home .dk-product-row-title h3{gap:10px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .dk-home .home-project-card>a:first-child img{transition:none}
+}

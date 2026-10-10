@@ -1,0 +1,996 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="../../images/logo/logo/1.png"><link rel="stylesheet" href="../../assets/site.css?v=20260927-1">
+<link rel="stylesheet" href="../../assets/pages.css?v=20260925-3">
+<link rel="stylesheet" href="../../assets/product-feature.css?v=20260927-1">
+<link rel="stylesheet" href="../../assets/header-type.css?v=20260928-1">
+<link rel="stylesheet" href="../../assets/shared-footer.css?v=20261010-1">
+<link rel="stylesheet" href="../../assets/navigation-groups.css?v=20260928-2">
+<link rel="stylesheet" href="../../assets/product-hierarchy.css?v=20260928-1">
+<link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+  >
+<link rel="stylesheet" href="../../assets/product-system.css?v=20261010-1">
+<link rel="stylesheet" href="../../assets/product-packaging.css?v=20261009-1"><link rel="stylesheet" href="../../assets/product-detail.css?v=20261008-1"><script defer src="../../assets/site.js?v=20260928-3"></script><script defer src="../../assets/product-detail.js?v=20261008-1"></script><style>
+
+    /* ---------------------------------------------------------
+       GALLERY CONTAINER
+    --------------------------------------------------------- */
+
+    .dk-product-gallery {
+      width: 100%;
+      max-width: 620px;
+      margin: 0 auto;
+      user-select: none;
+    }
+
+
+    /* ---------------------------------------------------------
+       MAIN IMAGE
+    --------------------------------------------------------- */
+
+    .dk-gallery-stage {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+
+      background: #f6f6f6;
+
+      border: 1px solid rgba(17, 17, 17, 0.08);
+      border-radius: 20px;
+
+      cursor: grab;
+
+      touch-action: pan-y;
+
+      box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.02),
+        0 12px 32px rgba(0, 0, 0, 0.04);
+    }
+
+    .dk-gallery-stage:active {
+      cursor: grabbing;
+    }
+
+
+    /* ---------------------------------------------------------
+       IMAGE TRACK
+    --------------------------------------------------------- */
+
+    .dk-gallery-track {
+      display: flex;
+
+      width: 100%;
+      height: 100%;
+
+      transition:
+        transform 520ms
+        cubic-bezier(0.22, 1, 0.36, 1);
+
+      will-change: transform;
+    }
+
+
+    /* ---------------------------------------------------------
+       SLIDE
+    --------------------------------------------------------- */
+
+    .dk-gallery-slide {
+      position: relative;
+
+      flex: 0 0 100%;
+
+      width: 100%;
+      height: 100%;
+
+      overflow: hidden;
+    }
+
+    .dk-gallery-slide img {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+
+      pointer-events: none;
+
+      -webkit-user-drag: none;
+    }
+
+
+    /* ---------------------------------------------------------
+       ARROWS
+    --------------------------------------------------------- */
+
+    .dk-gallery-arrow {
+      position: absolute;
+      top: 50%;
+      z-index: 5;
+
+      width: 44px;
+      height: 44px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+
+      background: rgba(17, 17, 17, 0.68);
+
+      color: #fff;
+
+      font-size: 23px;
+      font-family: Arial, sans-serif;
+
+      cursor: pointer;
+
+      transform: translateY(-50%);
+
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+
+      transition:
+        background 180ms ease,
+        transform 180ms ease,
+        opacity 180ms ease;
+    }
+
+    .dk-gallery-arrow:hover {
+      background: #111;
+
+      transform:
+        translateY(-50%)
+        scale(1.06);
+    }
+
+    .dk-gallery-arrow:focus-visible {
+      outline: 2px solid #B22222;
+      outline-offset: 3px;
+    }
+
+    .dk-gallery-prev {
+      left: 16px;
+    }
+
+    .dk-gallery-next {
+      right: 16px;
+    }
+
+
+    /* ---------------------------------------------------------
+       IMAGE COUNTER
+    --------------------------------------------------------- */
+
+    .dk-gallery-counter {
+      position: absolute;
+
+      right: 16px;
+      bottom: 16px;
+
+      z-index: 5;
+
+      min-width: 52px;
+
+      padding: 7px 11px;
+
+      border-radius: 999px;
+
+      background: rgba(17, 17, 17, 0.72);
+
+      color: #fff;
+
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1;
+
+      text-align: center;
+
+      letter-spacing: 0.04em;
+
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+
+    /* ---------------------------------------------------------
+       THUMBNAILS
+    --------------------------------------------------------- */
+
+    .dk-gallery-thumbnails {
+      display: flex;
+
+      align-items: center;
+      justify-content: flex-start;
+
+      gap: 10px;
+
+      margin-top: 14px;
+      padding: 4px 2px 8px;
+
+      overflow-x: auto;
+      overflow-y: hidden;
+
+      scrollbar-width: thin;
+
+      scroll-behavior: smooth;
+    }
+
+
+    .dk-gallery-thumb {
+      position: relative;
+
+      flex: 0 0 72px;
+
+      width: 72px;
+      height: 72px;
+
+      padding: 0;
+
+      overflow: hidden;
+
+      border: 1px solid rgba(17, 17, 17, 0.12);
+      border-radius: 10px;
+
+      background: #f5f5f5;
+
+      opacity: 0.58;
+
+      cursor: pointer;
+
+      transition:
+        opacity 180ms ease,
+        border-color 180ms ease,
+        transform 180ms ease,
+        box-shadow 180ms ease;
+    }
+
+
+    .dk-gallery-thumb:hover {
+      opacity: 0.9;
+    }
+
+
+    .dk-gallery-thumb.is-active {
+      opacity: 1;
+
+      border-color: #111;
+
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 0 0 1px #111,
+        0 6px 16px rgba(0, 0, 0, 0.10);
+    }
+
+
+    .dk-gallery-thumb:focus-visible {
+      outline: 2px solid #B22222;
+      outline-offset: 2px;
+    }
+
+
+    .dk-gallery-thumb img {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+
+      pointer-events: none;
+    }
+
+
+    /* ---------------------------------------------------------
+       MOBILE
+    --------------------------------------------------------- */
+
+    @media (max-width: 768px) {
+
+      .dk-product-gallery {
+        max-width: 100%;
+      }
+
+      .dk-gallery-stage {
+        border-radius: 14px;
+      }
+
+      .dk-gallery-arrow {
+        width: 38px;
+        height: 38px;
+
+        font-size: 20px;
+      }
+
+      .dk-gallery-prev {
+        left: 10px;
+      }
+
+      .dk-gallery-next {
+        right: 10px;
+      }
+
+      .dk-gallery-counter {
+        right: 10px;
+        bottom: 10px;
+      }
+
+      .dk-gallery-thumbnails {
+        gap: 8px;
+        margin-top: 10px;
+      }
+
+      .dk-gallery-thumb {
+        flex-basis: 60px;
+
+        width: 60px;
+        height: 60px;
+
+        border-radius: 8px;
+      }
+
+    }
+
+
+    /* ---------------------------------------------------------
+       REDUCED MOTION
+    --------------------------------------------------------- */
+
+    @media (prefers-reduced-motion: reduce) {
+
+      .dk-gallery-track,
+      .dk-gallery-thumb,
+      .dk-gallery-arrow {
+        transition: none;
+      }
+
+    }
+
+  </style><title>Dung dịch rửa súng phun — 401A | D.KARE</title><meta name="description" content="Vật tư xưởng dùng làm sạch súng phun sau thi công, theo loại màu và thiết bị tương thích."><link rel="canonical" href="https://dkare.vn/san-pham/aoyate/401a-rua-sung-phun.html"><meta name="robots" content="noindex, follow"><meta property="og:title" content="Dung dịch rửa súng phun | D.KARE"><meta property="og:description" content="Vật tư xưởng dùng làm sạch súng phun sau thi công, theo loại màu và thiết bị tương thích."><meta property="og:type" content="product"><meta property="og:url" content="https://dkare.vn/san-pham/aoyate/401a-rua-sung-phun.html"><meta property="og:image" content="https://dkare.vn/images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Product","name":"Dung dịch rửa súng phun","sku":"401A","brand":{"@type":"Brand","name":"AOYATE"},"description":"Vật tư xưởng dùng làm sạch súng phun sau thi công, theo loại màu và thiết bị tương thích.","url":"https://dkare.vn/san-pham/aoyate/401a-rua-sung-phun.html","image":["https://dkare.vn/images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png","https://dkare.vn/images/products/dkare-packaging/401a-rua-sung-phun-02-cong-dung.svg","https://dkare.vn/images/products/dkare-packaging/401a-rua-sung-phun-03-be-mat.svg","https://dkare.vn/images/products/dkare-packaging/401a-rua-sung-phun-04-cach-dung.svg","https://dkare.vn/images/products/dkare-packaging/401a-rua-sung-phun-05-luu-y.svg"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang chủ","item":"https://dkare.vn/"},{"@type":"ListItem","position":2,"name":"Sản phẩm","item":"https://dkare.vn/san-pham.html"},{"@type":"ListItem","position":3,"name":"Vật tư & hồ sơ sản phẩm","item":"https://dkare.vn/san-pham.html#tab-vat-tu-da"},{"@type":"ListItem","position":4,"name":"Dung dịch rửa súng phun","item":"https://dkare.vn/san-pham/aoyate/401a-rua-sung-phun.html"}]}]}</script></head><body><header class="page-header">
+
+  <a
+    href="../../index.html"
+    class="dk-brand"
+    aria-label="D.KARE — Trang chủ"
+  >
+
+    <img
+      src="../../images/logo/logo-ngang/1.png"
+      alt="D.KARE"
+      width="582"
+      height="133"
+    >
+
+  </a>
+
+
+  <nav aria-label="Điều hướng chính">
+
+    <a href="../../san-pham.html">
+      Sản phẩm
+    </a>
+
+    <a href="../../quy-trinh.html">
+      Quy trình
+    </a>
+
+    <a href="../../lien-he.html">
+      Liên hệ
+    </a>
+
+  </nav>
+
+
+  <a
+    class="header-phone"
+    href="tel:0795397519"
+  >
+    079 539 7519
+  </a>
+
+</header><main class="product-layout"><nav class="breadcrumbs" aria-label="Đường dẫn"><ol><li><a href="../../index.html">Trang chủ</a></li><li><a href="../../san-pham.html">Sản phẩm</a></li><li><a href="../../san-pham.html#tab-vat-tu-da">Vật tư & hồ sơ sản phẩm</a></li><li aria-current="page">Dung dịch rửa súng phun</li></ol></nav><section class="product-hero"><div class="product-photo"><div class="dk-pack-gallery" data-packaging-gallery aria-label="5 ảnh Dung dịch rửa súng phun"><button class="dk-pack-zoom" type="button" data-packaging-zoom aria-label="Phóng to ảnh đang xem"><img class="dk-pack-main" data-packaging-main src="../../images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png" alt="Thiết kế bao bì D.KARE — Dung dịch rửa súng phun" width="1200" height="1200" decoding="async"></button><div class="dk-pack-tools"><button type="button" data-packaging-prev aria-label="Ảnh trước">‹</button><span data-packaging-count aria-live="polite">1 / 5</span><button type="button" data-packaging-next aria-label="Ảnh tiếp theo">›</button></div><div class="dk-pack-thumbs" role="group" aria-label="Chọn ảnh sản phẩm"><button type="button" data-packaging-image="../../images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png" data-caption="Bao bì minh họa — Dung dịch rửa súng phun" aria-label="Xem bao bì" aria-pressed="true"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png" alt="" loading="lazy" width="120" height="120"><span>Bao bì</span></button><button type="button" data-packaging-image="../../images/products/dkare-packaging/401a-rua-sung-phun-02-cong-dung.svg" data-caption="Công dụng — Dung dịch rửa súng phun" aria-label="Xem công dụng" aria-pressed="false"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-02-cong-dung.svg" alt="" loading="lazy" width="120" height="120"><span>Công dụng</span></button><button type="button" data-packaging-image="../../images/products/dkare-packaging/401a-rua-sung-phun-03-be-mat.svg" data-caption="Bề mặt phù hợp — Dung dịch rửa súng phun" aria-label="Xem bề mặt" aria-pressed="false"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-03-be-mat.svg" alt="" loading="lazy" width="120" height="120"><span>Bề mặt</span></button><button type="button" data-packaging-image="../../images/products/dkare-packaging/401a-rua-sung-phun-04-cach-dung.svg" data-caption="Cách dùng tham khảo — Dung dịch rửa súng phun" aria-label="Xem cách dùng" aria-pressed="false"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-04-cach-dung.svg" alt="" loading="lazy" width="120" height="120"><span>Cách dùng</span></button><button type="button" data-packaging-image="../../images/products/dkare-packaging/401a-rua-sung-phun-05-luu-y.svg" data-caption="Lưu ý trước khi dùng — Dung dịch rửa súng phun" aria-label="Xem lưu ý" aria-pressed="false"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-05-luu-y.svg" alt="" loading="lazy" width="120" height="120"><span>Lưu ý</span></button></div><p class="dk-pack-caption" data-packaging-caption>Bao bì minh họa — Dung dịch rửa súng phun</p><p class="product-image-note">Bao bì là thiết kế minh họa. Ảnh thông tin không thay tài liệu kỹ thuật hoặc quy cách hàng giao.</p></div></div><div class="product-info"><h1>Dung dịch rửa súng phun</h1><p class="sku">Mã hiện tại: 401A</p><p>Danh mục: <a href="../../san-pham.html#tab-vat-tu-da">Vật tư / cần tư vấn phạm vi</a></p><p>Vật tư xưởng dùng làm sạch súng phun sau thi công, theo loại màu và thiết bị tương thích.</p><p>Nhận tư vấn quy cách và báo giá theo nhu cầu.</p><div class="actions"><a href="#tu-van">Nhận tư vấn sản phẩm</a><a href="tel:0795397519">Gọi D.KARE</a></div></div></section><!-- DKARE DETAIL START --><div class="dk-detail" data-product-code="401A"><nav class="dk-detail-nav" aria-label="Nội dung sản phẩm"><a href="#tong-quan">Tổng quan</a><a href="#ung-dung">Ứng dụng</a><a href="#thong-so">Thông số</a><a href="#thi-cong">Thi công</a><a href="#thu-vien">Ảnh & video</a><a href="#tai-lieu">Tài liệu & FAQ</a><a href="#lien-quan">Liên quan</a><a href="#tu-van">Tư vấn</a></nav><section class="dk-detail-section" id="tong-quan"><h2>Tổng quan sản phẩm</h2><div class="dk-detail-columns"><div><p>Vật tư xưởng dùng làm sạch súng phun sau thi công, theo loại màu và thiết bị tương thích.</p><p>Vai trò trong công việc: Vật tư xưởng.</p></div><div><h3>Phù hợp với ai?</h3><p>Kỹ thuật viên và cơ sở chăm sóc, sửa đồ da có nhu cầu và vật liệu phù hợp phạm vi sản phẩm.</p><h3>Chọn theo tình trạng bề mặt</h3><p>D.KARE tư vấn theo vật liệu, vùng cần xử lý và hệ sản phẩm đang dùng. Gửi ảnh tổng thể và ảnh gần vùng hỏng để trao đổi.</p></div></div></section><section class="dk-detail-section" id="ung-dung"><h2>Ứng dụng &amp; bề mặt phù hợp</h2><h3>Phạm vi theo tài liệu hiện có</h3><p>Bộ phận súng phun được nhà cung cấp cho phép tiếp xúc với dung dịch.</p><div class="dk-detail-note"><h3>Điều kiện và giới hạn</h3><p>Không dùng trực tiếp lên da và không dùng thay chất pha sơn. Catalog ghi 401D, cần đối chiếu với mã 401A hiện tại.</p></div><p>Phạm vi công bố của nhà cung cấp chưa thay thế thử mẫu trên vật liệu thực tế. Chuẩn bị bề mặt theo hướng dẫn của đúng hệ trước khi thi công.</p></section><section class="dk-detail-section" id="thong-so"><h2>Thông số kỹ thuật</h2><table class="dk-detail-table"><caption>Thông tin từ hồ sơ nhà cung cấp; quy cách cung cấp được xác nhận khi tư vấn.</caption><tbody><tr><th scope="row">Mã sản phẩm hiện tại</th><td>401A</td></tr><tr><th scope="row">Loại sản phẩm</th><td>Dung dịch rửa súng phun</td></tr><tr><th scope="row">Công dụng</th><td>Làm sạch dụng cụ phun</td></tr></tbody></table><p>Các dữ liệu chưa chốt về tỷ lệ pha, thời gian khô hoặc đóng rắn được xác nhận theo đúng mã và công thức trước thi công.</p></section><section class="dk-detail-section" id="thi-cong"><h2>Hướng dẫn thi công</h2><ol class="dk-detail-steps"><li>Xác nhận dung dịch phù hợp sơn và súng đang dùng.</li><li>Thực hiện vệ sinh theo hướng dẫn của thiết bị và sản phẩm.</li><li>Thu gom dung dịch sau vệ sinh theo tài liệu an toàn.</li><li>Kiểm tra súng sạch trước công việc tiếp theo.</li></ol><div class="dk-detail-note"><p>Trình tự trên giúp lựa chọn và chuẩn bị công việc. Các bước cần tỷ lệ, thời gian hoặc nhiệt độ phải theo hướng dẫn kỹ thuật đã xác nhận cho đúng sản phẩm. Video không thay tài liệu kỹ thuật.</p></div></section><section class="dk-detail-section" id="thu-vien"><h2>Hình ảnh &amp; video</h2><div data-media-section><div class="dk-media-filter" role="group" aria-label="Lọc tư liệu"><button type="button" data-media-filter="all" aria-pressed="true">Tất cả</button><button type="button" data-media-filter="image" aria-pressed="false">Hình ảnh</button><button type="button" data-media-filter="video" aria-pressed="false">Video</button></div><p>Ảnh bao bì D.KARE là thiết kế minh họa, chưa phải ảnh hàng giao thực tế. Video và tài liệu kỹ thuật giữ theo hồ sơ nguồn AOYATE.</p><div class="dk-media-grid"><figure class="dk-media-item" data-media-kind="image"><button class="dk-media-image" type="button" data-zoom-image="../../images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png" data-caption="Bao bì minh họa — Dung dịch rửa súng phun" aria-label="Phóng to Bao bì minh họa — Dung dịch rửa súng phun"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png" alt="Thiết kế bao bì D.KARE — Dung dịch rửa súng phun" loading="lazy" decoding="async"></button><figcaption>Bao bì minh họa — Dung dịch rửa súng phun</figcaption></figure><figure class="dk-media-item" data-media-kind="image"><button class="dk-media-image" type="button" data-zoom-image="../../images/products/dkare-packaging/401a-rua-sung-phun-02-cong-dung.svg" data-caption="Công dụng — Dung dịch rửa súng phun" aria-label="Phóng to Công dụng — Dung dịch rửa súng phun"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-02-cong-dung.svg" alt="Công dụng — Dung dịch rửa súng phun" loading="lazy" decoding="async"></button><figcaption>Công dụng — Dung dịch rửa súng phun</figcaption></figure><figure class="dk-media-item" data-media-kind="image"><button class="dk-media-image" type="button" data-zoom-image="../../images/products/dkare-packaging/401a-rua-sung-phun-03-be-mat.svg" data-caption="Bề mặt phù hợp — Dung dịch rửa súng phun" aria-label="Phóng to Bề mặt phù hợp — Dung dịch rửa súng phun"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-03-be-mat.svg" alt="Bề mặt phù hợp — Dung dịch rửa súng phun" loading="lazy" decoding="async"></button><figcaption>Bề mặt phù hợp — Dung dịch rửa súng phun</figcaption></figure><figure class="dk-media-item" data-media-kind="image"><button class="dk-media-image" type="button" data-zoom-image="../../images/products/dkare-packaging/401a-rua-sung-phun-04-cach-dung.svg" data-caption="Cách dùng tham khảo — Dung dịch rửa súng phun" aria-label="Phóng to Cách dùng tham khảo — Dung dịch rửa súng phun"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-04-cach-dung.svg" alt="Cách dùng tham khảo — Dung dịch rửa súng phun" loading="lazy" decoding="async"></button><figcaption>Cách dùng tham khảo — Dung dịch rửa súng phun</figcaption></figure><figure class="dk-media-item" data-media-kind="image"><button class="dk-media-image" type="button" data-zoom-image="../../images/products/dkare-packaging/401a-rua-sung-phun-05-luu-y.svg" data-caption="Lưu ý trước khi dùng — Dung dịch rửa súng phun" aria-label="Phóng to Lưu ý trước khi dùng — Dung dịch rửa súng phun"><img src="../../images/products/dkare-packaging/401a-rua-sung-phun-05-luu-y.svg" alt="Lưu ý trước khi dùng — Dung dịch rửa súng phun" loading="lazy" decoding="async"></button><figcaption>Lưu ý trước khi dùng — Dung dịch rửa súng phun</figcaption></figure><figure class="dk-media-item dk-media-video" data-media-kind="video"><video controls playsinline preload="none" aria-label="Video Dung dịch rửa súng phun"><source src="../../videos/products/250e468b2f8037b7.mp4" type="video/mp4">Trình duyệt chưa hỗ trợ video. <a href="../../videos/products/250e468b2f8037b7.mp4">Mở video</a></video><figcaption>Video được cung cấp cho 401A — tham khảo thao tác; áp dụng theo hướng dẫn đúng công thức.</figcaption></figure></div></div></section><section class="dk-detail-section" id="tai-lieu"><h2>Tài liệu kỹ thuật &amp; câu hỏi thường gặp</h2><div class="dk-detail-docs"><a href="../../documents/aoyate/catalog-quy-trinh.pdf" download>Catalog và quy trình AOYATE (nguồn tham khảo)</a></div><p>TDS/SDS đúng mã: đang đối chiếu. Catalog không thay tài liệu kỹ thuật và an toàn của lô cung cấp.</p><div class="dk-detail-faq"><details><summary>Có dùng 401A để pha sơn không?</summary><p>Đây là dung dịch làm sạch dụng cụ. Chất pha sơn cần dùng đúng mã tương thích của hệ.</p></details><details><summary>D.KARE báo giá theo quy cách nào?</summary><p>Gửi mã, màu/độ bóng, quy cách và số lượng cần mua. D.KARE xác nhận cấu hình cung cấp rồi báo giá; giá nhập nguồn không được dùng làm giá bán.</p></details><details><summary>Có tài liệu TDS và SDS đúng mã chưa?</summary><p>TDS/SDS đúng mã và công thức đang được đối chiếu. Chỉ tài liệu đã có trong mục này được cung cấp để tải; catalog là tài liệu tham khảo của hãng.</p></details></div></section><section class="dk-detail-section" id="lien-quan"><h2>Sản phẩm liên quan</h2><p>Tham khảo các công đoạn liên quan. Danh sách này không khẳng định các sản phẩm có thể pha chung hoặc thay thế nhau.</p><div class="dk-related-grid"><a class="dk-related-card" href="../../san-pham/aoyate/04-bo-phuc-hoi-noi-that.html"><img src="../../images/products/dkare-packaging/04-bo-phuc-hoi-noi-that-dkare-v1.png" alt="Thiết kế bao bì D.KARE — Bộ phục hồi da nội thất ô tô" loading="lazy" decoding="async"><strong>Bộ phục hồi da nội thất ô tô</strong><span>Mã 04 · Liên hệ báo giá</span></a><a class="dk-related-card" href="../../san-pham/aoyate/403d-lam-sach-nhe.html"><img src="../../images/products/dkare-packaging/403d-lam-sach-nhe-dkare-v1.png" alt="Thiết kế bao bì D.KARE — Chất làm sạch nhẹ cho da" loading="lazy" decoding="async"><strong>Chất làm sạch nhẹ cho da</strong><span>Mã 403D · Liên hệ báo giá</span></a><a class="dk-related-card" href="../../san-pham/aoyate/412d-lam-sach-trung-binh-manh.html"><img src="../../images/products/dkare-packaging/412d-lam-sach-trung-binh-manh-dkare-v1.png" alt="Thiết kế bao bì D.KARE — Chất làm sạch trung bình–mạnh" loading="lazy" decoding="async"><strong>Chất làm sạch trung bình–mạnh</strong><span>Mã 412D · Liên hệ báo giá</span></a></div></section><section class="dk-detail-section" id="tu-van"><h2>Tư vấn &amp; yêu cầu báo giá</h2><p>Trao đổi với D.KARE về <strong>Dung dịch rửa súng phun</strong> — mã 401A.</p>
+    <form class="dk-detail-form" data-product-inquiry>
+    <input type="hidden" name="product_code" value="401A">
+    <label for="inquiry-name">Họ tên<input id="inquiry-name" name="name" autocomplete="name" maxlength="100" required pattern=".*\S.*"></label>
+    <label for="inquiry-phone">Số điện thoại<input id="inquiry-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="22"></label>
+    <label class="dk-detail-wide" for="inquiry-need">Nhu cầu<select id="inquiry-need" name="need"><option>Tư vấn kỹ thuật</option><option>Mua sản phẩm</option><option>Nhận báo giá số lượng</option><option>Hợp tác đại lý</option></select></label>
+    <label class="dk-detail-wide" for="inquiry-message">Nội dung cần tư vấn<textarea id="inquiry-message" name="message" rows="4" maxlength="3000" placeholder="Vật liệu, tình trạng bề mặt, màu và số lượng cần dùng" required></textarea></label>
+    <p class="dk-detail-wide dk-detail-status">Biểu mẫu giúp soạn nội dung để gửi qua email. Thông tin chưa được gửi đến D.KARE khi bạn bấm soạn.</p>
+    <button type="submit">Soạn yêu cầu tư vấn</button>
+    <div class="dk-detail-wide dk-form-result" data-inquiry-result hidden><p data-inquiry-status role="status"></p><p data-inquiry-text></p><div class="actions"><a data-inquiry-email href="mailto:dkarepaint@gmail.com">Mở email để gửi</a><a href="tel:0795397519">Gọi D.KARE</a></div><button type="button" data-inquiry-copy>Sao chép nội dung</button></div></form></section></div><dialog class="dk-detail-lightbox" data-image-dialog aria-label="Xem ảnh sản phẩm"><div class="dk-lightbox-tools"><button type="button" data-image-prev aria-label="Ảnh trước">Ảnh trước</button><button type="button" data-image-next aria-label="Ảnh tiếp">Ảnh tiếp</button><button type="button" data-image-close>Đóng</button></div><img alt=""><p class="dk-lightbox-caption" data-image-caption></p></dialog><!-- DKARE DETAIL END --></main><footer
+  class="dk-sticky-footer"
+  role="contentinfo"
+>
+
+  <div
+    class="dk-footer-glow"
+    aria-hidden="true"
+  ></div>
+
+
+  <div class="dk-footer-inner">
+
+
+    <div class="dk-footer-main">
+
+
+      <!-- BRAND -->
+
+      <div class="dk-footer-brand">
+
+        <a
+          href="../../index.html"
+          aria-label="D.KARE — Trang chủ"
+        >
+
+          <img
+            src="../../images/logo/logo-ngang/2.png"
+            alt="D.KARE"
+            width="582"
+            height="133"
+          >
+
+        </a>
+
+
+        <p>
+          Sơn và giải pháp hoàn thiện nội thất ô tô cho garage,
+          kỹ thuật viên và chủ xe.
+        </p>
+
+
+        <div class="dk-footer-social">
+
+          <a
+            href="https://www.facebook.com/profile.php?id=61592756672301"
+            aria-label="Facebook D.KARE"
+            target="_blank"
+            rel="noopener"
+          >
+            f
+          </a>
+
+          <a
+            href="https://www.youtube.com/@dkarepaint"
+            aria-label="YouTube D.KARE"
+            target="_blank"
+            rel="noopener"
+          >
+            ▶
+          </a>
+
+          <a
+            href="mailto:dkarepaint@gmail.com"
+            aria-label="Email D.KARE"
+          >
+            @
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PRODUCTS -->
+
+      <div class="dk-footer-group">
+
+        <h3>
+          Sản phẩm
+        </h3>
+
+        <a href="../../san-pham.html#tab-nhua">
+          Sơn nhựa
+        </a>
+
+        <a href="../../san-pham.html#tab-da">
+          Sơn da
+        </a>
+
+        <a href="../../san-pham.html#tab-ni">
+          Sơn nỉ
+        </a>
+
+      </div>
+
+
+
+      <!-- SOLUTIONS -->
+
+      <div class="dk-footer-group">
+
+        <h3>
+          Giải pháp
+        </h3>
+
+        <a href="../../giai-phap.html#phuc-hoi-da">
+          Phục hồi da nội thất ô tô
+        </a>
+
+        <a href="../../gia-cong-son.html">
+          Dịch vụ sơn nội thất cho Garage &amp; Đối tác
+        </a>
+
+        <a href="../../phan-phoi-vat-tu.html">
+          Phân phối vật tư
+        </a>
+
+        <a href="../../dao-tao.html">
+          Đào tạo 3 tháng
+        </a>
+
+        <a href="../../doi-mau.html">
+          Đổi màu nội thất
+        </a>
+
+      </div>
+
+
+
+      <!-- POLICIES -->
+
+      <div class="dk-footer-group">
+
+        <h3>
+          Chính sách
+        </h3>
+
+        <a href="../../bao-hanh.html">
+          Bảo hành
+        </a>
+
+        <a href="../../doi-tra.html">
+          Đổi trả
+        </a>
+
+        <a href="../../van-chuyen.html">
+          Vận chuyển
+        </a>
+
+        <a href="../../chinh-sach-bao-mat.html">
+          Bảo mật
+        </a>
+
+      </div>
+
+
+
+      <!-- SUPPORT -->
+
+      <div class="dk-footer-group">
+
+        <h3>
+          Hỗ trợ
+        </h3>
+
+        <a href="../../du-an.html">
+          Dự án
+        </a>
+
+        <a href="../../blog.html">
+          Kiến thức
+        </a>
+
+        <a href="../../tai-lieu.html">
+          Tài liệu
+        </a>
+
+        <a href="../../lien-he.html">
+          Liên hệ
+        </a>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="dk-footer-bottom">
+
+      <span>
+        © 2026 D.KARE Việt Nam · Đà Nẵng
+      </span>
+
+
+      <span>
+
+        <a href="tel:0795397519">
+          079 539 7519
+        </a>
+
+        ·
+
+        <a href="mailto:dkarepaint@gmail.com">
+          dkarepaint@gmail.com
+        </a>
+
+      </span>
+
+    </div>
+
+
+  </div>
+
+</footer><script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const gallery = document.getElementById("dn1Gallery");
+
+  if (!gallery) return;
+
+
+  /* -------------------------------------------------------
+     ELEMENTS
+  ------------------------------------------------------- */
+
+  const track =
+    gallery.querySelector(".dk-gallery-track");
+
+  const slides =
+    Array.from(
+      gallery.querySelectorAll(".dk-gallery-slide")
+    );
+
+  const thumbnails =
+    Array.from(
+      gallery.querySelectorAll(".dk-gallery-thumb")
+    );
+
+  const previousButton =
+    gallery.querySelector(".dk-gallery-prev");
+
+  const nextButton =
+    gallery.querySelector(".dk-gallery-next");
+
+  const currentCounter =
+    gallery.querySelector(".dk-gallery-current");
+
+  const thumbnailContainer =
+    gallery.querySelector(".dk-gallery-thumbnails");
+
+  const stage =
+    gallery.querySelector(".dk-gallery-stage");
+
+
+  /* -------------------------------------------------------
+     STATE
+  ------------------------------------------------------- */
+
+  let currentIndex = 0;
+
+  let startX = 0;
+
+  let currentX = 0;
+
+  let dragging = false;
+
+  const SWIPE_THRESHOLD = 50;
+
+
+  /* -------------------------------------------------------
+     UPDATE GALLERY
+  ------------------------------------------------------- */
+
+  function updateGallery(index) {
+
+    if (index < 0) {
+      index = slides.length - 1;
+    }
+
+    if (index >= slides.length) {
+      index = 0;
+    }
+
+
+    currentIndex = index;
+
+
+    /* Move main images */
+
+    track.style.transform =
+      `translateX(-${currentIndex * 100}%)`;
+
+
+    /* Counter */
+
+    currentCounter.textContent =
+      String(currentIndex + 1);
+
+
+    /* Thumbnail states */
+
+    thumbnails.forEach(function (thumbnail, index) {
+
+      const isActive =
+        index === currentIndex;
+
+
+      thumbnail.classList.toggle(
+        "is-active",
+        isActive
+      );
+
+
+      if (isActive) {
+
+        thumbnail.setAttribute(
+          "aria-current",
+          "true"
+        );
+
+      } else {
+
+        thumbnail.removeAttribute(
+          "aria-current"
+        );
+
+      }
+
+    });
+
+
+    /* Keep selected thumbnail visible */
+
+    const activeThumbnail =
+      thumbnails[currentIndex];
+
+    if (activeThumbnail) {
+
+      activeThumbnail.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "center"
+      });
+
+    }
+
+  }
+
+
+  /* -------------------------------------------------------
+     PREVIOUS
+  ------------------------------------------------------- */
+
+  function previousSlide() {
+
+    updateGallery(
+      currentIndex - 1
+    );
+
+  }
+
+
+  /* -------------------------------------------------------
+     NEXT
+  ------------------------------------------------------- */
+
+  function nextSlide() {
+
+    updateGallery(
+      currentIndex + 1
+    );
+
+  }
+
+
+  /* -------------------------------------------------------
+     ARROWS
+  ------------------------------------------------------- */
+
+  previousButton.addEventListener(
+    "click",
+    previousSlide
+  );
+
+
+  nextButton.addEventListener(
+    "click",
+    nextSlide
+  );
+
+
+  /* -------------------------------------------------------
+     THUMBNAILS
+  ------------------------------------------------------- */
+
+  thumbnails.forEach(function (thumbnail) {
+
+    thumbnail.addEventListener(
+      "click",
+      function () {
+
+        const index =
+          Number(
+            thumbnail.dataset.index
+          );
+
+        updateGallery(index);
+
+      }
+    );
+
+  });
+
+
+  /* -------------------------------------------------------
+     KEYBOARD
+  ------------------------------------------------------- */
+
+  gallery.setAttribute(
+    "tabindex",
+    "0"
+  );
+
+
+  gallery.addEventListener(
+    "keydown",
+    function (event) {
+
+      if (event.key === "ArrowLeft") {
+
+        previousSlide();
+
+      }
+
+
+      if (event.key === "ArrowRight") {
+
+        nextSlide();
+
+      }
+
+    }
+  );
+
+
+  /* -------------------------------------------------------
+     POINTER / SWIPE START
+  ------------------------------------------------------- */
+
+  stage.addEventListener(
+    "pointerdown",
+    function (event) {
+
+      if (event.target.closest("button")) return;
+      if (event.pointerType === "mouse" &&
+          event.button !== 0) {
+        return;
+      }
+
+
+      dragging = true;
+
+      startX =
+        event.clientX;
+
+      currentX =
+        event.clientX;
+
+
+      stage.setPointerCapture(
+        event.pointerId
+      );
+
+    }
+  );
+
+
+  /* -------------------------------------------------------
+     POINTER MOVE
+  ------------------------------------------------------- */
+
+  stage.addEventListener(
+    "pointermove",
+    function (event) {
+
+      if (!dragging) return;
+
+      currentX =
+        event.clientX;
+
+    }
+  );
+
+
+  /* -------------------------------------------------------
+     POINTER END
+  ------------------------------------------------------- */
+
+  function finishSwipe(event) {
+
+    if (!dragging) return;
+
+    dragging = false;
+
+
+    const difference =
+      currentX - startX;
+
+
+    if (
+      Math.abs(difference) <
+      SWIPE_THRESHOLD
+    ) {
+      return;
+    }
+
+
+    if (difference < 0) {
+
+      nextSlide();
+
+    } else {
+
+      previousSlide();
+
+    }
+
+
+    try {
+
+      stage.releasePointerCapture(
+        event.pointerId
+      );
+
+    } catch (error) {
+
+      /* Pointer may already be released */
+
+    }
+
+  }
+
+
+  stage.addEventListener(
+    "pointerup",
+    finishSwipe
+  );
+
+
+  stage.addEventListener(
+    "pointercancel",
+    function () {
+
+      dragging = false;
+
+    }
+  );
+
+
+  /* -------------------------------------------------------
+     PREVENT IMAGE DRAG
+  ------------------------------------------------------- */
+
+  gallery
+    .querySelectorAll("img")
+    .forEach(function (image) {
+
+      image.addEventListener(
+        "dragstart",
+        function (event) {
+
+          event.preventDefault();
+
+        }
+      );
+
+    });
+
+
+  /* -------------------------------------------------------
+     INITIALIZE
+  ------------------------------------------------------- */
+
+  updateGallery(0);
+
+});
+
+</script></body></html>

@@ -3,270 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="D.KARE cung cấp sơn nhựa DN-1, sơn da DL-1 và phụ kiện phục hồi nội thất ô tô. Giá tốt cho gara, auto detailing tại Đà Nẵng. Hỗ trợ kỹ thuật miễn phí.">
-    <meta name="keywords" content="D.KARE, sơn phục hồi nội thất ô tô, sơn nhựa ô tô, sơn da ô tô, DN-1, DL-1, gara, detailing, Đà Nẵng">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://dkare.vn/">
-    <link rel="icon" type="image/png" href="images/logo1.png">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="D.KARE – Sơn Phục Hồi Nội Thất Ô Tô Chuyên Nghiệp | Đà Nẵng">
-    <meta property="og:description" content="Sơn nhựa DN-1, sơn da DL-1 và phụ kiện phục hồi nội thất ô tô. Giá tốt cho gara, auto detailing tại Đà Nẵng.">
-    <meta property="og:url" content="https://dkare.vn/">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="D.KARE – Sơn Phục Hồi Nội Thất Ô Tô Chuyên Nghiệp | Đà Nẵng">
-    <meta name="twitter:description" content="Sơn nhựa DN-1, sơn da DL-1 và phụ kiện phục hồi nội thất ô tô. Hỗ trợ kỹ thuật miễn phí.">
-    <title>D.KARE – Sơn Phục Hồi Nội Thất Ô Tô Chuyên Nghiệp | Đà Nẵng</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config={theme:{extend:{fontFamily:{sans:['Montserrat','sans-serif']},colors:{primary:'#111111',accent:'#B22222',surface:'#F5F5F5','text-primary':'#1A1A1A','text-secondary':'#666666',border:'#E5E5E5'}}}}
-    </script>
-    <style>
-        html{scroll-behavior:smooth;scroll-padding-top:80px}
-        body{font-family:'Montserrat',sans-serif;background:#000;color:#1A1A1A;-webkit-font-smoothing:antialiased}
-        .skip-to-content{position:absolute;top:-100%;left:16px;background:#B22222;color:#fff;padding:12px 20px;border-radius:8px;font-weight:600;z-index:1000;transition:top .2s}
-        .skip-to-content:focus{top:16px}
-        .glass-nav{background:rgba(0,0,0,.7);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.06)}
-        *:focus-visible{outline:2px solid #B22222;outline-offset:2px;border-radius:4px}
-        .section-reveal{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
-        .section-reveal.visible{opacity:1;transform:translateY(0)}
-        @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-        .hero-anim-1{animation:fadeUp .8s .3s forwards;opacity:0}
-        .hero-anim-2{animation:fadeUp .8s .5s forwards;opacity:0}
-        .hero-anim-3{animation:fadeUp .8s .7s forwards;opacity:0}
-        .hero-anim-4{animation:fadeUp .8s .9s forwards;opacity:0}
-        .hero-anim-5{animation:fadeUp .8s 1.1s forwards;opacity:0}
-        .product-card-3d{perspective:800px;transform-style:preserve-3d;transition:transform .1s ease-out}
-        .product-card-3d .glare{position:absolute;inset:0;background:radial-gradient(circle,rgba(255,255,255,.3) 0%,transparent 70%);opacity:0;transition:opacity .3s;pointer-events:none;border-radius:16px}
-        .product-card-3d:hover .glare{opacity:1}
-        .partner-badge{animation:gentlePulse 3s ease-in-out infinite}
-        @keyframes gentlePulse{0%,100%{box-shadow:0 0 0 0 rgba(178,34,34,.3)}50%{box-shadow:0 0 0 12px rgba(178,34,34,0)}}
-        .nav-link{position:relative}
-        .nav-link::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:#B22222;transition:width .3s}
-        .nav-link:hover::after{width:100%}
-        .parallax-section{position:relative;overflow:hidden}
-        .parallax-bg{position:absolute;inset:0;background-size:cover;background-position:center;will-change:transform;z-index:0}
-        .solution-card{transition:all .3s ease;border:1px solid #E8E8E8}
-        .solution-card:hover{border-color:#B22222;transform:translateY(-4px);box-shadow:0 12px 24px rgba(178,34,34,.1)}
-        .counter{font-size:clamp(2.5rem,6vw,4rem);font-weight:900;color:#B22222;line-height:1}
-        .ba-tab{border-bottom:2px solid transparent;transition:all .3s}
-        .ba-tab.active{border-bottom-color:#B22222;color:#B22222}
-        /* FAQ Scroller */
-        @keyframes scrollLeft{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-        @keyframes scrollRight{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
-        .animate-scroll-left{animation:scrollLeft var(--speed,40s) linear infinite}
-        .animate-scroll-right{animation:scrollRight var(--speed,40s) linear infinite}
-        .faq-card{width:350px;flex-shrink:0}
-        @media(max-width:640px){.faq-card{width:300px}}
-    </style>
-</head>
-<body>
-<a href="#main-content" class="skip-to-content">Bỏ qua điều hướng</a>
 
-<!-- ==================== HEADER ==================== -->
-<header class="fixed top-0 left-0 w-full z-50 glass-nav" role="banner">
-    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <a href="index.html" class="flex items-center no-underline">
-            <span class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">D</span>
-            <span class="text-2xl md:text-3xl font-extrabold tracking-tight text-accent">.</span>
-            <span class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">KARE</span>
-        </a>
-        <nav class="hidden lg:flex items-center gap-6">
-            <a href="index.html" class="nav-link text-sm font-medium text-white/80 hover:text-white">Trang chủ</a>
-            <a href="gioi-thieu.html" class="nav-link text-sm font-medium text-white/80 hover:text-white">Giới thiệu</a>
-            <a href="san-pham.html" class="nav-link text-sm font-medium text-white/80 hover:text-white">Sản phẩm</a>
-            <a href="index.html#solutions" class="nav-link text-sm font-medium text-white/80 hover:text-white">Giải pháp</a>
-            <a href="blog.html" class="nav-link text-sm font-medium text-white/80 hover:text-white">Blog</a>
-            <a href="video.html" class="nav-link text-sm font-medium text-white/80 hover:text-white">Video</a>
-            <a href="cau-hoi.html" class="nav-link text-sm font-medium text-white/80 hover:text-white">FAQ</a>
-        </nav>
-        <div class="hidden lg:flex items-center gap-4">
-            <a href="tel:0795397519" class="flex items-center gap-2 text-sm font-semibold text-white/70 hover:text-white"><i data-lucide="phone" class="w-4 h-4"></i>079 539 7519</a>
-            <a href="lien-he.html" class="bg-accent text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-white hover:text-primary">Liên hệ</a>
-        </div>
-        <button id="mobile-menu-btn" class="lg:hidden p-2 text-white" aria-label="Menu"><i data-lucide="menu" class="w-6 h-6" id="menu-icon"></i></button>
-    </div>
-    <div id="mobile-menu" class="lg:hidden hidden px-6 pb-6 bg-black/95 backdrop-blur-xl border-t border-white/10">
-        <nav class="flex flex-col gap-3 pt-4"><a href="index.html" class="text-sm py-2 text-white/80">Trang chủ</a><a href="gioi-thieu.html" class="text-sm py-2 text-white/80">Giới thiệu</a><a href="san-pham.html" class="text-sm py-2 text-white/80">Sản phẩm</a><a href="index.html#solutions" class="text-sm py-2 text-white/80">Giải pháp</a><a href="blog.html" class="text-sm py-2 text-white/80">Blog</a><a href="video.html" class="text-sm py-2 text-white/80">Video</a><a href="cau-hoi.html" class="text-sm py-2 text-white/80">FAQ</a><a href="lien-he.html" class="bg-accent text-white text-center px-5 py-3 rounded-full text-sm font-semibold mt-2">Liên hệ ngay</a></nav>
-    </div>
-</header>
+    <!-- ==================== SEO ==================== -->
 
-<main id="main-content">
+    <meta
+        name="keywords"
+        content="D.KARE, sơn nội thất ô tô, sơn nhựa nội thất ô tô, sơn da nội thất ô tô, sơn nỉ ô tô, DN-1, DL-1, Đà Nẵng"
+    >
 
-<!-- ==================== 1. HERO ==================== -->
-<section id="hero" class="relative h-screen w-full bg-black flex flex-col items-center justify-center overflow-hidden" aria-labelledby="hero-headline">
-    <canvas id="starfield" class="absolute inset-0 w-full h-full"></canvas>
-    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black z-10"></div>
-    <div class="relative z-20 text-center px-6 max-w-5xl mx-auto flex flex-col items-center gap-6">
-        <div class="hero-anim-1 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm"><i data-lucide="zap" class="h-4 w-4 text-accent"></i><span class="text-sm font-medium text-gray-200">PREMIUM AUTOMOTIVE COATING</span></div>
-        <h1 id="hero-headline" class="hero-anim-2 text-5xl md:text-7xl font-bold tracking-tighter mb-4 leading-[1.1]"><span class="bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">D</span><span class="text-accent">.</span><span class="bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">KARE</span></h1>
-        <p class="hero-anim-3 text-2xl md:text-4xl font-bold text-white leading-tight">Sơn phục hồi <span class="text-accent">nội thất ô tô</span><br>chuyên nghiệp</p>
-        <p class="hero-anim-4 max-w-2xl text-lg text-gray-400 leading-relaxed">Giải pháp sơn nhựa DN-1 và sơn da DL-1 cao cấp — dành cho gara, detailing studio và kỹ thuật viên chuyên nghiệp.</p>
-        <div class="hero-anim-5 flex flex-col sm:flex-row gap-4 pt-4"><a href="san-pham.html" class="inline-flex items-center gap-2 bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary transition-all duration-300 transform hover:scale-105 shadow-lg shadow-accent/25">Xem sản phẩm<i data-lucide="arrow-right" class="w-5 h-5"></i></a><a href="lien-he.html" class="inline-flex items-center gap-2 border-2 border-white/40 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10">Liên hệ<i data-lucide="arrow-right" class="w-5 h-5"></i></a></div>
-    </div>
-    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-20"><a href="#trusted" class="text-white/40 hover:text-white"><i data-lucide="chevron-down" class="w-8 h-8"></i></a></div>
+
+    <link rel="icon" type="image/png" href="images/logo/logo/1.png">
+
+    <!-- ==================== OPEN GRAPH ==================== -->
+
+
+
+
+
+
+    <!-- ==================== TWITTER ==================== -->
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/index-restored.css?v=20260925-1">
+<link rel="stylesheet" href="assets/index-home.css?v=20260926-1">
+<script defer src="assets/site.js?v=20260928-3"></script><script defer src="assets/index-home.js?v=20260926-1"></script>
+<noscript><style>.dk-home-page .dk-desktop-nav{display:flex;flex-wrap:wrap}.dk-home-page .dk-global-inner{height:auto;min-height:74px;flex-wrap:wrap;padding:16px 0}.dk-home-page .dk-menu-toggle{display:none}</style></noscript>
+<link rel="stylesheet" href="assets/index-structure.css?v=20260927-1"><script defer src="assets/index-structure.js?v=20260927-1"></script>
+<link rel="stylesheet" href="assets/product-feature.css?v=20260929-2"><script defer src="assets/projects-feature.js?v=20260927-1"></script>
+<script defer src="assets/customer-logos.js?v=20260927-1"></script>
+<link rel="stylesheet" href="assets/header-type.css?v=20260928-1">
+<link rel="stylesheet" href="assets/shared-footer.css?v=20261010-1">
+<link rel="stylesheet" href="assets/navigation-groups.css?v=20260928-2">
+<link rel="stylesheet" href="assets/solutions-scroll.css?v=20260929-1">
+<script defer src="assets/solutions-scroll.js?v=20260929-2"></script>
+<link rel="stylesheet" href="assets/home-product-carousel.css?v=20260929-1">
+<link rel="stylesheet" href="assets/home-section-headings.css?v=20260929-1">
+<script defer src="assets/home-product-carousel.js?v=20260929-1"></script>
+    <link rel="stylesheet" href="assets/home-liquid-hero.css?v=20261003-2">
+<script defer src="assets/vendor/gsap-3.15.0.min.js?v=3.15.0"></script>
+    <link rel="stylesheet" href="assets/home-aurora.css?v=20261008-2"><script defer src="assets/home-liquid-hero.js?v=20261008-2"></script>
+<link rel="stylesheet" href="assets/index-polish.css?v=20260929-2">
+
+<title>D.KARE — Sơn Nhựa, Sơn Da &amp; Sơn Nỉ Nội Thất Ô Tô</title>
+<link rel="canonical" href="https://dkare.vn/">
+<meta name="description" content="D.KARE cung cấp sơn nhựa, sơn da, sơn nỉ nội thất ô tô và vật tư chuyên dụng cho garage, detailing studio và kỹ thuật viên.">
+<meta name="robots" content="index, follow">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="D.KARE">
+<meta property="og:title" content="D.KARE — Sơn Nhựa, Sơn Da &amp; Sơn Nỉ Nội Thất Ô Tô">
+<meta property="og:description" content="D.KARE cung cấp sơn nhựa, sơn da, sơn nỉ nội thất ô tô và vật tư chuyên dụng cho garage, detailing studio và kỹ thuật viên.">
+<meta property="og:url" content="https://dkare.vn/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="D.KARE — Sơn Nhựa, Sơn Da &amp; Sơn Nỉ Nội Thất Ô Tô">
+<meta name="twitter:description" content="D.KARE cung cấp sơn nhựa, sơn da, sơn nỉ nội thất ô tô và vật tư chuyên dụng cho garage, detailing studio và kỹ thuật viên.">
+<meta property="og:image" content="https://dkare.vn/images/about-bg.jpg">
+<meta name="twitter:image" content="https://dkare.vn/images/about-bg.jpg">
+<script id="dkare-page-schema" type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://dkare.vn/#webpage", "url": "https://dkare.vn/", "name": "D.KARE — Sơn Nhựa, Sơn Da & Sơn Nỉ Nội Thất Ô Tô", "description": "D.KARE cung cấp sơn nhựa, sơn da, sơn nỉ nội thất ô tô và vật tư chuyên dụng cho garage, detailing studio và kỹ thuật viên.", "inLanguage": "vi-VN", "isPartOf": {"@id": "https://dkare.vn/#website"}}, {"@type": "WebSite", "@id": "https://dkare.vn/#website", "url": "https://dkare.vn/", "name": "D.KARE", "inLanguage": "vi-VN", "publisher": {"@id": "https://dkare.vn/#organization"}}, {"@type": "Organization", "@id": "https://dkare.vn/#organization", "name": "D.KARE", "url": "https://dkare.vn/", "description": "Sơn và giải pháp phục hồi, đổi màu, hoàn thiện nội thất ô tô."}]}</script>
+</head><body class="dk-home-page"><a href="#main-content" class="skip-to-content">Bỏ qua điều hướng</a><header class="dk-global-header" role="banner"><div class="dk-global-inner"><a class="dk-brand" href="index.html" aria-label="D.KARE — Trang chủ"><img src="images/logo/logo-ngang/1.png" alt="D.KARE" width="582" height="133"></a><nav class="dk-desktop-nav" aria-label="Điều hướng chính"><a class="dk-nav-link" href="gioi-thieu.html">Giới thiệu</a><a class="dk-nav-link" href="san-pham.html">Sản phẩm</a><a class="dk-nav-link" href="giai-phap.html">Giải pháp</a><a class="dk-nav-link" href="du-an.html">Dự án</a><a class="dk-nav-link" href="blog.html">Kiến thức</a></nav><div class="dk-header-actions"><a class="dk-header-contact" href="lien-he.html">Nhận tư vấn</a></div></div></header><main id="main-content" class="dk-home" tabindex="-1">
+<section id="hero" class="home-quordix home-liquid-hero" aria-labelledby="hero-headline" data-liquid-hero>
+  <div class="home-aurora-background" aria-hidden="true"></div><canvas class="home-liquid-canvas" aria-hidden="true"></canvas>
+  <div class="home-quordix-content">
+    <p class="home-liquid-badge">SƠN NỘI THẤT Ô TÔ · D.KARE</p>
+    <h1 id="hero-headline"><span>SƠN NỘI THẤT</span><span>Ô TÔ D.KARE</span></h1>
+    <p class="home-liquid-description">Nội thất bạc màu, trầy xước hay lệch tông? D.KARE giúp bạn bắt đầu đúng từ tình trạng bề mặt, với sơn và vật tư chuyên dụng cho từng chất liệu.</p>
+    <div class="home-liquid-actions"><a href="san-pham.html" class="home-liquid-primary">Xem nhóm sơn <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a href="#why-recolor" class="home-liquid-secondary">Vì sao nên đổi màu?</a></div>
+  </div>
+  <div class="home-liquid-status" aria-hidden="true">Di chuyển chuột để khám phá</div>
 </section>
-
-<!-- ==================== 2. TRUSTED BY ==================== -->
-<section id="trusted" class="section-reveal py-16" style="background:#F9F9F9">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-        <p class="text-primary font-bold text-lg md:text-xl mb-8">D.KARE — NIỀM TIN TỪ CON SỐ THỰC TẾ</p>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div><div class="counter" data-target="13" data-suffix="+">0</div><p class="text-sm text-text-secondary mt-2">Năm kinh nghiệm</p></div>
-            <div><div class="counter" data-target="10" data-suffix="+">0</div><p class="text-sm text-text-secondary mt-2">Gara đối tác</p></div>
-            <div><div class="counter" data-target="50" data-suffix="+">0</div><p class="text-sm text-text-secondary mt-2">Xe đã phục hồi</p></div>
-            <div><div class="counter" data-target="100" data-suffix="%">0</div><p class="text-sm text-text-secondary mt-2">Hỗ trợ kỹ thuật</p></div>
-        </div>
-    </div>
-</section>
-
-<!-- ==================== 3. ABOUT (GIỮ PARALLAX) ==================== -->
-<section id="about" class="parallax-section section-reveal py-24 md:py-32 relative">
-    <div class="parallax-bg" style="background-image:url('images/about-bg.jpg')"></div>
-    <div class="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/50 z-10"></div>
-    <div class="relative z-20 max-w-6xl mx-auto px-6">
-        <div class="grid md:grid-cols-2 gap-16 lg:gap-24 items-center">
-            <div><span class="text-accent font-semibold text-sm tracking-[0.15em] uppercase">Về chúng tôi</span><h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-3 mb-6 leading-tight">Giải pháp sơn và<br><span class="text-accent">phục hồi nội thất</span><br>ô tô chuyên nghiệp</h2><p class="text-white/80 text-lg leading-relaxed mb-6">D.KARE Việt Nam là thương hiệu chuyên nghiên cứu, phát triển và cung cấp các giải pháp sơn nội thất ô tô, sơn nhựa ô tô và sơn da ô tô dành cho gara, trung tâm chăm sóc xe, detailing studio và kỹ thuật viên chuyên nghiệp tại Đà Nẵng và toàn quốc.</p><a href="gioi-thieu.html" class="inline-flex items-center gap-2 text-accent font-semibold hover:underline">Tìm hiểu thêm về D.KARE <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div>
-            <div class="grid grid-cols-2 gap-4"><div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"><i data-lucide="shield-check" class="w-10 h-10 text-accent mx-auto mb-3"></i><p class="font-bold text-white">Cam kết</p><p class="text-white/60 text-sm mt-1">Chất lượng đồng nhất</p></div><div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"><i data-lucide="truck" class="w-10 h-10 text-accent mx-auto mb-3"></i><p class="font-bold text-white">Giao hàng</p><p class="text-white/60 text-sm mt-1">Toàn quốc nhanh chóng</p></div><div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"><i data-lucide="headphones" class="w-10 h-10 text-accent mx-auto mb-3"></i><p class="font-bold text-white">Hỗ trợ</p><p class="text-white/60 text-sm mt-1">Kỹ thuật 24/7</p></div><div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"><i data-lucide="file-check" class="w-10 h-10 text-accent mx-auto mb-3"></i><p class="font-bold text-white">Bảo hành</p><p class="text-white/60 text-sm mt-1">30 ngày chính hãng</p></div></div>
-        </div>
-    </div>
-</section>
-
-<!-- ==================== 4. PRODUCTS (NỀN TRẮNG - KHÔNG PARALLAX) ==================== -->
-<section id="products" class="section-reveal py-24 md:py-32 bg-white">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-        <span class="text-accent font-semibold text-sm tracking-[0.15em] uppercase">Sản phẩm</span>
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 mb-4">Dòng sơn & phụ kiện</h2>
-        <p class="text-text-secondary text-lg max-w-xl mx-auto mb-10">Sơn nhựa DN-1, Sơn da DL-1 và phụ kiện chuyên dụng cho phục hồi nội thất ô tô.</p>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto mb-10">
-            <a href="san-pham.html" class="product-card-3d bg-white rounded-2xl p-6 border relative overflow-hidden text-left no-underline block hover:shadow-lg"><div class="glare"></div><img src="images/dn1-bk1-den.jpg" alt="Sơn nhựa DN-1 - D.KARE" class="w-full h-48 object-contain rounded-lg mb-4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="hidden w-full h-48 rounded-lg mb-4 bg-gradient-to-br from-gray-900 to-gray-700 items-center justify-center"><i data-lucide="spray-can" class="w-12 h-12 text-white/30"></i></div><h3 class="font-bold text-lg mb-1 text-primary">Sơn Nhựa DN-1</h3><p class="text-text-secondary text-sm">12 màu, chịu nhiệt 120°C</p><p class="text-accent font-bold mt-3">Từ 1.100.000₫</p></a>
-            <a href="san-pham.html" class="product-card-3d bg-white rounded-2xl p-6 border relative overflow-hidden text-left no-underline block hover:shadow-lg"><div class="glare"></div><img src="images/dl1-bk1-den.jpg" alt="Sơn da DL-1 - D.KARE" class="w-full h-48 object-contain rounded-lg mb-4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="hidden w-full h-48 rounded-lg mb-4 bg-gradient-to-br from-amber-900 to-amber-700 items-center justify-center"><i data-lucide="spray-can" class="w-12 h-12 text-white/30"></i></div><h3 class="font-bold text-lg mb-1 text-primary">Sơn Da DL-1</h3><p class="text-text-secondary text-sm">20 màu chuyên dụng</p><p class="text-accent font-bold mt-3">Từ 900.000₫</p></a>
-            <a href="san-pham.html" class="product-card-3d bg-white rounded-2xl p-6 border relative overflow-hidden text-left no-underline block hover:shadow-lg"><div class="glare"></div><img src="images/p-pp.jpg" alt="Phụ kiện D.KARE" class="w-full h-48 object-contain rounded-lg mb-4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="hidden w-full h-48 rounded-lg mb-4 bg-gradient-to-br from-gray-100 to-gray-300 items-center justify-center"><i data-lucide="package" class="w-12 h-12 text-gray-400"></i></div><h3 class="font-bold text-lg mb-1 text-primary">Phụ Kiện</h3><p class="text-text-secondary text-sm">17 sản phẩm chuyên dụng</p><p class="text-accent font-bold mt-3">Từ 150.000₫</p></a>
-        </div>
-        <a href="san-pham.html" class="inline-flex items-center gap-2 bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary transition-all">Xem tất cả sản phẩm<i data-lucide="arrow-right" class="w-5 h-5"></i></a>
-    </div>
-</section>
-
-<!-- ==================== 5. QUY TRÌNH (NỀN XANH NHẠT - KHÔNG PARALLAX) ==================== -->
-<section id="process" class="section-reveal py-24 md:py-32" style="background:#F0F4F8">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-        <span class="text-accent font-semibold text-sm tracking-[0.15em] uppercase">Quy trình</span>
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 mb-4">Quy Trình Thi Công Chuẩn Nhà Máy</h2>
-        <p class="text-text-secondary text-lg max-w-xl mx-auto mb-12">Từng bước được chuẩn hóa — đảm bảo kết quả đồng nhất cho mọi bề mặt nội thất.</p>
-        <div class="grid md:grid-cols-3 gap-8 text-left mb-10">
-            <div class="bg-white rounded-2xl p-8 shadow-sm"><div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold text-xl mb-4">1</div><h3 class="font-bold text-xl text-primary mb-3">Chuẩn bị</h3><ul class="text-text-secondary text-sm space-y-2"><li>• Vệ sinh bề mặt</li><li>• Chà nhám P600-P800</li><li>• Tẩy dầu chuyên dụng</li></ul></div>
-            <div class="bg-white rounded-2xl p-8 shadow-sm"><div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold text-xl mb-4">2</div><h3 class="font-bold text-xl text-primary mb-3">Thi công</h3><ul class="text-text-secondary text-sm space-y-2"><li>• Phun sơn màu DN-1</li><li>• Sấy khô từng lớp</li><li>• Phủ 2-3 lớp mỏng</li></ul></div>
-            <div class="bg-white rounded-2xl p-8 shadow-sm"><div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold text-xl mb-4">3</div><h3 class="font-bold text-xl text-primary mb-3">Hoàn thiện</h3><ul class="text-text-secondary text-sm space-y-2"><li>• Phủ bảo vệ Matte Clear</li><li>• Kiểm tra chất lượng</li><li>• Bàn giao hoàn thiện</li></ul></div>
-        </div>
-        <a href="quy-trinh.html" class="inline-flex items-center gap-2 bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary transition-all">Xem quy trình chi tiết<i data-lucide="arrow-right" class="w-5 h-5"></i></a>
-    </div>
-</section>
-
-<!-- ==================== 6. GIẢI PHÁP ==================== -->
-<section id="solutions" class="section-reveal py-24 md:py-32 bg-surface">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-        <span class="text-accent font-semibold text-sm tracking-[0.15em] uppercase">Giải pháp & Dịch vụ</span>
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 mb-4">D.KARE cung cấp những gì?</h2>
-        <p class="text-text-secondary text-lg max-w-xl mx-auto mb-10">Không chỉ bán sơn — D.KARE đồng hành toàn diện cùng đối tác với 4 dịch vụ cốt lõi.</p>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="solution-card bg-white rounded-2xl p-6 text-left"><i data-lucide="factory" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-lg text-primary mb-2">Gia công sơn nhựa, da</h3><p class="text-text-secondary text-sm">Dành cho gara & dịch vụ ô tô chưa có phòng sơn. D.KARE nhận gia công sơn nhựa và sơn da nội thất.</p></div>
-            <div class="solution-card bg-white rounded-2xl p-6 text-left"><i data-lucide="package" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-lg text-primary mb-2">Phân phối vật tư sơn</h3><p class="text-text-secondary text-sm">Cung cấp trọn bộ sơn nhựa DN-1, sơn da DL-1 và phụ kiện cho gara, detailing studio và đại lý.</p></div>
-            <div class="solution-card bg-white rounded-2xl p-6 text-left"><i data-lucide="graduation-cap" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-lg text-primary mb-2">Đào tạo khóa học 30 ngày</h3><p class="text-text-secondary text-sm">Chương trình đào tạo chuyên sâu cho kỹ thuật viên — từ cơ bản đến thành thạo chỉ trong 30 ngày.</p></div>
-            <div class="solution-card bg-white rounded-2xl p-6 text-left"><i data-lucide="palette" class="w-10 h-10 text-accent mb-4"></i><h3 class="font-bold text-lg text-primary mb-2">Dịch vụ đổi màu tùy chỉnh</h3><p class="text-text-secondary text-sm">Đổi màu nội thất theo yêu cầu cá nhân — từ màu cơ bản đến màu đặc biệt.</p></div>
-        </div>
-        <a href="lien-he.html" class="inline-flex items-center gap-2 mt-10 bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary transition-all">Liên hệ tư vấn dịch vụ<i data-lucide="arrow-right" class="w-5 h-5"></i></a>
-    </div>
-</section>
-
-<!-- ==================== 7. VIDEO (GIỮ PARALLAX) ==================== -->
-<section class="parallax-section section-reveal py-24 md:py-32 relative">
-    <div class="parallax-bg" style="background-image:url('https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=2074&auto=format&fit=crop')"></div>
-    <div class="absolute inset-0 bg-white/30 z-10"></div>
-    <div class="relative z-20 max-w-5xl mx-auto px-6 text-center">
-        <span class="text-accent font-semibold text-sm tracking-[0.15em] uppercase">Video</span>
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 mb-4">Hướng dẫn & Thực hành</h2>
-        <p class="text-text-secondary text-lg max-w-xl mx-auto mb-10">Xem video hướng dẫn thi công và quy trình phục hồi nội thất từ D.KARE.</p>
-        <div class="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto mb-10">
-            <div class="bg-surface rounded-2xl overflow-hidden cursor-pointer relative aspect-video flex items-center justify-center"><i data-lucide="play-circle" class="w-16 h-16 text-accent absolute z-10"></i><div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div><div class="absolute bottom-3 left-3 text-white text-sm font-medium z-10">Hướng dẫn sơn nhựa DN-1</div></div>
-            <div class="bg-surface rounded-2xl overflow-hidden cursor-pointer relative aspect-video flex items-center justify-center"><i data-lucide="play-circle" class="w-16 h-16 text-accent absolute z-10"></i><div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div><div class="absolute bottom-3 left-3 text-white text-sm font-medium z-10">Hướng dẫn sơn da DL-1</div></div>
-        </div>
-        <a href="video.html" class="inline-flex items-center gap-2 border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary hover:text-white transition-all">Xem tất cả video<i data-lucide="arrow-right" class="w-5 h-5"></i></a>
-    </div>
-</section>
-
-<!-- ==================== 8. BEFORE & AFTER ==================== -->
-<section class="section-reveal py-24 md:py-32 bg-white">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-        <span class="text-accent font-semibold text-sm tracking-[0.15em] uppercase">Dự án</span>
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 mb-4">Trước & Sau phục hồi</h2>
-        <p class="text-text-secondary text-lg max-w-xl mx-auto mb-8">Kết quả thực tế từ các dự án phục hồi nội thất sử dụng sản phẩm D.KARE.</p>
-        <div class="flex justify-center gap-4 mb-8"><button class="ba-tab active px-4 py-2 font-semibold text-sm" onclick="showBA(0)">Taplo Mercedes</button><button class="ba-tab px-4 py-2 font-semibold text-sm" onclick="showBA(1)">Ghế da BMW</button><button class="ba-tab px-4 py-2 font-semibold text-sm" onclick="showBA(2)">Tappi cửa Audi</button></div>
-        <div class="relative max-w-2xl mx-auto rounded-2xl overflow-hidden bg-gray-100 aspect-video flex items-center justify-center">
-            <img id="ba-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=1200&auto=format&fit=crop" alt="Phục hồi nội thất ô tô - D.KARE" class="w-full h-full object-cover" onerror="this.style.display='none'">
-            <div id="ba-placeholder" class="absolute inset-0 flex items-center justify-center text-text-secondary/40 text-lg" style="display:none">Ảnh dự án đang cập nhật</div>
-            <div id="ba-caption" class="absolute bottom-0 left-0 right-0 bg-black/60 text-white p-4 text-left"><p class="font-semibold">Phục hồi taplo</p><p class="text-sm text-white/70">Mercedes C200 — Sơn nhựa DN-1</p></div>
-        </div>
-        <a href="lien-he.html" class="inline-flex items-center gap-2 text-accent font-semibold mt-8 hover:underline">Liên hệ để xem thêm dự án <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
-    </div>
-</section>
-
-<!-- ==================== 9. FAQ (HORIZONTAL SCROLLER) ==================== -->
-<section id="faq" class="section-reveal py-20 overflow-hidden" style="background:#F5F5F5">
-    <div class="text-center mb-10 px-6">
-        <span class="text-accent font-semibold text-sm tracking-[0.15em] uppercase">FAQ</span>
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mt-3 mb-4">Câu hỏi thường gặp</h2>
-    </div>
-    
-    <!-- Row 1 - Left -->
-    <div class="mb-6" style="--speed:50s">
-        <div class="flex animate-scroll-left" id="faq-row-1"></div>
-    </div>
-    
-    <!-- Row 2 - Right -->
-    <div style="--speed:55s">
-        <div class="flex animate-scroll-right" id="faq-row-2"></div>
-    </div>
-    
-    <div class="text-center mt-10"><a href="cau-hoi.html" class="inline-flex items-center gap-2 text-accent font-semibold hover:underline">Xem tất cả câu hỏi <i data-lucide="arrow-right" class="w-4 h-4"></i></a></div>
-</section>
-
-
-<!-- ==================== 10. CTA (GIỮ PARALLAX) ==================== -->
-<section class="parallax-section section-reveal py-24 md:py-32 relative">
-    <div class="parallax-bg" style="background-image:url('images/cta-bg.jpg')"></div>
-    <div class="absolute inset-0 bg-primary/85 z-10"></div>
-    <div class="relative z-20 text-center text-white max-w-2xl mx-auto px-6"><h2 class="text-3xl md:text-4xl font-bold mb-4">Sẵn sàng nâng tầm dịch vụ của bạn?</h2><p class="text-white/70 text-lg mb-8">Liên hệ ngay để nhận tư vấn và báo giá.</p><div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="lien-he.html" class="bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary transition-all">Liên hệ ngay</a><a href="tel:0795397519" class="border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10">079 539 7519</a></div></div>
-</section>
-
-</main>
-
-<!-- ==================== FOOTER ==================== -->
-<footer class="bg-primary border-t border-white/10 py-12"><div class="max-w-6xl mx-auto px-6"><div class="grid md:grid-cols-4 gap-10 mb-10"><div><a href="index.html" class="flex flex-col items-start gap-2 mb-4 no-underline"><img src="images/logo.png" alt="D.KARE Logo" class="h-12 w-auto"><span class="text-xs text-accent font-semibold tracking-[0.2em] uppercase">PREMIUM AUTOMOTIVE COATING</span></a><p class="text-white/50 text-sm max-w-xs mt-3">Giải pháp sơn phục hồi nội thất ô tô chuyên nghiệp.</p></div><div><h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Sản phẩm</h4><nav class="space-y-2"><a href="san-pham.html" class="block text-white/50 text-sm hover:text-accent">Tất cả</a><a href="san-pham/dn-1-bk-1.html" class="block text-white/50 text-sm hover:text-accent">DN-1-BK-1</a><a href="san-pham/dl-1-bk-1.html" class="block text-white/50 text-sm hover:text-accent">DL-1-BK-1</a></nav></div><div><h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Công ty</h4><nav class="space-y-2"><a href="gioi-thieu.html" class="block text-white/50 text-sm hover:text-accent">Giới thiệu</a><a href="blog.html" class="block text-white/50 text-sm hover:text-accent">Blog</a><a href="video.html" class="block text-white/50 text-sm hover:text-accent">Video</a><a href="dai-ly.html" class="block text-white/50 text-sm hover:text-accent">Đại lý</a></nav></div><div><h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Hỗ trợ</h4><nav class="space-y-2"><a href="lien-he.html" class="block text-white/50 text-sm hover:text-accent">Liên hệ</a><a href="cau-hoi.html" class="block text-white/50 text-sm hover:text-accent">FAQ</a><a href="bao-hanh.html" class="block text-white/50 text-sm hover:text-accent">Bảo hành</a><a href="tai-lieu.html" class="block text-white/50 text-sm hover:text-accent">Tài liệu</a></nav></div></div><div class="flex flex-wrap gap-6 py-6 border-t border-white/10 text-white/50 text-sm"><span><i data-lucide="phone" class="w-4 h-4 text-accent inline mr-1"></i>079 539 7519</span><span><i data-lucide="mail" class="w-4 h-4 text-accent inline mr-1"></i>dkarepaint@gmail.com</span><span><i data-lucide="map-pin" class="w-4 h-4 text-accent inline mr-1"></i>Đà Nẵng, Việt Nam</span></div><div class="pt-6 border-t border-white/10 text-center"><p class="text-white/40 text-sm">&copy; 2026 D.KARE Việt Nam. PREMIUM AUTOMOTIVE COATING.</p></div></div></footer>
-
-<!-- ==================== SCHEMA ==================== -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"D.KARE Việt Nam","url":"https://dkare.vn","telephone":"+84795397519","email":"dkarepaint@gmail.com","address":{"@type":"PostalAddress","streetAddress":"476 Nguyễn Tri Phương, Hòa Cường","addressLocality":"Đà Nẵng","addressCountry":"VN"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"D.KARE Việt Nam","address":{"@type":"PostalAddress","streetAddress":"476 Nguyễn Tri Phương, Hòa Cường","addressLocality":"Đà Nẵng","addressCountry":"VN"},"telephone":"+84795397519"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Sơn DN-1 có bền không?","acceptedAnswer":{"@type":"Answer","text":"Có. Chịu nhiệt 120°C."}},{"@type":"Question","name":"Giao hàng toàn quốc không?","acceptedAnswer":{"@type":"Answer","text":"Có."}},{"@type":"Question","name":"Bảo hành không?","acceptedAnswer":{"@type":"Answer","text":"30 ngày."}},{"@type":"Question","name":"Đào tạo không?","acceptedAnswer":{"@type":"Answer","text":"Khóa 30 ngày."}},{"@type":"Question","name":"Mua ở đâu?","acceptedAnswer":{"@type":"Answer","text":"476 Nguyễn Tri Phương, Đà Nẵng."}},{"@type":"Question","name":"Cần sơn lót PP?","acceptedAnswer":{"@type":"Answer","text":"Có."}},{"@type":"Question","name":"Đổi màu không?","acceptedAnswer":{"@type":"Answer","text":"Có."}},{"@type":"Question","name":"Làm đại lý?","acceptedAnswer":{"@type":"Answer","text":"Gọi 079 539 7519."}}]}</script>
-
-<script>
-lucide.createIcons();
-const menuBtn=document.getElementById('mobile-menu-btn'),mobileMenu=document.getElementById('mobile-menu'),menuIcon=document.getElementById('menu-icon');
-menuBtn.addEventListener('click',()=>{const o=mobileMenu.classList.contains('hidden');mobileMenu.classList.toggle('hidden',!o);menuIcon.setAttribute('data-lucide',o?'x':'menu');menuBtn.setAttribute('aria-expanded',o);lucide.createIcons()});
-document.querySelectorAll('#mobile-menu a').forEach(l=>l.addEventListener('click',()=>{mobileMenu.classList.add('hidden');menuIcon.setAttribute('data-lucide','menu');menuBtn.setAttribute('aria-expanded','false');lucide.createIcons()}));
-const observer=new IntersectionObserver(e=>e.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.08});
-document.querySelectorAll('.section-reveal').forEach(s=>observer.observe(s));
-document.querySelectorAll('.product-card-3d').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,cx=r.width/2,cy=r.height/2;c.style.transform=`perspective(800px) rotateX(${(y-cy)/cy*-8}deg) rotateY(${(x-cx)/cx*8}deg) scale(1.02)`;const g=c.querySelector('.glare');if(g)g.style.background=`radial-gradient(circle at ${x}px ${y}px, rgba(255,255,255,0.25) 0%, transparent 70%)`});c.addEventListener('mouseleave',()=>{c.style.transform='perspective(800px) rotateX(0) rotateY(0) scale(1)'})});
-(function(){const c=document.getElementById('starfield');if(!c)return;const x=c.getContext('2d');let s=[],p=2;function r(){c.width=window.innerWidth;c.height=window.innerHeight}class t{constructor(){this.x=Math.random()*c.width-c.width/2;this.y=Math.random()*c.height-c.height/2;this.z=Math.random()*c.width;this.pz=this.z}u(){this.z-=p;if(this.z<1){this.z=c.width;this.x=Math.random()*c.width-c.width/2;this.y=Math.random()*c.height-c.height/2;this.pz=this.z}}d(){const a=(this.x/this.z)*c.width/2+c.width/2,b=(this.y/this.z)*c.height/2+c.height/2,e=Math.max(.1,(1-this.z/c.width)*2.5),d=(this.x/this.pz)*c.width/2+c.width/2,f=(this.y/this.pz)*c.height/2+c.height/2;this.pz=this.z;x.beginPath();x.moveTo(d,f);x.lineTo(a,b);x.lineWidth=e*2;x.strokeStyle=`rgba(255,255,255,${1-this.z/c.width})`;x.stroke()}}function i(){s=[];for(let a=0;a<800;a++)s.push(new t)}function a(){x.fillStyle='rgba(0,0,0,0.2)';x.fillRect(0,0,c.width,c.height);s.forEach(b=>{b.u();b.d()});requestAnimationFrame(a)}window.addEventListener('resize',r);document.addEventListener('mousemove',e=>{const d=Math.abs(e.clientX-window.innerWidth/2),m=window.innerWidth/2;p=2+(1-d/m)*20});r();i();a()})();
-window.addEventListener('scroll',()=>{const scrolled=window.pageYOffset;document.querySelectorAll('.parallax-bg').forEach(bg=>{const speed=0.4,parent=bg.parentElement,pTop=parent.offsetTop,pHeight=parent.offsetHeight;if(scrolled+window.innerHeight>pTop&&scrolled<pTop+pHeight)bg.style.transform=`translateY(${(scrolled-pTop)*speed}px)`})},{passive:true});
-const counterObs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('.counter').forEach(c=>{const t=parseInt(c.dataset.target),suf=c.dataset.suffix||'';let cur=0;const inc=t/40;const timer=setInterval(()=>{cur+=inc;if(cur>=t){c.textContent=t+suf;clearInterval(timer)}else{c.textContent=Math.floor(cur)+suf}},30)})}})},{threshold:.5});counterObs.observe(document.getElementById('trusted'));
-const baData=[{img:'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=1200&auto=format&fit=crop',title:'Phục hồi taplo',desc:'Mercedes C200 — Sơn nhựa DN-1'},{img:'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop',title:'Phục hồi ghế da',desc:'BMW 320i — Sơn da DL-1'},{img:'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=1200&auto=format&fit=crop',title:'Phục hồi tappi cửa',desc:'Audi A4 — Sơn nhựa DN-1'}];
-function showBA(i){const img=document.getElementById('ba-img');const ph=document.getElementById('ba-placeholder');img.src=baData[i].img;img.onerror=function(){img.style.display='none';if(ph)ph.style.display='flex'};img.onload=function(){img.style.display='block';if(ph)ph.style.display='none'};document.getElementById('ba-caption').innerHTML=`<p class="font-semibold">${baData[i].title}</p><p class="text-sm text-white/70">${baData[i].desc}</p>`;document.querySelectorAll('.ba-tab').forEach((t,idx)=>{t.classList.toggle('active',idx===i)})}
-const faqRow1=[{q:'Sơn DN-1 có bền với nhiệt độ trong xe không?',a:'Có. Chịu nhiệt đến 120°C, không phai màu.'},{q:'Có giao hàng toàn quốc không?',a:'Có. Giao toàn quốc, Đà Nẵng giao nhanh trong ngày.'},{q:'Sản phẩm có bảo hành không?',a:'Có. Bảo hành 30 ngày chính hãng.'},{q:'D.KARE có đào tạo kỹ thuật không?',a:'Có. Khóa học 30 ngày cho kỹ thuật viên, có chứng nhận.'}];
-const faqRow2=[{q:'Mua sơn D.KARE ở đâu tại Đà Nẵng?',a:'Liên hệ 079 539 7519 hoặc đến kho tại 476 Nguyễn Tri Phương, Hòa Cường, Đà Nẵng.'},{q:'Có cần sơn lót khi sơn nhựa PP không?',a:'Có. Nhựa PP cần dùng P-PP Primer trước khi sơn màu.'},{q:'D.KARE có nhận đổi màu nội thất không?',a:'Có. Dịch vụ đổi màu tùy chỉnh theo yêu cầu.'},{q:'Làm sao để trở thành đại lý D.KARE?',a:'Liên hệ hotline 079 539 7519 để nhận chính sách đại lý.'}];
-function buildFaqCards(items){return items.map(f=>`<a href="cau-hoi.html" class="faq-card bg-white rounded-xl shadow-sm p-6 flex flex-col gap-3 flex-shrink-0 no-underline" style="width:350px"><h3 class="font-bold text-primary text-base">${f.q}</h3><p class="text-text-secondary text-sm">${f.a}</p></a>`).join('')}
-function fillRow(id,items){const r=document.getElementById(id);if(!r)return;const c=buildFaqCards(items);r.innerHTML=`<div class="flex items-stretch gap-4 px-2">${c}</div><div class="flex items-stretch gap-4 px-2" aria-hidden="true">${c}</div>`}
-fillRow('faq-row-1',faqRow1);fillRow('faq-row-2',faqRow2);
-</script>
-</body>
-</html>
+<section id="why-recolor" class="home-section home-why" aria-labelledby="why-title"><div class="home-wrap home-why-layout">
+  <div class="home-why-photo"><video class="home-why-video" controls autoplay muted loop playsinline preload="metadata" aria-label="Video đổi màu nội thất ô tô"><source src="videos/doi-mau-noi-that.mp4" type="video/mp4">Trình duyệt của bạn không hỗ trợ video. <a href="videos/doi-mau-noi-that.mp4">Mở video đổi màu nội thất</a></video></div>
+  <div class="home-why-copy"><h2 id="why-title">Tại sao nên đổi màu<br>nội thất ô tô?</h2><p class="home-body">Trước khi chọn nhóm sơn, hãy bắt đầu từ tình trạng bề mặt. Nội thất xe có thể bị bạc màu, trầy xước hoặc lệch tông; đổi màu bằng hệ sơn chuyên dụng giúp làm mới từng chi tiết mà không cần thay toàn bộ.</p>
+    <ul class="home-reasons home-reasons-five"><li><span class="home-check" aria-hidden="true">✓</span><span>Làm mới taplo, tapi cửa, console và vô lăng</span></li><li><span class="home-check" aria-hidden="true">✓</span><span>Phục hồi màu cho bề mặt da bị bạc hoặc xuống cấp</span></li><li><span class="home-check" aria-hidden="true">✓</span><span>Thay đổi màu nội thất theo sở thích</span></li><li><span class="home-check" aria-hidden="true">✓</span><span>Đồng bộ màu sau khi sửa chữa hoặc thay thế</span></li><li><span class="home-check" aria-hidden="true">✓</span><span>Giúp gara mở thêm dịch vụ phục hồi và đổi màu nội thất</span></li></ul><p class="home-body home-why-note">Từ tình trạng bề mặt, D.KARE giúp bạn chọn sơn nhựa, sơn da, màu tùy chỉnh và vật tư phù hợp cho gara, detailing studio và kỹ thuật viên.</p>
+    <a class="home-text-link" href="doi-mau.html">Tìm hiểu dịch vụ đổi màu <span aria-hidden="true">→</span></a>
+  </div></div></section>
+<section id="products" class="home-section dk-product-showcase" aria-labelledby="products-title"><div class="home-wrap"><div class="home-section-heading"><p class="home-feature-badge">Sản phẩm D.KARE</p><h2 id="products-title">Sản phẩm cho từng bề mặt.</h2></div><section class="dk-product-row" aria-labelledby="plastic-products-title" data-product-carousel><div class="dk-product-row-head"><div class="dk-product-row-title"><h3 id="plastic-products-title">Sơn nhựa nội thất ô tô</h3><p>Sơn màu, sơn lót và dung môi trong nhóm sơn nhựa.</p></div><div class="dk-product-row-actions"><button class="dk-carousel-button" type="button" data-carousel-previous aria-label="Xem sản phẩm trước"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 18l-6-6 6-6"/></svg></button><button class="dk-carousel-button" type="button" data-carousel-next aria-label="Xem sản phẩm tiếp theo"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18l6-6-6-6"/></svg></button><a class="dk-product-view-all" href="san-pham.html#tab-nhua">Xem tất cả</a></div></div><div class="dk-product-track" tabindex="0" aria-label="Sơn nhựa nội thất ô tô"><a class="dk-home-product-card" href="san-pham/son-nhua/dn-1.html"><span class="dk-home-product-media"><img src="images/son-nhua/dn-1-bk-1.jpg" alt="Sơn D.KARE cho nhựa DN-1" width="640" height="480" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn D.KARE cho nhựa</h4><p>DN-1</p><p>Sơn màu cho chi tiết nhựa nội thất</p></span></a><a class="dk-home-product-card" href="san-pham/son-nhua/lpp.html"><span class="dk-home-product-media"><span class="dk-home-product-placeholder" role="img" aria-label="Ảnh Sơn D.KARE lót PP đang cập nhật">Ảnh sản phẩm<br>đang cập nhật</span></span><span class="dk-home-product-copy"><h4>Sơn D.KARE lót PP</h4><p>LPP</p><p>Sơn lót cho bề mặt PP</p></span></a><a class="dk-home-product-card" href="san-pham/son-nhua/lpom.html"><span class="dk-home-product-media"><span class="dk-home-product-placeholder" role="img" aria-label="Ảnh Sơn D.KARE lót POM/PA6 đang cập nhật">Ảnh sản phẩm<br>đang cập nhật</span></span><span class="dk-home-product-copy"><h4>Sơn D.KARE lót POM/PA6</h4><p>LPOM</p><p>Sơn lót cho bề mặt POM và PA6</p></span></a><a class="dk-home-product-card" href="san-pham/son-nhua/fvn.html"><span class="dk-home-product-media"><span class="dk-home-product-placeholder" role="img" aria-label="Ảnh Dung môi pha sơn D.KARE đang cập nhật">Ảnh sản phẩm<br>đang cập nhật</span></span><span class="dk-home-product-copy"><h4>Dung môi pha sơn D.KARE</h4><p>FVN</p><p>Dung môi hỗ trợ pha sơn D.KARE</p></span></a></div></section><section class="dk-product-row" aria-labelledby="leather-products-title" data-product-carousel><div class="dk-product-row-head"><div class="dk-product-row-title"><h3 id="leather-products-title">Sơn da nội thất ô tô</h3><p>Sơn da gốc nước DL-1. Chọn màu và dung tích trong danh mục; ảnh bao bì là thiết kế minh họa.</p></div><div class="dk-product-row-actions"><button class="dk-carousel-button" type="button" data-carousel-previous aria-label="Xem sản phẩm trước"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 18l-6-6 6-6"/></svg></button><button class="dk-carousel-button" type="button" data-carousel-next aria-label="Xem sản phẩm tiếp theo"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18l6-6-6-6"/></svg></button><a class="dk-product-view-all" href="san-pham.html#tab-da">Xem tất cả</a></div></div><div class="dk-product-track" tabindex="0" aria-label="Sơn da nội thất ô tô"><a class="dk-home-product-card" href="san-pham/son-da/dl-1-bk-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Đen DL-1-BK-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Đen</h4><p>DL-1-BK-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-bl-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Xanh dương DL-1-BL-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Xanh dương</h4><p>DL-1-BL-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-bn-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Nâu DL-1-BN-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Nâu</h4><p>DL-1-BN-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-go-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Vàng kim DL-1-GO-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Vàng kim</h4><p>DL-1-GO-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-gy-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Xám DL-1-GY-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Xám</h4><p>DL-1-GY-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-le-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Vàng chanh DL-1-LE-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Vàng chanh</h4><p>DL-1-LE-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-pu-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Tím đỏ DL-1-PU-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Tím đỏ</h4><p>DL-1-PU-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-rd-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Đỏ DL-1-RD-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Đỏ</h4><p>DL-1-RD-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-wh-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Trắng DL-1-WH-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Trắng</h4><p>DL-1-WH-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-yl-05.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Vàng DL-1-YL-05" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Vàng</h4><p>DL-1-YL-05</p><p>Sơn da DL-1 · 500ml</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-bk-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Đen DL-1-BK-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Đen</h4><p>DL-1-BK-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-bl-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Xanh dương DL-1-BL-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Xanh dương</h4><p>DL-1-BL-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-bn-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Nâu DL-1-BN-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Nâu</h4><p>DL-1-BN-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-go-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Vàng kim DL-1-GO-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Vàng kim</h4><p>DL-1-GO-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-gy-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Xám DL-1-GY-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Xám</h4><p>DL-1-GY-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-le-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Vàng chanh DL-1-LE-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Vàng chanh</h4><p>DL-1-LE-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-pu-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Tím đỏ DL-1-PU-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Tím đỏ</h4><p>DL-1-PU-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-rd-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Đỏ DL-1-RD-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Đỏ</h4><p>DL-1-RD-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-wh-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Trắng DL-1-WH-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Trắng</h4><p>DL-1-WH-1</p><p>Sơn da DL-1 · 1L</p></span></a><a class="dk-home-product-card" href="san-pham/son-da/dl-1-yl-1.html"><span class="dk-home-product-media"><img src="images/son-da/dl-1-dkare-mockup-v1.png" alt="Ảnh thiết kế minh họa sơn da Vàng DL-1-YL-1" width="1254" height="1254" loading="lazy" decoding="async"></span><span class="dk-home-product-copy"><h4>Sơn da Vàng</h4><p>DL-1-YL-1</p><p>Sơn da DL-1 · 1L</p></span></a></div></section></div></section>
+<section id="solutions" class="home-section dk-solutions-story" aria-labelledby="solutions-title"><div class="home-wrap"><div class="home-section-heading"><p class="home-eyebrow">Giải pháp &amp; dịch vụ</p><h2 id="solutions-title">D.KARE cung cấp những gì?</h2><p>Năm hướng hỗ trợ dành cho chủ xe, kỹ thuật viên, garage và đối tác. Cuộn để xem từng nội dung hoặc mở bài viết để tìm hiểu chi tiết.</p></div><div class="dk-solutions-scroll"><div class="dk-solutions-media" aria-hidden="true"><img src="images/blog/blog-04.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async" class="is-active"><img src="images/about/about-02.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async"><img src="images/about/solution-02.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async"><img src="images/about/solution-03.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async"><img src="images/about/solution-04.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async"></div><div class="dk-solutions-list"><article class="dk-solution-story is-active" data-solution-index="0"><a href="bai-viet/phuc-hoi-da-noi-that-o-to.html"><img class="dk-solution-inline-image" src="images/blog/blog-04.jpg" alt="Bề mặt ghế da ô tô bị bạc màu và trầy xước" width="1200" height="800" loading="lazy" decoding="async"><h3>Phục hồi da nội thất ô tô</h3><p>Nhận biết tình trạng bạc màu, trầy xước và phạm vi cần xử lý trước khi chọn phương án phục hồi.</p><span class="dk-solution-story-link">Đọc bài viết</span></a></article><article class="dk-solution-story" data-solution-index="1"><a href="bai-viet/gara-trien-khai-dich-vu-phuc-hoi-noi-that.html"><img class="dk-solution-inline-image" src="images/about/about-02.jpg" alt="Kỹ thuật viên làm việc trong khu vực phục hồi nội thất ô tô" width="1200" height="800" loading="lazy" decoding="async"><h3>Dịch vụ sơn nội thất cho Garage & Đối tác</h3><p>Những điều garage cần chuẩn bị khi bổ sung dịch vụ phục hồi và sơn nội thất ô tô.</p><span class="dk-solution-story-link">Đọc bài viết</span></a></article><article class="dk-solution-story" data-solution-index="2"><a href="bai-viet/chon-son-va-vat-tu-noi-that-o-to.html"><img class="dk-solution-inline-image" src="images/about/solution-02.jpg" alt="Sơn và vật tư phục hồi nội thất trong khu vực làm việc" width="1200" height="800" loading="lazy" decoding="async"><h3>Phân phối sơn & vật tư</h3><p>Cách xác định nhóm sản phẩm, bề mặt thi công và tài liệu cần kiểm tra trước khi chọn vật tư.</p><span class="dk-solution-story-link">Đọc bài viết</span></a></article><article class="dk-solution-story" data-solution-index="3"><a href="bai-viet/lo-trinh-hoc-son-noi-that-o-to-3-thang.html"><img class="dk-solution-inline-image" src="images/about/solution-03.jpg" alt="Hướng dẫn thực hành trên chi tiết taplo ô tô" width="1200" height="800" loading="lazy" decoding="async"><h3>Khóa học thực hành 3 tháng</h3><p>Các mục tiêu nên làm rõ trước khi tham gia chương trình học và thực hành sơn nội thất ô tô.</p><span class="dk-solution-story-link">Đọc bài viết</span></a></article><article class="dk-solution-story" data-solution-index="4"><a href="bai-viet/doi-mau-noi-that-o-to-can-chuan-bi-gi.html"><img class="dk-solution-inline-image" src="images/about/solution-04.jpg" alt="Nội thất ô tô được phối màu xanh lá và nâu" width="1200" height="800" loading="lazy" decoding="async"><h3>Đổi màu nội thất ô tô</h3><p>Xác định phạm vi, màu tham chiếu và tiêu chí bàn giao trước khi bắt đầu đổi màu nội thất.</p><span class="dk-solution-story-link">Đọc bài viết</span></a></article></div></div></div></section>
+<section id="details" class="home-section home-details" aria-labelledby="details-title"><div class="home-wrap home-detail-layout">
+  <div class="home-detail-copy"><h2 id="details-title">Chi tiết tạo nên<br>khác biệt.</h2><p>Màu sắc là điều nhìn thấy đầu tiên. Vân bề mặt, đường viền và cách phối các chi tiết là những điểm cần nhìn gần hơn.</p><ul class="home-detail-list"><li><strong>Màu sắc</strong><span>Xem trong tổng thể nội thất và dưới ánh sáng thực tế.</span></li><li><strong>Bề mặt</strong><span>Quan sát vân, nếp gấp và các vùng thường xuyên tiếp xúc.</span></li><li><strong>Đường viền</strong><span>Chú ý mép nối và ranh giới giữa các chất liệu.</span></li></ul></div>
+  <figure><img class="" src="images/home/finish2-640.webp" srcset="images/home/finish2-640.webp 640w, images/home/finish2-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 50vw" alt="Cận cảnh vân bề mặt và đường chỉ trên tapi cửa màu kem" width="1200" height="900" loading="lazy" decoding="async"><figcaption>Góc nhìn cận cảnh trên chi tiết tapi cửa.</figcaption></figure>
+</div></section>
+<section id="customers" class="home-section home-customers" aria-labelledby="customers-title" hidden><div class="home-wrap"><div class="home-section-heading"><h2 id="customers-title">Khách hàng của D.KARE.</h2></div><div class="home-customer-logos" aria-label="Logo khách hàng"></div></div></section>
+<section id="projects" class="home-section home-projects-feature" aria-labelledby="projects-title"><div class="home-wrap"><div class="home-heading-row"><div><p class="home-feature-badge">Thư viện D.KARE</p><h2 id="projects-title">Dự án & hình ảnh hoàn thiện.</h2><p>Chín góc nhìn được chọn từ thư viện hình ảnh D.KARE. Xem đầy đủ dự án và ảnh liên quan trên trang Dự án.</p></div><div class="home-project-controls" aria-label="Điều khiển thư viện"><button type="button" class="home-project-prev" aria-label="Dự án trước">←</button><button type="button" class="home-project-next" aria-label="Dự án tiếp theo">→</button></div></div><div class="home-project-track"><article class="home-project-card"><a href="du-an/khoang-lai-den-kem.html" aria-label="Xem dự án: Khoang lái đen & kem"><img src="images/home/finish1-640.webp" alt="Khoang lái đen & kem" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Khoang lái đen & kem</h3><p>Phối màu tương phản cho khoang lái.</p><a class="home-project-read" href="du-an/khoang-lai-den-kem.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/vo-lang-noi-that-phoi-mau.html" aria-label="Xem dự án: Vô lăng & nội thất phối màu"><img src="images/home/finish3-640.webp" alt="Vô lăng & nội thất phối màu" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Vô lăng & nội thất phối màu</h3><p>Chi tiết tay lái và tapi trong cùng một tổng thể.</p><a class="home-project-read" href="du-an/vo-lang-noi-that-phoi-mau.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/can-canh-be-mat-da.html" aria-label="Xem dự án: Cận cảnh bề mặt da"><img src="images/home/finish2-640.webp" alt="Cận cảnh bề mặt da" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Cận cảnh bề mặt da</h3><p>Hoàn thiện vân bề mặt và đường chỉ.</p><a class="home-project-read" href="du-an/can-canh-be-mat-da.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/doi-mau-noi-that.html" aria-label="Xem dự án: Đổi màu nội thất"><img src="images/color-change/before-after-01.jpg" alt="Đổi màu nội thất" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Đổi màu nội thất</h3><p>Góc nhìn trước và sau khi thay đổi màu.</p><a class="home-project-read" href="du-an/doi-mau-noi-that.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/chi-tiet-ghe-tapi.html" aria-label="Xem dự án: Chi tiết ghế và tapi"><img src="images/color-change/before-after-02.jpg" alt="Chi tiết ghế và tapi" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Chi tiết ghế và tapi</h3><p>Tập trung vào sắc độ và độ liền mạch.</p><a class="home-project-read" href="du-an/chi-tiet-ghe-tapi.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/phoi-mau-khoang-xe.html" aria-label="Xem dự án: Phối màu khoang xe"><img src="images/color-change/before-after-03.jpg" alt="Phối màu khoang xe" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Phối màu khoang xe</h3><p>Một lựa chọn màu cho không gian nội thất.</p><a class="home-project-read" href="du-an/phoi-mau-khoang-xe.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/khong-gian-thi-cong.html" aria-label="Xem dự án: Không gian thi công"><img src="images/about/gallery-01.jpg" alt="Không gian thi công" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Không gian thi công</h3><p>Hình ảnh thực tế trong quá trình hoàn thiện.</p><a class="home-project-read" href="du-an/khong-gian-thi-cong.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/goc-hoan-thien-noi-that.html" aria-label="Xem dự án: Góc hoàn thiện nội thất"><img src="images/about/gallery-03.jpg" alt="Góc hoàn thiện nội thất" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Góc hoàn thiện nội thất</h3><p>Quan sát chất liệu ở khoảng cách gần.</p><a class="home-project-read" href="du-an/goc-hoan-thien-noi-that.html">Xem dự án <span aria-hidden="true">→</span></a></article><article class="home-project-card"><a href="du-an/thuc-hanh-tai-xuong.html" aria-label="Xem dự án: Thực hành tại xưởng"><img src="images/training/class-01.jpg" alt="Thực hành tại xưởng" loading="lazy" decoding="async"><span aria-hidden="true">↗</span></a><h3>Thực hành tại xưởng</h3><p>Không gian học và thực hành kỹ thuật.</p><a class="home-project-read" href="du-an/thuc-hanh-tai-xuong.html">Xem dự án <span aria-hidden="true">→</span></a></article></div><div class="home-project-dots" role="tablist" aria-label="Chọn dự án"><button type="button" aria-label="Dự án 1" aria-selected="true" data-project-index="0"></button><button type="button" aria-label="Dự án 2" aria-selected="false" data-project-index="1"></button><button type="button" aria-label="Dự án 3" aria-selected="false" data-project-index="2"></button><button type="button" aria-label="Dự án 4" aria-selected="false" data-project-index="3"></button><button type="button" aria-label="Dự án 5" aria-selected="false" data-project-index="4"></button><button type="button" aria-label="Dự án 6" aria-selected="false" data-project-index="5"></button><button type="button" aria-label="Dự án 7" aria-selected="false" data-project-index="6"></button><button type="button" aria-label="Dự án 8" aria-selected="false" data-project-index="7"></button><button type="button" aria-label="Dự án 9" aria-selected="false" data-project-index="8"></button></div><a class="home-text-link home-project-all" href="du-an.html">Xem toàn bộ dự án <span aria-hidden="true">→</span></a></div></section>
+<section class="home-section home-contact" aria-labelledby="contact-title"><div class="home-wrap"><p class="home-eyebrow">Bắt đầu cùng D.KARE</p><h2 id="contact-title">Bạn cần tư vấn sản phẩm<br>hay thi công?</h2><p>Chia sẻ vật liệu và tình trạng bề mặt.<br>Chúng tôi sẽ trao đổi cùng bạn về hướng xử lý.</p><div class="home-actions"><a class="home-button" href="lien-he.html">Nhận tư vấn</a><a class="home-text-link" href="tel:0795397519">079 539 7519 <span aria-hidden="true">↗</span></a></div></div></section>
+</main>    <footer class="dk-sticky-footer" role="contentinfo"><div class="dk-footer-glow" aria-hidden="true"></div><div class="dk-footer-inner"><div class="dk-footer-main"><div class="dk-footer-brand"><a href="index.html" aria-label="D.KARE — Trang chủ"><img src="images/logo/logo-ngang/2.png" alt="D.KARE" width="582" height="133"></a><p>Sơn và giải pháp hoàn thiện nội thất ô tô cho garage, kỹ thuật viên và chủ xe.</p><div class="dk-footer-social"><a href="https://www.facebook.com/profile.php?id=61592756672301" aria-label="Facebook D.KARE" target="_blank" rel="noopener">f</a><a href="https://www.youtube.com/@dkarepaint" aria-label="YouTube D.KARE" target="_blank" rel="noopener">▶</a><a href="mailto:dkarepaint@gmail.com" aria-label="Email D.KARE">@</a></div></div><div class="dk-footer-group"><h3>Sản phẩm</h3><a href="san-pham.html#tab-nhua">Sơn nhựa</a><a href="san-pham.html#tab-da">Sơn da</a><a href="san-pham.html#tab-ni">Sơn nỉ</a></div><div class="dk-footer-group"><h3>Giải pháp</h3><a href="giai-phap.html#phuc-hoi-da">Phục hồi da nội thất ô tô</a><a href="gia-cong-son.html">Dịch vụ sơn nội thất cho Garage &amp; Đối tác</a><a href="phan-phoi-vat-tu.html">Phân phối vật tư</a><a href="dao-tao.html">Đào tạo 3 tháng</a><a href="doi-mau.html">Đổi màu nội thất</a></div><div class="dk-footer-group"><h3>Chính sách</h3><a href="bao-hanh.html">Bảo hành</a><a href="doi-tra.html">Đổi trả</a><a href="van-chuyen.html">Vận chuyển</a><a href="chinh-sach-bao-mat.html">Bảo mật</a></div><div class="dk-footer-group"><h3>Hỗ trợ</h3><a href="du-an.html">Dự án</a><a href="blog.html">Kiến thức</a><a href="tai-lieu.html">Tài liệu</a><a href="lien-he.html">Liên hệ</a></div></div><div class="dk-footer-bottom"><span>© 2026 D.KARE Việt Nam · Đà Nẵng</span><span><a href="tel:0795397519">079 539 7519</a> · <a href="mailto:dkarepaint@gmail.com">dkarepaint@gmail.com</a></span></div></div></footer><dialog class="home-dialog" id="home-lightbox" aria-labelledby="home-lightbox-caption"><button type="button" class="home-dialog-close" aria-label="Đóng ảnh">×</button><img alt=""><p id="home-lightbox-caption"></p></dialog><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"D.KARE Việt Nam","url":"https://dkare.vn/","telephone":"+84795397519","email":"dkarepaint@gmail.com","address":{"@type":"PostalAddress","streetAddress":"476 Nguyễn Tri Phương, Hòa Cường","addressLocality":"Đà Nẵng","addressCountry":"VN"}}</script></body></html>

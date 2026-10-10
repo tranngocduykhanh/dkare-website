@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /assets/
+Disallow: /.git/
+Disallow: /.agents/
+Disallow: /.codex/
 
 Sitemap: https://dkare.vn/sitemap.xml

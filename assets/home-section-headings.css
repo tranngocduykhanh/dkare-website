@@ -1,0 +1,28 @@
+.dk-home :is(#products,#solutions) .home-section-heading{
+  width:min(100%,860px);
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+.dk-home #products .home-section-heading h2,
+.dk-home #solutions .home-section-heading h2{
+  max-width:none;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.dk-home #products .home-feature-badge{
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+
+.dk-home #solutions .home-section-heading>p:last-child{
+  max-width:720px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+@media(max-width:700px){
+  .dk-home :is(#products,#solutions) .home-section-heading{width:100%}
+}
