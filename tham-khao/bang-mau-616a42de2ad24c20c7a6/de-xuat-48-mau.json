@@ -5,7 +5,9 @@
     "ral_name": "Jet black",
     "group": "12 màu cơ bản",
     "page": 6,
-    "preview": "#939880"
+    "preview": "#151515",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 9010",
@@ -13,7 +15,9 @@
     "ral_name": "Pure white",
     "group": "12 màu cơ bản",
     "page": 6,
-    "preview": "#434e3a"
+    "preview": "#f5f3e9",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 3020",
@@ -21,7 +25,9 @@
     "ral_name": "Traffic red",
     "group": "12 màu cơ bản",
     "page": 3,
-    "preview": "#ce1e25"
+    "preview": "#c82627",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1003",
@@ -29,7 +35,9 @@
     "ral_name": "Signal yellow",
     "group": "12 màu cơ bản",
     "page": 2,
-    "preview": "#fdcc09"
+    "preview": "#e8b820",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 5002",
@@ -37,7 +45,9 @@
     "ral_name": "Ultramarine blue",
     "group": "12 màu cơ bản",
     "page": 3,
-    "preview": "#090c24"
+    "preview": "#29377d",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 6001",
@@ -45,7 +55,9 @@
     "ral_name": "Emerald green",
     "group": "12 màu cơ bản",
     "page": 4,
-    "preview": "#076a37"
+    "preview": "#28754a",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 4005",
@@ -53,7 +65,9 @@
     "ral_name": "Blue lilac",
     "group": "12 màu cơ bản",
     "page": 3,
-    "preview": "#6a2f60"
+    "preview": "#80639a",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8002",
@@ -61,7 +75,9 @@
     "ral_name": "Signal brown",
     "group": "12 màu cơ bản",
     "page": 5,
-    "preview": "#481709"
+    "preview": "#805143",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 5015",
@@ -69,7 +85,9 @@
     "ral_name": "Sky blue",
     "group": "12 màu cơ bản",
     "page": 3,
-    "preview": "#13499f"
+    "preview": "#338bb7",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 4002",
@@ -77,7 +95,9 @@
     "ral_name": "Red violet",
     "group": "12 màu cơ bản",
     "page": 3,
-    "preview": "#730e10"
+    "preview": "#8a4053",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 9006",
@@ -85,7 +105,9 @@
     "ral_name": "White aluminium",
     "group": "12 màu cơ bản",
     "page": 6,
-    "preview": "#909381"
+    "preview": "#b7b9ba",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Bạc nhôm: hiệu ứng kim loại chỉ minh họa; cần duyệt mẫu thật."
   },
   {
     "code": "RAL 1024",
@@ -93,7 +115,9 @@
     "ral_name": "Ochre yellow",
     "group": "12 màu cơ bản",
     "page": 2,
-    "preview": "#af8444"
+    "preview": "#b28b49",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 2004",
@@ -101,7 +125,9 @@
     "ral_name": "Pure orange",
     "group": "6 màu tươi",
     "page": 2,
-    "preview": "#ee1f23"
+    "preview": "#ed5b25",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1028",
@@ -109,7 +135,9 @@
     "ral_name": "Melon yellow",
     "group": "6 màu tươi",
     "page": 2,
-    "preview": "#f68d1e"
+    "preview": "#f3ad23",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 6018",
@@ -117,7 +145,9 @@
     "ral_name": "Yellow green",
     "group": "6 màu tươi",
     "page": 4,
-    "preview": "#0c8441"
+    "preview": "#6eab38",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 5018",
@@ -125,7 +155,9 @@
     "ral_name": "Turquoise blue",
     "group": "6 màu tươi",
     "page": 3,
-    "preview": "#097261"
+    "preview": "#3b9998",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 4010",
@@ -133,7 +165,9 @@
     "ral_name": "Telemagenta",
     "group": "6 màu tươi",
     "page": 4,
-    "preview": "#ad1d51"
+    "preview": "#c83f7b",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 4006",
@@ -141,7 +175,9 @@
     "ral_name": "Traffic purple",
     "group": "6 màu tươi",
     "page": 3,
-    "preview": "#8d2f4e"
+    "preview": "#963879",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1013",
@@ -149,7 +185,9 @@
     "ral_name": "Oyster white",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#e9ebc1"
+    "preview": "#e8e4d7",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1014",
@@ -157,7 +195,9 @@
     "ral_name": "Ivory",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#d3c170"
+    "preview": "#ddc9a3",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1001",
@@ -165,7 +205,9 @@
     "ral_name": "Beige",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#d6b683"
+    "preview": "#cfb58c",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1019",
@@ -173,7 +215,9 @@
     "ral_name": "Grey beige",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#a3872f"
+    "preview": "#a69a85",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1000",
@@ -181,7 +225,9 @@
     "ral_name": "Green beige",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#d7c68b"
+    "preview": "#c8c1a0",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1011",
@@ -189,7 +235,9 @@
     "ral_name": "Brown beige",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#a87b2b"
+    "preview": "#ad895e",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 1034",
@@ -197,7 +245,9 @@
     "ral_name": "Pastel yellow",
     "group": "30 màu phổ biến",
     "page": 3,
-    "preview": "#e08c2f"
+    "preview": "#e4b883",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 7035",
@@ -205,7 +255,9 @@
     "ral_name": "Light grey",
     "group": "30 màu phổ biến",
     "page": 5,
-    "preview": "#aeb6b6"
+    "preview": "#d1d4ce",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 7044",
@@ -213,7 +265,9 @@
     "ral_name": "Silk grey",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#909381"
+    "preview": "#cac6b9",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 7030",
@@ -221,7 +275,9 @@
     "ral_name": "Stone grey",
     "group": "30 màu phổ biến",
     "page": 5,
-    "preview": "#5e6253"
+    "preview": "#959487",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 7006",
@@ -229,7 +285,9 @@
     "ral_name": "Beige grey",
     "group": "30 màu phổ biến",
     "page": 5,
-    "preview": "#7c7346"
+    "preview": "#7b7566",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 7024",
@@ -237,7 +295,9 @@
     "ral_name": "Graphite grey",
     "group": "30 màu phổ biến",
     "page": 5,
-    "preview": "#040504"
+    "preview": "#45494e",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 7016",
@@ -245,7 +305,9 @@
     "ral_name": "Anthracite grey",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#142f23"
+    "preview": "#353b3f",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 9011",
@@ -253,7 +315,9 @@
     "ral_name": "Graphite black",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#4c4d2e"
+    "preview": "#27292b",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 5004",
@@ -261,7 +325,9 @@
     "ral_name": "Black blue",
     "group": "30 màu phổ biến",
     "page": 3,
-    "preview": "#07060b"
+    "preview": "#232735",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8017",
@@ -269,7 +335,9 @@
     "ral_name": "Chocolate brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#1f0a08"
+    "preview": "#49332e",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8014",
@@ -277,7 +345,9 @@
     "ral_name": "Sepia brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#110c07"
+    "preview": "#514236",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8007",
@@ -285,7 +355,9 @@
     "ral_name": "Fawn brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#3f1f0a"
+    "preview": "#785038",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8008",
@@ -293,7 +365,9 @@
     "ral_name": "Olive brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#734f3b"
+    "preview": "#795a32",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8024",
@@ -301,7 +375,9 @@
     "ral_name": "Beige brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#603015"
+    "preview": "#82634f",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8025",
@@ -309,7 +385,9 @@
     "ral_name": "Pale brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#573a23"
+    "preview": "#95745f",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8003",
@@ -317,7 +395,9 @@
     "ral_name": "Clay brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#6c4319"
+    "preview": "#9b693e",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8004",
@@ -325,7 +405,9 @@
     "ral_name": "Copper brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#7c2015"
+    "preview": "#95513e",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 8023",
@@ -333,7 +415,9 @@
     "ral_name": "Orange brown",
     "group": "30 màu phổ biến",
     "page": 6,
-    "preview": "#a46226"
+    "preview": "#b16a3d",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 3003",
@@ -341,7 +425,9 @@
     "ral_name": "Ruby red",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#771012"
+    "preview": "#8e1d2e",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 3004",
@@ -349,7 +435,9 @@
     "ral_name": "Purple red",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#330d0e"
+    "preview": "#651e2a",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 3005",
@@ -357,7 +445,9 @@
     "ral_name": "Wine red",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#44100a"
+    "preview": "#59242c",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 3011",
@@ -365,7 +455,9 @@
     "ral_name": "Brown red",
     "group": "30 màu phổ biến",
     "page": 2,
-    "preview": "#951a1d"
+    "preview": "#7d302d",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 6005",
@@ -373,7 +465,9 @@
     "ral_name": "Moss green",
     "group": "30 màu phổ biến",
     "page": 5,
-    "preview": "#021812"
+    "preview": "#244c3b",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   },
   {
     "code": "RAL 5020",
@@ -381,6 +475,8 @@
     "ral_name": "Ocean blue",
     "group": "30 màu phổ biến",
     "page": 4,
-    "preview": "#032322"
+    "preview": "#1c4b57",
+    "preview_kind": "authored_illustration_not_official_RAL",
+    "finish_note": "Ô màu tự dựng để tham khảo, không phải giá trị số RAL chuẩn."
   }
 ]

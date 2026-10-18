@@ -1,6 +1,6 @@
 # D.KARE — Đề xuất 48 màu theo RAL CLASSIC
 
-Phiên bản 2 · 18/10/2026. Thay thế danh sách mã DK-C trước đây.
+Phiên bản 3 · 18/10/2026. Thay thế danh sách mã DK-C trước đây.
 
 ## Nguyên tắc đặt mã và chia nhóm
 
@@ -98,4 +98,16 @@ PDF được cung cấp là tài liệu tham khảo của bên thứ ba. Một s
 
 Nguồn đối chiếu tên: https://www.ral-farben.de/en/all-ral-colours
 
-Ô màu HTML được lấy từ ảnh PDF để xem bố cục, không phải dữ liệu màu chuẩn RAL. Chưa có thử nghiệm màu sơn thực tế hoặc xác nhận năng lực pha màu của nhà sản xuất.
+Toàn bộ ô màu HTML đã tự dựng lại, không còn lấy màu từ ảnh PDF 2021. Các giá trị hiển thị là lựa chọn minh họa của bản thiết kế, KHÔNG phải RGB/HEX chính thức hoặc dữ liệu màu đo theo RAL. Màu bạc dùng chuyển sắc nhẹ minh họa kim loại, không mô tả màu chuẩn RAL 9006. Chưa có thử nghiệm màu sơn thực tế hoặc xác nhận năng lực pha màu của nhà sản xuất.
+
+## Cập nhật bản 3 — gửi nhà sản xuất
+
+- Không lấy màu trắng/đen/bạc từ file RAL-COLOR-2021.pdf hoặc từ các ô màu HTML làm chuẩn sản xuất. PDF gốc chỉ giữ để đọc mã và đối chiếu tài liệu.
+- Giữ nguyên 48 mã RAL và cơ cấu 12 màu cơ bản, 6 màu tươi, 30 màu phổ biến; không đổi mã theo cảm nhận hình ảnh.
+- RAL 9005 — Jet black: yêu cầu mẫu đen tuyền; RAL 9010 — Pure white: yêu cầu mẫu trắng tương ứng mã, không tự thay bằng trắng RGB tuyệt đối hoặc RAL 9016.
+- RAL 9011 — Graphite black là mã riêng, không gộp với RAL 9005.
+- RAL 9006 — White aluminium: yêu cầu mẫu bạc nhôm thật; ghi rõ cỡ hạt, định hướng hạt, lớp phủ và độ bóng. Không thay bằng xám phẳng hoặc bạc gương Chrome mà không được duyệt.
+- Căn cứ duyệt: mẫu RAL vật lý đã thống nhất và mẫu phun được D.KARE ký duyệt, trên đúng nền và hệ sơn. Nhà sản xuất đề xuất điều kiện đo, dung sai và phương pháp đánh giá hiệu ứng bạc để hai bên chốt trước sản xuất.
+- Chưa có dữ liệu đo màu hoặc thử mẫu sản xuất. Bản tự dựng chỉ phục vụ chọn nhóm và trao đổi tên/mã màu.
+
+Tham khảo tên mã bạc: https://www.ral-farben.de/en/colour/ral-classic/ral-9006/9288
