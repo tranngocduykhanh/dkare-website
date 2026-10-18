@@ -25,7 +25,7 @@ Phiên bản 2 · 18/10/2026. Thay thế danh sách mã DK-C trước đây.
 | RAL 8002 | Nâu cơ bản | Signal brown | 5 |
 | RAL 5015 | Xanh da trời | Sky blue | 3 |
 | RAL 4002 | Đỏ tím | Red violet | 3 |
-| RAL 3015 | Hồng nhạt | Light pink | 3 |
+| RAL 9006 | Bạc nhôm | White aluminium | 6 |
 | RAL 1024 | Vàng đất | Ochre yellow | 2 |
 
 ## 6 màu tươi
@@ -73,6 +73,10 @@ Phiên bản 2 · 18/10/2026. Thay thế danh sách mã DK-C trước đây.
 | RAL 3011 | Đỏ nâu | Brown red | 2 |
 | RAL 6005 | Xanh rêu | Moss green | 5 |
 | RAL 5020 | Xanh đại dương | Ocean blue | 4 |
+
+## Lưu ý riêng màu bạc RAL 9006
+
+RAL 9006 là bạc nhôm (White aluminium), thuộc nhóm 12 màu cơ bản; thay RAL 3015 hồng nhạt của bản trước. Màu này khác bạc gương Chrome. Ảnh PDF không thể hiện đầy đủ hiệu ứng kim loại; nhà sản xuất cần gửi mẫu thật, xác nhận hệ chất màu, cỡ hạt/độ định hướng hạt, độ bóng và lớp phủ phù hợp từng hệ sơn.
 
 ## Nội dung gửi nhà sản xuất
 
