@@ -85,7 +85,7 @@
     "group": "Trắng, kem và trung tính",
     "source": "45",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#bbb1a9"
   },
   {
     "code": "DK-C12",
@@ -93,7 +93,7 @@
     "group": "Trắng, kem và trung tính",
     "source": "46",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#af9e93"
   },
   {
     "code": "DK-C13",
@@ -101,7 +101,7 @@
     "group": "Trắng, kem và trung tính",
     "source": "47",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#636363"
   },
   {
     "code": "DK-C14",
@@ -109,7 +109,7 @@
     "group": "Trắng, kem và trung tính",
     "source": "48",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#454547"
   },
   {
     "code": "DK-C15",
@@ -117,7 +117,7 @@
     "group": "Trắng, kem và trung tính",
     "source": "49",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#777468"
   },
   {
     "code": "DK-C16",
@@ -125,7 +125,7 @@
     "group": "Trắng, kem và trung tính",
     "source": "50",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#87898d"
   },
   {
     "code": "DK-C17",
@@ -197,7 +197,7 @@
     "group": "Nâu da và tông đất",
     "source": "43",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#d5ae8a"
   },
   {
     "code": "DK-C26",
@@ -205,7 +205,7 @@
     "group": "Nâu da và tông đất",
     "source": "44",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#bc8f65"
   },
   {
     "code": "DK-C27",
@@ -269,7 +269,7 @@
     "group": "Đỏ và đỏ trầm",
     "source": "61",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#401f34"
   },
   {
     "code": "DK-C35",
@@ -301,7 +301,7 @@
     "group": "Xanh và xanh ngọc",
     "source": "53",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#324234"
   },
   {
     "code": "DK-C39",
@@ -309,7 +309,7 @@
     "group": "Xanh và xanh ngọc",
     "source": "54",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#102c2e"
   },
   {
     "code": "DK-C40",
@@ -317,7 +317,7 @@
     "group": "Xanh và xanh ngọc",
     "source": "55",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#9eb8b0"
   },
   {
     "code": "DK-C41",
@@ -325,7 +325,7 @@
     "group": "Xanh và xanh ngọc",
     "source": "56",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#8abdba"
   },
   {
     "code": "DK-C42",
@@ -333,7 +333,7 @@
     "group": "Xanh và xanh ngọc",
     "source": "57",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#018b94"
   },
   {
     "code": "DK-C43",
@@ -341,7 +341,7 @@
     "group": "Xanh và xanh ngọc",
     "source": "58",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#024d7a"
   },
   {
     "code": "DK-C44",
@@ -349,7 +349,7 @@
     "group": "Xanh và xanh ngọc",
     "source": "62",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#0d2741"
   },
   {
     "code": "DK-C45",
@@ -365,7 +365,7 @@
     "group": "Màu nhấn",
     "source": "51",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#e47f58"
   },
   {
     "code": "DK-C47",
@@ -373,7 +373,7 @@
     "group": "Màu nhấn",
     "source": "52",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#fb9255"
   },
   {
     "code": "DK-C48",
@@ -381,6 +381,6 @@
     "group": "Màu nhấn",
     "source": "59",
     "page": 4,
-    "preview": "#ffffff"
+    "preview": "#e59bab"
   }
 ]
