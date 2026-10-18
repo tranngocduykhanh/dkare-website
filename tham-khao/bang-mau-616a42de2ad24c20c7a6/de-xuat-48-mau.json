@@ -1,0 +1,386 @@
+[
+  {
+    "code": "DK-C01",
+    "name": "Đen thuần",
+    "group": "Trắng, kem và trung tính",
+    "source": "01",
+    "page": 2,
+    "preview": "#242424"
+  },
+  {
+    "code": "DK-C02",
+    "name": "Trắng thuần",
+    "group": "Trắng, kem và trung tính",
+    "source": "02",
+    "page": 2,
+    "preview": "#efefeb"
+  },
+  {
+    "code": "DK-C03",
+    "name": "Trắng sữa",
+    "group": "Trắng, kem và trung tính",
+    "source": "35",
+    "page": 3,
+    "preview": "#d7d3c9"
+  },
+  {
+    "code": "DK-C04",
+    "name": "Trắng ngà",
+    "group": "Trắng, kem và trung tính",
+    "source": "36",
+    "page": 3,
+    "preview": "#d9d8d4"
+  },
+  {
+    "code": "DK-C05",
+    "name": "Trắng ngà lạnh",
+    "group": "Trắng, kem và trung tính",
+    "source": "37",
+    "page": 3,
+    "preview": "#e8e5e0"
+  },
+  {
+    "code": "DK-C06",
+    "name": "Kem hồng",
+    "group": "Trắng, kem và trung tính",
+    "source": "38",
+    "page": 3,
+    "preview": "#e3d1c1"
+  },
+  {
+    "code": "DK-C07",
+    "name": "Be sáng",
+    "group": "Trắng, kem và trung tính",
+    "source": "39",
+    "page": 3,
+    "preview": "#cac8bb"
+  },
+  {
+    "code": "DK-C08",
+    "name": "Be trung tính",
+    "group": "Trắng, kem và trung tính",
+    "source": "40",
+    "page": 3,
+    "preview": "#cab9a6"
+  },
+  {
+    "code": "DK-C09",
+    "name": "Be cát",
+    "group": "Trắng, kem và trung tính",
+    "source": "41",
+    "page": 3,
+    "preview": "#c2a07c"
+  },
+  {
+    "code": "DK-C10",
+    "name": "Be mật ong",
+    "group": "Trắng, kem và trung tính",
+    "source": "42",
+    "page": 3,
+    "preview": "#b38853"
+  },
+  {
+    "code": "DK-C11",
+    "name": "Xám ấm",
+    "group": "Trắng, kem và trung tính",
+    "source": "45",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C12",
+    "name": "Xám ngọc trai",
+    "group": "Trắng, kem và trung tính",
+    "source": "46",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C13",
+    "name": "Xám đậm",
+    "group": "Trắng, kem và trung tính",
+    "source": "47",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C14",
+    "name": "Đen than",
+    "group": "Trắng, kem và trung tính",
+    "source": "48",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C15",
+    "name": "Xám trung tính",
+    "group": "Trắng, kem và trung tính",
+    "source": "49",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C16",
+    "name": "Xanh đen",
+    "group": "Trắng, kem và trung tính",
+    "source": "50",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C17",
+    "name": "Nâu cơ bản",
+    "group": "Nâu da và tông đất",
+    "source": "07",
+    "page": 2,
+    "preview": "#854033"
+  },
+  {
+    "code": "DK-C18",
+    "name": "Vàng đất",
+    "group": "Nâu da và tông đất",
+    "source": "13",
+    "page": 2,
+    "preview": "#bf8e2b"
+  },
+  {
+    "code": "DK-C19",
+    "name": "Nâu đỏ trầm",
+    "group": "Nâu da và tông đất",
+    "source": "28",
+    "page": 3,
+    "preview": "#512a29"
+  },
+  {
+    "code": "DK-C20",
+    "name": "Nâu cà phê",
+    "group": "Nâu da và tông đất",
+    "source": "31 — Coffee (hàng 3, cột 4)",
+    "page": 3,
+    "preview": "#402824"
+  },
+  {
+    "code": "DK-C21",
+    "name": "Nâu chocolate",
+    "group": "Nâu da và tông đất",
+    "source": "31 — Dark brown 2 (hàng 4, cột 1)",
+    "page": 3,
+    "preview": "#b4aba7"
+  },
+  {
+    "code": "DK-C22",
+    "name": "Nâu khói",
+    "group": "Nâu da và tông đất",
+    "source": "32",
+    "page": 3,
+    "preview": "#bfbcbd"
+  },
+  {
+    "code": "DK-C23",
+    "name": "Nâu cognac",
+    "group": "Nâu da và tông đất",
+    "source": "33",
+    "page": 3,
+    "preview": "#b16d4b"
+  },
+  {
+    "code": "DK-C24",
+    "name": "Nâu gạch",
+    "group": "Nâu da và tông đất",
+    "source": "34",
+    "page": 3,
+    "preview": "#b34d34"
+  },
+  {
+    "code": "DK-C25",
+    "name": "Nâu camel",
+    "group": "Nâu da và tông đất",
+    "source": "43",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C26",
+    "name": "Nâu caramel",
+    "group": "Nâu da và tông đất",
+    "source": "44",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C27",
+    "name": "Đỏ cơ bản",
+    "group": "Đỏ và đỏ trầm",
+    "source": "03",
+    "page": 2,
+    "preview": "#bd1830"
+  },
+  {
+    "code": "DK-C28",
+    "name": "Đỏ mận",
+    "group": "Đỏ và đỏ trầm",
+    "source": "10",
+    "page": 2,
+    "preview": "#751e32"
+  },
+  {
+    "code": "DK-C29",
+    "name": "Đỏ hồng trầm",
+    "group": "Đỏ và đỏ trầm",
+    "source": "11",
+    "page": 2,
+    "preview": "#a43349"
+  },
+  {
+    "code": "DK-C30",
+    "name": "Đỏ thể thao",
+    "group": "Đỏ và đỏ trầm",
+    "source": "20",
+    "page": 3,
+    "preview": "#aa0a1d"
+  },
+  {
+    "code": "DK-C31",
+    "name": "Đỏ Bordeaux",
+    "group": "Đỏ và đỏ trầm",
+    "source": "23",
+    "page": 3,
+    "preview": "#835f61"
+  },
+  {
+    "code": "DK-C32",
+    "name": "Đỏ rượu vang",
+    "group": "Đỏ và đỏ trầm",
+    "source": "29",
+    "page": 3,
+    "preview": "#470e15"
+  },
+  {
+    "code": "DK-C33",
+    "name": "Đỏ mã não",
+    "group": "Đỏ và đỏ trầm",
+    "source": "30",
+    "page": 3,
+    "preview": "#6d454a"
+  },
+  {
+    "code": "DK-C34",
+    "name": "Tím rượu",
+    "group": "Đỏ và đỏ trầm",
+    "source": "61",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C35",
+    "name": "Xanh dương cơ bản",
+    "group": "Xanh và xanh ngọc",
+    "source": "05",
+    "page": 2,
+    "preview": "#202d67"
+  },
+  {
+    "code": "DK-C36",
+    "name": "Xanh lá cơ bản",
+    "group": "Xanh và xanh ngọc",
+    "source": "08",
+    "page": 2,
+    "preview": "#173f25"
+  },
+  {
+    "code": "DK-C37",
+    "name": "Xanh cobalt",
+    "group": "Xanh và xanh ngọc",
+    "source": "09",
+    "page": 2,
+    "preview": "#214e9c"
+  },
+  {
+    "code": "DK-C38",
+    "name": "Xanh rêu đậm",
+    "group": "Xanh và xanh ngọc",
+    "source": "53",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C39",
+    "name": "Xanh lục bảo",
+    "group": "Xanh và xanh ngọc",
+    "source": "54",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C40",
+    "name": "Xanh ngọc sáng",
+    "group": "Xanh và xanh ngọc",
+    "source": "55",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C41",
+    "name": "Xanh ngọc dịu",
+    "group": "Xanh và xanh ngọc",
+    "source": "56",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C42",
+    "name": "Xanh ngọc đậm",
+    "group": "Xanh và xanh ngọc",
+    "source": "57",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C43",
+    "name": "Xanh đại dương",
+    "group": "Xanh và xanh ngọc",
+    "source": "58",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C44",
+    "name": "Xanh navy",
+    "group": "Xanh và xanh ngọc",
+    "source": "62",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C45",
+    "name": "Vàng cơ bản",
+    "group": "Màu nhấn",
+    "source": "04",
+    "page": 2,
+    "preview": "#f1c300"
+  },
+  {
+    "code": "DK-C46",
+    "name": "Cam đất",
+    "group": "Màu nhấn",
+    "source": "51",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C47",
+    "name": "Cam tươi",
+    "group": "Màu nhấn",
+    "source": "52",
+    "page": 4,
+    "preview": "#ffffff"
+  },
+  {
+    "code": "DK-C48",
+    "name": "Hồng phấn",
+    "group": "Màu nhấn",
+    "source": "59",
+    "page": 4,
+    "preview": "#ffffff"
+  }
+]
