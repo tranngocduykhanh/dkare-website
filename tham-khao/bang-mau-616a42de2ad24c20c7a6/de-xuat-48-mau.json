@@ -1,386 +1,386 @@
 [
   {
-    "code": "DK-C01",
-    "name": "Đen thuần",
-    "group": "Trắng, kem và trung tính",
-    "source": "01",
-    "page": 2,
-    "preview": "#242424"
+    "code": "RAL 9005",
+    "name": "Đen tuyền",
+    "ral_name": "Jet black",
+    "group": "12 màu cơ bản",
+    "page": 6,
+    "preview": "#939880"
   },
   {
-    "code": "DK-C02",
+    "code": "RAL 9010",
     "name": "Trắng thuần",
-    "group": "Trắng, kem và trung tính",
-    "source": "02",
+    "ral_name": "Pure white",
+    "group": "12 màu cơ bản",
+    "page": 6,
+    "preview": "#434e3a"
+  },
+  {
+    "code": "RAL 3020",
+    "name": "Đỏ tươi",
+    "ral_name": "Traffic red",
+    "group": "12 màu cơ bản",
+    "page": 3,
+    "preview": "#ce1e25"
+  },
+  {
+    "code": "RAL 1003",
+    "name": "Vàng tín hiệu",
+    "ral_name": "Signal yellow",
+    "group": "12 màu cơ bản",
     "page": 2,
-    "preview": "#efefeb"
+    "preview": "#fdcc09"
   },
   {
-    "code": "DK-C03",
-    "name": "Trắng sữa",
-    "group": "Trắng, kem và trung tính",
-    "source": "35",
+    "code": "RAL 5002",
+    "name": "Xanh dương đậm",
+    "ral_name": "Ultramarine blue",
+    "group": "12 màu cơ bản",
     "page": 3,
-    "preview": "#d7d3c9"
+    "preview": "#090c24"
   },
   {
-    "code": "DK-C04",
-    "name": "Trắng ngà",
-    "group": "Trắng, kem và trung tính",
-    "source": "36",
-    "page": 3,
-    "preview": "#d9d8d4"
-  },
-  {
-    "code": "DK-C05",
-    "name": "Trắng ngà lạnh",
-    "group": "Trắng, kem và trung tính",
-    "source": "37",
-    "page": 3,
-    "preview": "#e8e5e0"
-  },
-  {
-    "code": "DK-C06",
-    "name": "Kem hồng",
-    "group": "Trắng, kem và trung tính",
-    "source": "38",
-    "page": 3,
-    "preview": "#e3d1c1"
-  },
-  {
-    "code": "DK-C07",
-    "name": "Be sáng",
-    "group": "Trắng, kem và trung tính",
-    "source": "39",
-    "page": 3,
-    "preview": "#cac8bb"
-  },
-  {
-    "code": "DK-C08",
-    "name": "Be trung tính",
-    "group": "Trắng, kem và trung tính",
-    "source": "40",
-    "page": 3,
-    "preview": "#cab9a6"
-  },
-  {
-    "code": "DK-C09",
-    "name": "Be cát",
-    "group": "Trắng, kem và trung tính",
-    "source": "41",
-    "page": 3,
-    "preview": "#c2a07c"
-  },
-  {
-    "code": "DK-C10",
-    "name": "Be mật ong",
-    "group": "Trắng, kem và trung tính",
-    "source": "42",
-    "page": 3,
-    "preview": "#b38853"
-  },
-  {
-    "code": "DK-C11",
-    "name": "Xám ấm",
-    "group": "Trắng, kem và trung tính",
-    "source": "45",
-    "page": 4,
-    "preview": "#bbb1a9"
-  },
-  {
-    "code": "DK-C12",
-    "name": "Xám ngọc trai",
-    "group": "Trắng, kem và trung tính",
-    "source": "46",
-    "page": 4,
-    "preview": "#af9e93"
-  },
-  {
-    "code": "DK-C13",
-    "name": "Xám đậm",
-    "group": "Trắng, kem và trung tính",
-    "source": "47",
-    "page": 4,
-    "preview": "#636363"
-  },
-  {
-    "code": "DK-C14",
-    "name": "Đen than",
-    "group": "Trắng, kem và trung tính",
-    "source": "48",
-    "page": 4,
-    "preview": "#454547"
-  },
-  {
-    "code": "DK-C15",
-    "name": "Xám trung tính",
-    "group": "Trắng, kem và trung tính",
-    "source": "49",
-    "page": 4,
-    "preview": "#777468"
-  },
-  {
-    "code": "DK-C16",
-    "name": "Xanh đen",
-    "group": "Trắng, kem và trung tính",
-    "source": "50",
-    "page": 4,
-    "preview": "#87898d"
-  },
-  {
-    "code": "DK-C17",
-    "name": "Nâu cơ bản",
-    "group": "Nâu da và tông đất",
-    "source": "07",
-    "page": 2,
-    "preview": "#854033"
-  },
-  {
-    "code": "DK-C18",
-    "name": "Vàng đất",
-    "group": "Nâu da và tông đất",
-    "source": "13",
-    "page": 2,
-    "preview": "#bf8e2b"
-  },
-  {
-    "code": "DK-C19",
-    "name": "Nâu đỏ trầm",
-    "group": "Nâu da và tông đất",
-    "source": "28",
-    "page": 3,
-    "preview": "#512a29"
-  },
-  {
-    "code": "DK-C20",
-    "name": "Nâu cà phê",
-    "group": "Nâu da và tông đất",
-    "source": "31 — Coffee (hàng 3, cột 4)",
-    "page": 3,
-    "preview": "#402824"
-  },
-  {
-    "code": "DK-C21",
-    "name": "Nâu chocolate",
-    "group": "Nâu da và tông đất",
-    "source": "31 — Dark brown 2 (hàng 4, cột 1)",
-    "page": 3,
-    "preview": "#b4aba7"
-  },
-  {
-    "code": "DK-C22",
-    "name": "Nâu khói",
-    "group": "Nâu da và tông đất",
-    "source": "32",
-    "page": 3,
-    "preview": "#bfbcbd"
-  },
-  {
-    "code": "DK-C23",
-    "name": "Nâu cognac",
-    "group": "Nâu da và tông đất",
-    "source": "33",
-    "page": 3,
-    "preview": "#b16d4b"
-  },
-  {
-    "code": "DK-C24",
-    "name": "Nâu gạch",
-    "group": "Nâu da và tông đất",
-    "source": "34",
-    "page": 3,
-    "preview": "#b34d34"
-  },
-  {
-    "code": "DK-C25",
-    "name": "Nâu camel",
-    "group": "Nâu da và tông đất",
-    "source": "43",
-    "page": 4,
-    "preview": "#d5ae8a"
-  },
-  {
-    "code": "DK-C26",
-    "name": "Nâu caramel",
-    "group": "Nâu da và tông đất",
-    "source": "44",
-    "page": 4,
-    "preview": "#bc8f65"
-  },
-  {
-    "code": "DK-C27",
-    "name": "Đỏ cơ bản",
-    "group": "Đỏ và đỏ trầm",
-    "source": "03",
-    "page": 2,
-    "preview": "#bd1830"
-  },
-  {
-    "code": "DK-C28",
-    "name": "Đỏ mận",
-    "group": "Đỏ và đỏ trầm",
-    "source": "10",
-    "page": 2,
-    "preview": "#751e32"
-  },
-  {
-    "code": "DK-C29",
-    "name": "Đỏ hồng trầm",
-    "group": "Đỏ và đỏ trầm",
-    "source": "11",
-    "page": 2,
-    "preview": "#a43349"
-  },
-  {
-    "code": "DK-C30",
-    "name": "Đỏ thể thao",
-    "group": "Đỏ và đỏ trầm",
-    "source": "20",
-    "page": 3,
-    "preview": "#aa0a1d"
-  },
-  {
-    "code": "DK-C31",
-    "name": "Đỏ Bordeaux",
-    "group": "Đỏ và đỏ trầm",
-    "source": "23",
-    "page": 3,
-    "preview": "#835f61"
-  },
-  {
-    "code": "DK-C32",
-    "name": "Đỏ rượu vang",
-    "group": "Đỏ và đỏ trầm",
-    "source": "29",
-    "page": 3,
-    "preview": "#470e15"
-  },
-  {
-    "code": "DK-C33",
-    "name": "Đỏ mã não",
-    "group": "Đỏ và đỏ trầm",
-    "source": "30",
-    "page": 3,
-    "preview": "#6d454a"
-  },
-  {
-    "code": "DK-C34",
-    "name": "Tím rượu",
-    "group": "Đỏ và đỏ trầm",
-    "source": "61",
-    "page": 4,
-    "preview": "#401f34"
-  },
-  {
-    "code": "DK-C35",
-    "name": "Xanh dương cơ bản",
-    "group": "Xanh và xanh ngọc",
-    "source": "05",
-    "page": 2,
-    "preview": "#202d67"
-  },
-  {
-    "code": "DK-C36",
-    "name": "Xanh lá cơ bản",
-    "group": "Xanh và xanh ngọc",
-    "source": "08",
-    "page": 2,
-    "preview": "#173f25"
-  },
-  {
-    "code": "DK-C37",
-    "name": "Xanh cobalt",
-    "group": "Xanh và xanh ngọc",
-    "source": "09",
-    "page": 2,
-    "preview": "#214e9c"
-  },
-  {
-    "code": "DK-C38",
-    "name": "Xanh rêu đậm",
-    "group": "Xanh và xanh ngọc",
-    "source": "53",
-    "page": 4,
-    "preview": "#324234"
-  },
-  {
-    "code": "DK-C39",
+    "code": "RAL 6001",
     "name": "Xanh lục bảo",
-    "group": "Xanh và xanh ngọc",
-    "source": "54",
+    "ral_name": "Emerald green",
+    "group": "12 màu cơ bản",
     "page": 4,
-    "preview": "#102c2e"
+    "preview": "#076a37"
   },
   {
-    "code": "DK-C40",
-    "name": "Xanh ngọc sáng",
-    "group": "Xanh và xanh ngọc",
-    "source": "55",
-    "page": 4,
-    "preview": "#9eb8b0"
+    "code": "RAL 4005",
+    "name": "Tím xanh",
+    "ral_name": "Blue lilac",
+    "group": "12 màu cơ bản",
+    "page": 3,
+    "preview": "#6a2f60"
   },
   {
-    "code": "DK-C41",
-    "name": "Xanh ngọc dịu",
-    "group": "Xanh và xanh ngọc",
-    "source": "56",
-    "page": 4,
-    "preview": "#8abdba"
+    "code": "RAL 8002",
+    "name": "Nâu cơ bản",
+    "ral_name": "Signal brown",
+    "group": "12 màu cơ bản",
+    "page": 5,
+    "preview": "#481709"
   },
   {
-    "code": "DK-C42",
-    "name": "Xanh ngọc đậm",
-    "group": "Xanh và xanh ngọc",
-    "source": "57",
-    "page": 4,
-    "preview": "#018b94"
+    "code": "RAL 5015",
+    "name": "Xanh da trời",
+    "ral_name": "Sky blue",
+    "group": "12 màu cơ bản",
+    "page": 3,
+    "preview": "#13499f"
   },
   {
-    "code": "DK-C43",
-    "name": "Xanh đại dương",
-    "group": "Xanh và xanh ngọc",
-    "source": "58",
-    "page": 4,
-    "preview": "#024d7a"
+    "code": "RAL 4002",
+    "name": "Đỏ tím",
+    "ral_name": "Red violet",
+    "group": "12 màu cơ bản",
+    "page": 3,
+    "preview": "#730e10"
   },
   {
-    "code": "DK-C44",
-    "name": "Xanh navy",
-    "group": "Xanh và xanh ngọc",
-    "source": "62",
-    "page": 4,
-    "preview": "#0d2741"
+    "code": "RAL 3015",
+    "name": "Hồng nhạt",
+    "ral_name": "Light pink",
+    "group": "12 màu cơ bản",
+    "page": 3,
+    "preview": "#d78485"
   },
   {
-    "code": "DK-C45",
-    "name": "Vàng cơ bản",
-    "group": "Màu nhấn",
-    "source": "04",
+    "code": "RAL 1024",
+    "name": "Vàng đất",
+    "ral_name": "Ochre yellow",
+    "group": "12 màu cơ bản",
     "page": 2,
-    "preview": "#f1c300"
+    "preview": "#af8444"
   },
   {
-    "code": "DK-C46",
-    "name": "Cam đất",
-    "group": "Màu nhấn",
-    "source": "51",
-    "page": 4,
-    "preview": "#e47f58"
-  },
-  {
-    "code": "DK-C47",
+    "code": "RAL 2004",
     "name": "Cam tươi",
-    "group": "Màu nhấn",
-    "source": "52",
-    "page": 4,
-    "preview": "#fb9255"
+    "ral_name": "Pure orange",
+    "group": "6 màu tươi",
+    "page": 2,
+    "preview": "#ee1f23"
   },
   {
-    "code": "DK-C48",
-    "name": "Hồng phấn",
-    "group": "Màu nhấn",
-    "source": "59",
+    "code": "RAL 1028",
+    "name": "Vàng cam",
+    "ral_name": "Melon yellow",
+    "group": "6 màu tươi",
+    "page": 2,
+    "preview": "#f68d1e"
+  },
+  {
+    "code": "RAL 6018",
+    "name": "Xanh nõn chuối",
+    "ral_name": "Yellow green",
+    "group": "6 màu tươi",
     "page": 4,
-    "preview": "#e59bab"
+    "preview": "#0c8441"
+  },
+  {
+    "code": "RAL 5018",
+    "name": "Xanh ngọc tươi",
+    "ral_name": "Turquoise blue",
+    "group": "6 màu tươi",
+    "page": 3,
+    "preview": "#097261"
+  },
+  {
+    "code": "RAL 4010",
+    "name": "Hồng tím tươi",
+    "ral_name": "Telemagenta",
+    "group": "6 màu tươi",
+    "page": 4,
+    "preview": "#ad1d51"
+  },
+  {
+    "code": "RAL 4006",
+    "name": "Tím tươi",
+    "ral_name": "Traffic purple",
+    "group": "6 màu tươi",
+    "page": 3,
+    "preview": "#8d2f4e"
+  },
+  {
+    "code": "RAL 1013",
+    "name": "Trắng ngọc trai",
+    "ral_name": "Oyster white",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#e9ebc1"
+  },
+  {
+    "code": "RAL 1014",
+    "name": "Trắng ngà",
+    "ral_name": "Ivory",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#d3c170"
+  },
+  {
+    "code": "RAL 1001",
+    "name": "Be",
+    "ral_name": "Beige",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#d6b683"
+  },
+  {
+    "code": "RAL 1019",
+    "name": "Be xám",
+    "ral_name": "Grey beige",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#a3872f"
+  },
+  {
+    "code": "RAL 1000",
+    "name": "Be xanh",
+    "ral_name": "Green beige",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#d7c68b"
+  },
+  {
+    "code": "RAL 1011",
+    "name": "Be nâu",
+    "ral_name": "Brown beige",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#a87b2b"
+  },
+  {
+    "code": "RAL 1034",
+    "name": "Vàng kem",
+    "ral_name": "Pastel yellow",
+    "group": "30 màu phổ biến",
+    "page": 3,
+    "preview": "#e08c2f"
+  },
+  {
+    "code": "RAL 7035",
+    "name": "Xám sáng",
+    "ral_name": "Light grey",
+    "group": "30 màu phổ biến",
+    "page": 5,
+    "preview": "#aeb6b6"
+  },
+  {
+    "code": "RAL 7044",
+    "name": "Xám lụa",
+    "ral_name": "Silk grey",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#909381"
+  },
+  {
+    "code": "RAL 7030",
+    "name": "Xám đá",
+    "ral_name": "Stone grey",
+    "group": "30 màu phổ biến",
+    "page": 5,
+    "preview": "#5e6253"
+  },
+  {
+    "code": "RAL 7006",
+    "name": "Xám be",
+    "ral_name": "Beige grey",
+    "group": "30 màu phổ biến",
+    "page": 5,
+    "preview": "#7c7346"
+  },
+  {
+    "code": "RAL 7024",
+    "name": "Xám graphite",
+    "ral_name": "Graphite grey",
+    "group": "30 màu phổ biến",
+    "page": 5,
+    "preview": "#040504"
+  },
+  {
+    "code": "RAL 7016",
+    "name": "Xám than",
+    "ral_name": "Anthracite grey",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#142f23"
+  },
+  {
+    "code": "RAL 9011",
+    "name": "Đen graphite",
+    "ral_name": "Graphite black",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#4c4d2e"
+  },
+  {
+    "code": "RAL 5004",
+    "name": "Xanh đen",
+    "ral_name": "Black blue",
+    "group": "30 màu phổ biến",
+    "page": 3,
+    "preview": "#07060b"
+  },
+  {
+    "code": "RAL 8017",
+    "name": "Nâu chocolate",
+    "ral_name": "Chocolate brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#1f0a08"
+  },
+  {
+    "code": "RAL 8014",
+    "name": "Nâu sepia",
+    "ral_name": "Sepia brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#110c07"
+  },
+  {
+    "code": "RAL 8007",
+    "name": "Nâu da",
+    "ral_name": "Fawn brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#3f1f0a"
+  },
+  {
+    "code": "RAL 8008",
+    "name": "Nâu olive",
+    "ral_name": "Olive brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#734f3b"
+  },
+  {
+    "code": "RAL 8024",
+    "name": "Nâu be",
+    "ral_name": "Beige brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#603015"
+  },
+  {
+    "code": "RAL 8025",
+    "name": "Nâu nhạt",
+    "ral_name": "Pale brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#573a23"
+  },
+  {
+    "code": "RAL 8003",
+    "name": "Nâu đất sét",
+    "ral_name": "Clay brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#6c4319"
+  },
+  {
+    "code": "RAL 8004",
+    "name": "Nâu đồng",
+    "ral_name": "Copper brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#7c2015"
+  },
+  {
+    "code": "RAL 8023",
+    "name": "Nâu cam",
+    "ral_name": "Orange brown",
+    "group": "30 màu phổ biến",
+    "page": 6,
+    "preview": "#a46226"
+  },
+  {
+    "code": "RAL 3003",
+    "name": "Đỏ ruby",
+    "ral_name": "Ruby red",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#771012"
+  },
+  {
+    "code": "RAL 3004",
+    "name": "Đỏ tía",
+    "ral_name": "Purple red",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#330d0e"
+  },
+  {
+    "code": "RAL 3005",
+    "name": "Đỏ rượu vang",
+    "ral_name": "Wine red",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#44100a"
+  },
+  {
+    "code": "RAL 3011",
+    "name": "Đỏ nâu",
+    "ral_name": "Brown red",
+    "group": "30 màu phổ biến",
+    "page": 2,
+    "preview": "#951a1d"
+  },
+  {
+    "code": "RAL 6005",
+    "name": "Xanh rêu",
+    "ral_name": "Moss green",
+    "group": "30 màu phổ biến",
+    "page": 5,
+    "preview": "#021812"
+  },
+  {
+    "code": "RAL 5020",
+    "name": "Xanh đại dương",
+    "ral_name": "Ocean blue",
+    "group": "30 màu phổ biến",
+    "page": 4,
+    "preview": "#032322"
   }
 ]
