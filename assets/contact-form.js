@@ -1,5 +1,5 @@
 (() => {
-  const form = document.getElementById('dkare-contact-form');
+  const form = document.getElementById('revox-contact-form');
   if (!form) return;
   const button = document.getElementById('submit-btn');
   const label = document.getElementById('submit-text');

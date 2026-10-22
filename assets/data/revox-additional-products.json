@@ -2,7 +2,7 @@
   "source": "Các dòng sản phẩm do chủ website xác nhận; chưa có hồ sơ mã và quy cách.",
   "products": [
     {
-      "id": "dkare-son-chrome",
+      "id": "revox-son-chrome",
       "code": "Đang cập nhật",
       "name": "Sơn bạc hiệu ứng Chrome REVOX",
       "path": "san-pham/vat-tu/son-chrome.html",
@@ -20,7 +20,7 @@
       "status": "awaiting_details"
     },
     {
-      "id": "dkare-keo-boc",
+      "id": "revox-keo-boc",
       "code": "Đang cập nhật",
       "name": "Keo dán bọc nội thất REVOX",
       "path": "san-pham/vat-tu/keo-dan-boc-noi-that.html",
@@ -38,7 +38,7 @@
       "status": "awaiting_details"
     },
     {
-      "id": "dkare-cam-giac-da",
+      "id": "revox-cam-giac-da",
       "code": "Đang cập nhật",
       "name": "Chất tạo cảm giác da REVOX",
       "path": "san-pham/vat-tu/chat-tao-cam-giac-da.html",
