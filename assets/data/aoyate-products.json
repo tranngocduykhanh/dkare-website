@@ -1,7 +1,7 @@
 {
   "version": 1,
   "review_date": "2026-10-08",
-  "base_url": "https://dkare.vn",
+  "base_url": "https://tranngocduykhanh.github.io/dkare-website",
   "products": [
     {
       "code": "00",
@@ -34,7 +34,7 @@
       "priority": "Mồi",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -45,8 +45,8 @@
       "path": "san-pham/aoyate/00-bo-ve-sinh-giay.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/00-bo-ve-sinh-giay-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Bộ bọt vệ sinh giày",
+          "path": "images/products/revox-packaging/revox-00-bo-ve-sinh-giay.png",
+          "alt": "Thiết kế bao bì REVOX — Bộ bọt vệ sinh giày",
           "caption": "Bao bì minh họa — Bộ bọt vệ sinh giày",
           "kind": "mockup"
         },
@@ -116,7 +116,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -149,7 +149,7 @@
       "priority": "Sau",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -160,8 +160,8 @@
       "path": "san-pham/aoyate/00-mau-da-bong.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/00-mau-da-bong-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Màu phục hồi da bóng",
+          "path": "images/products/revox-packaging/revox-00-mau-da-bong.png",
+          "alt": "Thiết kế bao bì REVOX — Màu phục hồi da bóng",
           "caption": "Bao bì minh họa — Màu phục hồi da bóng",
           "kind": "mockup"
         },
@@ -230,7 +230,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -254,7 +254,7 @@
       ],
       "faq": [
         "Chai 100 g có phải quy cách mua mẫu lẻ không?",
-        "Trang nguồn có mức đặt tối thiểu 50 chai. D.KARE sẽ xác nhận quy cách cung cấp và báo giá theo nhu cầu."
+        "Trang nguồn có mức đặt tối thiểu 50 chai. REVOX sẽ xác nhận quy cách cung cấp và báo giá theo nhu cầu."
       ],
       "video": "chất cố định gốc nước 003T.mp4",
       "id": "aoyate-003t_co_dinh_mau_100g",
@@ -269,7 +269,7 @@
       "priority": "So sánh",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -280,8 +280,8 @@
       "path": "san-pham/aoyate/003t-co-dinh-mau.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/003t-co-dinh-mau-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu 003T",
+          "path": "images/products/revox-packaging/revox-003t-co-dinh-mau.png",
+          "alt": "Thiết kế bao bì REVOX — Chất cố định màu 003T",
           "caption": "Bao bì minh họa — Chất cố định màu 003T",
           "kind": "mockup"
         },
@@ -379,7 +379,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -420,7 +420,7 @@
       "priority": "Chính",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -431,8 +431,8 @@
       "path": "san-pham/aoyate/04-bo-phuc-hoi-noi-that.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/04-bo-phuc-hoi-noi-that-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Bộ phục hồi da nội thất ô tô",
+          "path": "images/products/revox-packaging/revox-04-bo-phuc-hoi-noi-that.png",
+          "alt": "Thiết kế bao bì REVOX — Bộ phục hồi da nội thất ô tô",
           "caption": "Bao bì minh họa — Bộ phục hồi da nội thất ô tô",
           "kind": "mockup"
         },
@@ -557,7 +557,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -595,7 +595,7 @@
       "priority": "Sau",
       "evidence": "catalog 56,83–84; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -606,8 +606,8 @@
       "path": "san-pham/aoyate/101d-110d-mau-da-lon.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/101d-110d-mau-da-lon-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Màu phục hồi da lộn và nubuck",
+          "path": "images/products/revox-packaging/revox-101d-110d-mau-da-lon.png",
+          "alt": "Thiết kế bao bì REVOX — Màu phục hồi da lộn và nubuck",
           "caption": "Bao bì minh họa — Màu phục hồi da lộn và nubuck",
           "kind": "mockup"
         },
@@ -691,7 +691,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -728,7 +728,7 @@
       "priority": "Mồi",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -739,8 +739,8 @@
       "path": "san-pham/aoyate/1201d-1252d-kem-bo-sung-mau.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/1201d-1252d-kem-bo-sung-mau-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Kem bổ sung màu da",
+          "path": "images/products/revox-packaging/revox-1201d-1252d-kem-bo-sung-mau.png",
+          "alt": "Thiết kế bao bì REVOX — Kem bổ sung màu da",
           "caption": "Bao bì minh họa — Kem bổ sung màu da",
           "kind": "mockup"
         },
@@ -831,7 +831,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -868,7 +868,7 @@
       "priority": "Chính",
       "evidence": "listing",
       "status": "needs_confirmation",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -879,8 +879,8 @@
       "path": "san-pham/aoyate/1203-phu-mo-goc-nuoc.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/1203-phu-mo-goc-nuoc-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Lớp phủ mờ gốc nước",
+          "path": "images/products/revox-packaging/revox-1203-phu-mo-goc-nuoc.png",
+          "alt": "Thiết kế bao bì REVOX — Lớp phủ mờ gốc nước",
           "caption": "Bao bì minh họa — Lớp phủ mờ gốc nước",
           "kind": "mockup"
         },
@@ -978,7 +978,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1015,7 +1015,7 @@
       "priority": "Chính",
       "evidence": "catalog 76; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1026,8 +1026,8 @@
       "path": "san-pham/aoyate/1209d-co-dinh-goc-nuoc.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/1209d-co-dinh-goc-nuoc-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu gốc nước 1209D",
+          "path": "images/products/revox-packaging/revox-1209d-co-dinh-goc-nuoc.png",
+          "alt": "Thiết kế bao bì REVOX — Chất cố định màu gốc nước 1209D",
           "caption": "Bao bì minh họa — Chất cố định màu gốc nước 1209D",
           "kind": "mockup"
         },
@@ -1104,7 +1104,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1140,7 +1140,7 @@
       "priority": "Chính",
       "evidence": "catalog 62,103; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1151,8 +1151,8 @@
       "path": "san-pham/aoyate/1230d-ba-sua-da.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/1230d-ba-sua-da-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Bả sửa da và phục hồi vân",
+          "path": "images/products/revox-packaging/revox-1230d-ba-sua-da.png",
+          "alt": "Thiết kế bao bì REVOX — Bả sửa da và phục hồi vân",
           "caption": "Bao bì minh họa — Bả sửa da và phục hồi vân",
           "kind": "mockup"
         },
@@ -1214,7 +1214,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1252,7 +1252,7 @@
       "priority": "Chính",
       "evidence": "catalog 58,72,77; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1263,8 +1263,8 @@
       "path": "san-pham/aoyate/1307a-son-phuc-hoi-da.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/1307a-son-phuc-hoi-da-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Sơn phục hồi và đổi màu da gốc nước",
+          "path": "images/products/revox-packaging/revox-1307a-son-phuc-hoi-da.png",
+          "alt": "Thiết kế bao bì REVOX — Sơn phục hồi và đổi màu da gốc nước",
           "caption": "Bao bì minh họa — Sơn phục hồi và đổi màu da gốc nước",
           "kind": "mockup"
         },
@@ -1297,7 +1297,7 @@
       "source_images": [],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1332,7 +1332,7 @@
       "priority": "Theo ca",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1343,8 +1343,8 @@
       "path": "san-pham/aoyate/1708d-xu-ly-nen-da-nut.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/1708d-xu-ly-nen-da-nut-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất xử lý nền da nứt",
+          "path": "images/products/revox-packaging/revox-1708d-xu-ly-nen-da-nut.png",
+          "alt": "Thiết kế bao bì REVOX — Chất xử lý nền da nứt",
           "caption": "Bao bì minh họa — Chất xử lý nền da nứt",
           "kind": "mockup"
         },
@@ -1441,19 +1441,19 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
     {
       "code": "2008D",
       "slug": "2008d-lien-ket-cheo",
-      "name": "Chất liên kết chéo hệ nước",
+      "name": "Chất liên kết ngang hệ nước",
       "intro": "Phụ gia phối trong hệ hoàn thiện da gốc nước phù hợp. Dành cho kỹ thuật viên đã xác nhận công thức và điều kiện sử dụng sau pha.",
       "surfaces": "Hệ sơn hoặc lớp phủ gốc nước được nhà cung cấp xác nhận tương thích.",
       "exclude": "Không dùng trực tiếp như lớp dưỡng da; không nhầm với A+B tạo khuôn vân. Chưa chốt cơ sở tính tỷ lệ và thời gian dùng hỗn hợp.",
       "specs": {
-        "Vai trò": "Phụ gia liên kết chéo",
+        "Vai trò": "Phụ gia liên kết ngang",
         "Hệ phối": "Hệ nước tương thích, cần xác nhận mã"
       },
       "steps": [
@@ -1478,7 +1478,7 @@
       "priority": "Chờ",
       "evidence": "catalog 32; listing",
       "status": "needs_confirmation",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1489,33 +1489,33 @@
       "path": "san-pham/aoyate/2008d-lien-ket-cheo.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất liên kết chéo hệ nước",
-          "caption": "Bao bì minh họa — Chất liên kết chéo hệ nước",
+          "path": "images/products/revox-packaging/revox-2008d-lien-ket-cheo.png",
+          "alt": "Thiết kế bao bì REVOX — Chất liên kết ngang hệ nước",
+          "caption": "Bao bì minh họa — Chất liên kết ngang hệ nước",
           "kind": "mockup"
         },
         {
           "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-02-cong-dung.svg",
-          "alt": "Công dụng — Chất liên kết chéo hệ nước",
-          "caption": "Công dụng — Chất liên kết chéo hệ nước",
+          "alt": "Công dụng — Chất liên kết ngang hệ nước",
+          "caption": "Công dụng — Chất liên kết ngang hệ nước",
           "kind": "information"
         },
         {
           "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-03-be-mat.svg",
-          "alt": "Bề mặt phù hợp — Chất liên kết chéo hệ nước",
-          "caption": "Bề mặt phù hợp — Chất liên kết chéo hệ nước",
+          "alt": "Bề mặt phù hợp — Chất liên kết ngang hệ nước",
+          "caption": "Bề mặt phù hợp — Chất liên kết ngang hệ nước",
           "kind": "information"
         },
         {
           "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-04-cach-dung.svg",
-          "alt": "Cách dùng tham khảo — Chất liên kết chéo hệ nước",
-          "caption": "Cách dùng tham khảo — Chất liên kết chéo hệ nước",
+          "alt": "Cách dùng tham khảo — Chất liên kết ngang hệ nước",
+          "caption": "Cách dùng tham khảo — Chất liên kết ngang hệ nước",
           "kind": "information"
         },
         {
           "path": "images/products/dkare-packaging/2008d-lien-ket-cheo-05-luu-y.svg",
-          "alt": "Lưu ý trước khi dùng — Chất liên kết chéo hệ nước",
-          "caption": "Lưu ý trước khi dùng — Chất liên kết chéo hệ nước",
+          "alt": "Lưu ý trước khi dùng — Chất liên kết ngang hệ nước",
+          "caption": "Lưu ý trước khi dùng — Chất liên kết ngang hệ nước",
           "kind": "information"
         }
       ],
@@ -1531,7 +1531,7 @@
       "source_images": [],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1571,7 +1571,7 @@
       "priority": "Chính",
       "evidence": "catalog 53,103; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1582,8 +1582,8 @@
       "path": "san-pham/aoyate/2009d-bo-tao-khuon-van-da.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/2009d-bo-tao-khuon-van-da-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Bộ A+B tạo khuôn vân da",
+          "path": "images/products/revox-packaging/revox-2009d-bo-tao-khuon-van-da.png",
+          "alt": "Thiết kế bao bì REVOX — Bộ A+B tạo khuôn vân da",
           "caption": "Bao bì minh họa — Bộ A+B tạo khuôn vân da",
           "kind": "mockup"
         },
@@ -1660,7 +1660,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1697,7 +1697,7 @@
       "priority": "Chính",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1708,8 +1708,8 @@
       "path": "san-pham/aoyate/201g-tay-dau-tay-mang.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/201g-tay-dau-tay-mang-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất tẩy dầu và tẩy màng",
+          "path": "images/products/revox-packaging/revox-201g-tay-dau-tay-mang.png",
+          "alt": "Thiết kế bao bì REVOX — Chất tẩy dầu và tẩy màng",
           "caption": "Bao bì minh họa — Chất tẩy dầu và tẩy màng",
           "kind": "mockup"
         },
@@ -1779,7 +1779,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1817,7 +1817,7 @@
       "priority": "Sau",
       "evidence": "catalog 54; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1828,8 +1828,8 @@
       "path": "san-pham/aoyate/328c-lop-phu-bong.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/328c-lop-phu-bong-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Lớp phủ bóng gốc nước 328C",
+          "path": "images/products/revox-packaging/revox-328c-lop-phu-bong.png",
+          "alt": "Thiết kế bao bì REVOX — Lớp phủ bóng gốc nước 328C",
           "caption": "Bao bì minh họa — Lớp phủ bóng gốc nước 328C",
           "kind": "mockup"
         },
@@ -1906,7 +1906,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -1939,7 +1939,7 @@
       "priority": "Phụ trợ",
       "evidence": "catalog 12; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -1950,8 +1950,8 @@
       "path": "san-pham/aoyate/401a-rua-sung-phun.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/401a-rua-sung-phun-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Dung dịch rửa súng phun",
+          "path": "images/products/revox-packaging/revox-401a-rua-sung-phun.png",
+          "alt": "Thiết kế bao bì REVOX — Dung dịch rửa súng phun",
           "caption": "Bao bì minh họa — Dung dịch rửa súng phun",
           "kind": "mockup"
         },
@@ -2021,7 +2021,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2043,7 +2043,7 @@
       ],
       "faq": [
         "402A có cùng sản phẩm với 402D không?",
-        "Chưa có xác nhận đổi mã. D.KARE cần đối chiếu công thức và hướng dẫn trước khi dùng quy trình catalog cho 402A."
+        "Chưa có xác nhận đổi mã. REVOX cần đối chiếu công thức và hướng dẫn trước khi dùng quy trình catalog cho 402A."
       ],
       "video": "Dung dịch chăm sóc da - 402A.mp4",
       "id": "aoyate-402a_chat_lam_sach_manh",
@@ -2058,7 +2058,7 @@
       "priority": "Chính",
       "evidence": "catalog 10,103 đối chiếu; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2069,8 +2069,8 @@
       "path": "san-pham/aoyate/402a-lam-sach-manh.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/402a-lam-sach-manh-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất làm sạch mạnh 402A",
+          "path": "images/products/revox-packaging/revox-402a-lam-sach-manh.png",
+          "alt": "Thiết kế bao bì REVOX — Chất làm sạch mạnh 402A",
           "caption": "Bao bì minh họa — Chất làm sạch mạnh 402A",
           "kind": "mockup"
         },
@@ -2111,7 +2111,7 @@
       "source_images": [],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2148,7 +2148,7 @@
       "priority": "Chính",
       "evidence": "catalog 7,103; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2159,8 +2159,8 @@
       "path": "san-pham/aoyate/403d-lam-sach-nhe.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/403d-lam-sach-nhe-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất làm sạch nhẹ cho da",
+          "path": "images/products/revox-packaging/revox-403d-lam-sach-nhe.png",
+          "alt": "Thiết kế bao bì REVOX — Chất làm sạch nhẹ cho da",
           "caption": "Bao bì minh họa — Chất làm sạch nhẹ cho da",
           "kind": "mockup"
         },
@@ -2230,7 +2230,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2266,7 +2266,7 @@
       "priority": "Theo ca",
       "evidence": "catalog 8,103; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2277,8 +2277,8 @@
       "path": "san-pham/aoyate/412d-lam-sach-trung-binh-manh.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/412d-lam-sach-trung-binh-manh-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất làm sạch trung bình–mạnh",
+          "path": "images/products/revox-packaging/revox-412d-lam-sach-trung-binh-manh.png",
+          "alt": "Thiết kế bao bì REVOX — Chất làm sạch trung bình–mạnh",
           "caption": "Bao bì minh họa — Chất làm sạch trung bình–mạnh",
           "kind": "mockup"
         },
@@ -2319,7 +2319,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2355,7 +2355,7 @@
       "priority": "Theo ca",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2366,8 +2366,8 @@
       "path": "san-pham/aoyate/412k-tay-lem-mau.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/412k-tay-lem-mau-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất tẩy lem màu trên da",
+          "path": "images/products/revox-packaging/revox-412k-tay-lem-mau.png",
+          "alt": "Thiết kế bao bì REVOX — Chất tẩy lem màu trên da",
           "caption": "Bao bì minh họa — Chất tẩy lem màu trên da",
           "kind": "mockup"
         },
@@ -2457,7 +2457,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2494,7 +2494,7 @@
       "priority": "Sau",
       "evidence": "catalog 28,96; listing",
       "status": "needs_confirmation",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2505,8 +2505,8 @@
       "path": "san-pham/aoyate/506d-co-dinh-da-lon.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/506d-co-dinh-da-lon-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu da lộn",
+          "path": "images/products/revox-packaging/revox-506d-co-dinh-da-lon.png",
+          "alt": "Thiết kế bao bì REVOX — Chất cố định màu da lộn",
           "caption": "Bao bì minh họa — Chất cố định màu da lộn",
           "kind": "mockup"
         },
@@ -2555,7 +2555,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2589,7 +2589,7 @@
       "priority": "Chờ",
       "evidence": "listing; catalog 28 đối chiếu",
       "status": "needs_confirmation",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2600,8 +2600,8 @@
       "path": "san-pham/aoyate/506d-nhua-phoi-da-lon.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/506d-nhua-phoi-da-lon-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Nhựa phối màu da lộn — hồ sơ 506D",
+          "path": "images/products/revox-packaging/revox-506d-nhua-phoi-da-lon.png",
+          "alt": "Thiết kế bao bì REVOX — Nhựa phối màu da lộn — hồ sơ 506D",
           "caption": "Bao bì minh họa — Nhựa phối màu da lộn — hồ sơ 506D",
           "kind": "mockup"
         },
@@ -2663,7 +2663,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2700,7 +2700,7 @@
       "priority": "Chờ",
       "evidence": "catalog 69 đối chiếu; listing",
       "status": "needs_confirmation",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2711,8 +2711,8 @@
       "path": "san-pham/aoyate/509g-co-dinh-goc-dau.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/509g-co-dinh-goc-dau-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu gốc dầu",
+          "path": "images/products/revox-packaging/revox-509g-co-dinh-goc-dau.png",
+          "alt": "Thiết kế bao bì REVOX — Chất cố định màu gốc dầu",
           "caption": "Bao bì minh họa — Chất cố định màu gốc dầu",
           "kind": "mockup"
         },
@@ -2781,7 +2781,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2817,7 +2817,7 @@
       "priority": "So sánh",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2828,8 +2828,8 @@
       "path": "san-pham/aoyate/705k-co-dinh-goc-nuoc.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/705k-co-dinh-goc-nuoc-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất cố định màu gốc nước 705K",
+          "path": "images/products/revox-packaging/revox-705k-co-dinh-goc-nuoc.png",
+          "alt": "Thiết kế bao bì REVOX — Chất cố định màu gốc nước 705K",
           "caption": "Bao bì minh họa — Chất cố định màu gốc nước 705K",
           "kind": "mockup"
         },
@@ -2912,7 +2912,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -2947,7 +2947,7 @@
       "priority": "Chờ",
       "evidence": "catalog 41,45; listing",
       "status": "needs_confirmation",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -2958,8 +2958,8 @@
       "path": "san-pham/aoyate/802c-lot-tang-bam.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/802c-lot-tang-bam-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Lót tăng bám — hồ sơ 802C",
+          "path": "images/products/revox-packaging/revox-802c-lot-tang-bam.png",
+          "alt": "Thiết kế bao bì REVOX — Lót tăng bám — hồ sơ 802C",
           "caption": "Bao bì minh họa — Lót tăng bám — hồ sơ 802C",
           "kind": "mockup"
         },
@@ -3014,7 +3014,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -3051,7 +3051,7 @@
       "priority": "Chính",
       "evidence": "catalog 75; listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -3062,8 +3062,8 @@
       "path": "san-pham/aoyate/806d-pha-loang-goc-nuoc.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/806d-pha-loang-goc-nuoc-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Chất pha loãng sơn da gốc nước",
+          "path": "images/products/revox-packaging/revox-806d-pha-loang-goc-nuoc.png",
+          "alt": "Thiết kế bao bì REVOX — Chất pha loãng sơn da gốc nước",
           "caption": "Bao bì minh họa — Chất pha loãng sơn da gốc nước",
           "kind": "mockup"
         },
@@ -3147,7 +3147,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -3184,7 +3184,7 @@
       "priority": "Theo ca",
       "evidence": "listing; catalog 62 đối chiếu",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -3195,8 +3195,8 @@
       "path": "san-pham/aoyate/809g-keo-mem-dan-da.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/809g-keo-mem-dan-da-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Keo mềm dán sửa da",
+          "path": "images/products/revox-packaging/revox-809g-keo-mem-dan-da.png",
+          "alt": "Thiết kế bao bì REVOX — Keo mềm dán sửa da",
           "caption": "Bao bì minh họa — Keo mềm dán sửa da",
           "kind": "mockup"
         },
@@ -3280,7 +3280,7 @@
       ],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     },
@@ -3317,7 +3317,7 @@
       "priority": "So sánh",
       "evidence": "listing",
       "status": "content_draft",
-      "brand": "AOYATE",
+      "brand": "REVOX",
       "price": null,
       "documents": [
         {
@@ -3328,8 +3328,8 @@
       "path": "san-pham/aoyate/902k-ba-sua-da.html",
       "images": [
         {
-          "path": "images/products/dkare-packaging/902k-ba-sua-da-dkare-v1.png",
-          "alt": "Thiết kế bao bì D.KARE — Bả sửa hư hỏng da 902K",
+          "path": "images/products/revox-packaging/revox-902k-ba-sua-da.png",
+          "alt": "Thiết kế bao bì REVOX — Bả sửa hư hỏng da 902K",
           "caption": "Bao bì minh họa — Bả sửa hư hỏng da 902K",
           "kind": "mockup"
         },
@@ -3370,7 +3370,7 @@
       "source_images": [],
       "packaging_mockup": {
         "version": 1,
-        "reference": "images/products/dkare-packaging/nhan-tham-chieu-dkare.png",
+        "reference": "images/products/revox-packaging/revox-nhan-tham-chieu.png",
         "note": "Thiết kế bao bì minh họa; không thay thế ảnh hàng giao và hồ sơ nhà cung cấp."
       }
     }

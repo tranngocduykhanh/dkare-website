@@ -1,4 +1,4 @@
-/* Extension below the existing D.KARE product hero. */
+/* Extension below the existing REVOX product hero. */
 .dk-detail{background:#fff}.dk-detail-steps li{list-style:none}.dk-detail-steps li::marker{content:""}
 .product-layout:has(>.dk-detail) .product-hero>*{min-width:0}.product-layout:has(>.dk-detail) .product-info{overflow-wrap:anywhere}
 .dk-detail{--detail-red:#b22222;--detail-ink:#202124;--detail-muted:#5b6067;--detail-line:#e3e5e8;--detail-soft:#f6f7f8;color:var(--detail-ink);margin-top:64px}

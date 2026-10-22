@@ -5,9 +5,9 @@
   const label = document.getElementById('submit-text');
   const spinner = document.getElementById('submit-spinner');
   const responseBox = document.getElementById('form-response');
-  const base = (window.DKARE_API_BASE || '').replace(/\/$/, '');
+  const base = (window.REVOX_API_BASE || '').replace(/\/$/, '');
   const providerNote = document.querySelector('[data-form-provider]');
-  if (providerNote) providerNote.textContent = base ? 'Biểu mẫu được lưu trong hệ thống của D.KARE.' : 'Biểu mẫu được truyền qua Web3Forms.';
+  if (providerNote) providerNote.textContent = base ? 'Biểu mẫu được lưu trong hệ thống của REVOX.' : 'Biểu mẫu được truyền qua Web3Forms.';
   let lastPayload = '', requestKey = '';
   form.addEventListener('submit', async event => {
     event.preventDefault();
@@ -32,12 +32,12 @@
       responseBox.className = 'success-box';
       responseBox.replaceChildren();
       const title = document.createElement('p'); title.className = 'font-semibold text-lg'; title.textContent = 'Đã gửi yêu cầu thành công.';
-      const copy = document.createElement('p'); copy.textContent = 'D.KARE sẽ liên hệ với bạn trong thời gian sớm nhất.';
+      const copy = document.createElement('p'); copy.textContent = 'REVOX sẽ liên hệ với bạn trong thời gian sớm nhất.';
       responseBox.append(title, copy); form.reset(); lastPayload = ''; requestKey = '';
     } catch (error) {
       responseBox.className = 'error-box'; responseBox.replaceChildren();
       const copy = document.createElement('p');
-      copy.textContent = error.name === 'TimeoutError' ? 'Chưa nhận được xác nhận. Bạn có thể gửi lại; hệ thống D.KARE sẽ kiểm tra tránh ghi trùng.' : 'Không thể gửi yêu cầu: ' + (error.message || 'Vui lòng thử lại hoặc gọi 079 539 7519.');
+      copy.textContent = error.name === 'TimeoutError' ? 'Chưa nhận được xác nhận. Bạn có thể gửi lại; hệ thống REVOX sẽ kiểm tra tránh ghi trùng.' : 'Không thể gửi yêu cầu: ' + (error.message || 'Vui lòng thử lại hoặc gọi 079 539 7519.');
       responseBox.append(copy);
     } finally {
       responseBox.classList.remove('hidden'); label.classList.remove('hidden'); spinner.classList.add('hidden'); button.disabled = false;

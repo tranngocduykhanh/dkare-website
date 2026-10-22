@@ -1,4 +1,4 @@
-# Rà soát danh mục D.KARE
+# Rà soát danh mục REVOX
 
 34 dòng / hồ sơ duy nhất; 28 dòng hiển thị mặc định, 6 hồ sơ cần xác nhận.
 
@@ -21,14 +21,14 @@ Các nhóm trống chrome, keo bọc nội thất, chất tạo cảm giác da �
 | 412D | Chất làm sạch trung bình–mạnh | Ô tô / nội thất, Ngành da khác | Da trơn | Vệ sinh / xử lý vết bẩn | Có phạm vi nguồn |
 | 806D | Chất pha loãng sơn da gốc nước | Ô tô / nội thất, Ngành da khác | Da trơn | Pha loãng / phụ gia | Có phạm vi nguồn |
 | 1708D | Chất xử lý nền da nứt | Ô tô / nội thất, Ngành da khác | Da trơn | Chuẩn bị bề mặt, Dán / trám sửa | Có phạm vi nguồn |
-| FVN | Dung môi pha sơn D.KARE | Ô tô / nội thất | Nhựa nội thất | Pha loãng / phụ gia | Có phạm vi nguồn |
+| FVN | Dung môi pha sơn REVOX | Ô tô / nội thất | Nhựa nội thất | Pha loãng / phụ gia | Có phạm vi nguồn |
 | 1201D–1252D | Kem bổ sung màu da | Ô tô / nội thất, Ngành da khác | Da trơn | Lên màu / bổ sung màu | Có phạm vi nguồn |
 | 809G | Keo mềm dán sửa da | Ô tô / nội thất, Ngành da khác | Da trơn | Dán / trám sửa | Có phạm vi nguồn |
-| DN-1 | Sơn D.KARE cho nhựa | Ô tô / nội thất | Nhựa nội thất | Lên màu / bổ sung màu | Có phạm vi nguồn |
-| DL-1 | Sơn da D.KARE DL-1 | Ô tô / nội thất | Da trơn | Lên màu / bổ sung màu | Có phạm vi nguồn |
+| VPL | Sơn REVOX cho nhựa | Ô tô / nội thất | Nhựa nội thất | Lên màu / bổ sung màu | Có phạm vi nguồn |
+| DL-1 | Sơn da REVOX DL-1 | Ô tô / nội thất | Da trơn | Lên màu / bổ sung màu | Có phạm vi nguồn |
 | LPOM | Sơn lót POM / PA6 | Ô tô / nội thất | Nhựa nội thất | Sơn lót / tăng bám | Có phạm vi nguồn |
 | LPP | Sơn lót PP | Ô tô / nội thất | Nhựa nội thất | Sơn lót / tăng bám | Có phạm vi nguồn |
-| Đang cập nhật | Sơn nỉ nội thất D.KARE | Ô tô / nội thất | Nỉ / vải nội thất | Lên màu / bổ sung màu | Có phạm vi nguồn |
+| Đang cập nhật | Sơn nỉ nội thất REVOX | Ô tô / nội thất | Nỉ / vải nội thất | Lên màu / bổ sung màu | Có phạm vi nguồn |
 | 1307A | Sơn phục hồi và đổi màu da gốc nước | Ô tô / nội thất, Ngành da khác | Da trơn | Lên màu / bổ sung màu | Có phạm vi nguồn |
 | 401A | Dung dịch rửa súng phun | Ô tô / nội thất, Ngành da khác, Vật tư xưởng | Da trơn | Vệ sinh thiết bị | Có phạm vi nguồn |
 | 902K | Bả sửa hư hỏng da 902K | Ngành da khác | Da trơn | Dán / trám sửa | Có phạm vi nguồn |
@@ -44,5 +44,5 @@ Các nhóm trống chrome, keo bọc nội thất, chất tạo cảm giác da �
 | 1203 / 017F–025F | Lớp phủ mờ gốc nước | Ô tô / nội thất, Ngành da khác | Da trơn | Phủ / cố định màu | Cần xác nhận |
 | 506D | Chất cố định màu da lộn | Ngành da khác | Da lộn / nubuck | Phủ / cố định màu | Cần xác nhận |
 | 509G / ảnh 705K | Chất cố định màu gốc dầu | Chưa xác nhận | Da trơn | Phủ / cố định màu | Cần xác nhận |
-| 2008D | Chất liên kết chéo hệ nước | Chưa xác nhận | Vật tư hệ / thiết bị | Pha loãng / phụ gia | Cần xác nhận |
+| 2008D | Chất liên kết ngang hệ nước | Chưa xác nhận | Vật tư hệ / thiết bị | Pha loãng / phụ gia | Cần xác nhận |
 | 506D | Nhựa phối màu da lộn — hồ sơ 506D | Chưa xác nhận | Da lộn / nubuck | Sơn lót / tăng bám, Pha loãng / phụ gia | Cần xác nhận |

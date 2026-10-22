@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
   <title id="title">Ảnh sản phẩm đang cập nhật</title>
-  <desc id="desc">D.KARE chưa bổ sung ảnh chi tiết tại vị trí này.</desc>
+  <desc id="desc">REVOX chưa bổ sung ảnh chi tiết tại vị trí này.</desc>
   <rect width="1200" height="1200" fill="#f5f5f5"/>
   <rect x="120" y="120" width="960" height="960" rx="24" fill="none" stroke="#dedede" stroke-width="2"/>
-  <text x="600" y="565" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" fill="#222">D.KARE</text>
+  <text x="600" y="565" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" fill="#222">REVOX</text>
   <text x="600" y="640" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#666">Ảnh chi tiết đang cập nhật</text>
 </svg>

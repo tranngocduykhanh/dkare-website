@@ -20,7 +20,7 @@
       ['Sơn nội thất', [['Sơn nhựa nội thất ô tô','san-pham.html#tab-nhua'],['Sơn da nội thất ô tô','san-pham.html#tab-da'],['Sơn nỉ nội thất ô tô','san-pham.html#tab-ni']]],
       ['Sơn hiệu ứng & vật tư', [['Sơn bạc hiệu ứng Chrome','san-pham.html#son-chrome'],['Keo dán bọc nội thất','san-pham.html#keo-dan'],['Bả Matit tạo vân da','san-pham.html#matit'],['Sơn lót','san-pham.html#son-lot'],['Sơn phủ','san-pham.html#son-phu'],['Chất tạo cảm giác da','san-pham.html#cam-giac-da']]]
     ],
-    'giai-phap.html': [['Giải pháp D.KARE', [['Phục hồi da nội thất ô tô','giai-phap.html#phuc-hoi-da'],['Dịch vụ sơn nội thất cho Garage & Đối tác','gia-cong-son.html'],['Phân phối vật tư','phan-phoi-vat-tu.html'],['Đào tạo 3 tháng','dao-tao.html'],['Đổi màu nội thất','doi-mau.html']]]]
+    'giai-phap.html': [['Giải pháp REVOX', [['Phục hồi da nội thất ô tô','giai-phap.html#phuc-hoi-da'],['Dịch vụ sơn nội thất cho Garage & Đối tác','gia-cong-son.html'],['Phân phối vật tư','phan-phoi-vat-tu.html'],['Đào tạo 3 tháng','dao-tao.html'],['Đổi màu nội thất','doi-mau.html']]]]
   };
   const navMarkup = className => navigation.map(item => {
     const link = `<a class="${className}" href="${href(item.file)}"${activeFor(item) ? ' aria-current="page"' : ''}>${item.label}</a>`;
@@ -36,8 +36,8 @@
     header.setAttribute('role', 'banner');
     header.innerHTML = `
       <div class="dk-global-inner">
-        <a href="${href('index.html')}" class="dk-brand" aria-label="D.KARE — Trang chủ">
-          <img src="${href('images/logo/logo-ngang/1.png')}" alt="D.KARE" width="582" height="133">
+        <a href="${href('index.html')}" class="dk-brand" aria-label="REVOX — Trang chủ">
+          <img src="${href('images/logo/revox/wordmark.png')}" alt="REVOX" width="2172" height="724">
         </a>
         <nav class="dk-desktop-nav" aria-label="Điều hướng chính">${navMarkup('dk-nav-link')}</nav>
         <div class="dk-header-actions">

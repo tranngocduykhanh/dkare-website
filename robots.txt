@@ -4,4 +4,4 @@ Disallow: /.git/
 Disallow: /.agents/
 Disallow: /.codex/
 
-Sitemap: https://dkare.vn/sitemap.xml
+Sitemap: https://tranngocduykhanh.github.io/dkare-website/sitemap.xml

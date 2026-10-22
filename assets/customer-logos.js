@@ -5,7 +5,7 @@
   if (!grid) return;
   for (let number = 1; number <= 7; number++) {
     const image = new Image();
-    image.alt = 'Logo khách hàng D.KARE';
+    image.alt = 'Logo khách hàng REVOX';
     image.width = 600; image.height = 300;
     image.hidden = true;
     image.addEventListener('load', () => {image.hidden = false; section.hidden = false;});

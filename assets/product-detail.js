@@ -53,10 +53,10 @@
       result.querySelector('[data-inquiry-text]').textContent = content;
       const link = result.querySelector('[data-inquiry-email]');
       link.href = `mailto:dkarepaint@gmail.com?subject=${encodeURIComponent('Tư vấn sản phẩm ' + values.get('product_code'))}&body=${encodeURIComponent(content)}`;
-      result.querySelector('[data-inquiry-status]').textContent = 'Nội dung đã được soạn trên thiết bị của bạn, chưa gửi đến D.KARE. Chọn mở email để gửi bằng ứng dụng email, hoặc gọi D.KARE.';
+      result.querySelector('[data-inquiry-status]').textContent = 'Nội dung đã được soạn trên thiết bị của bạn, chưa gửi đến REVOX. Chọn mở email để gửi bằng ứng dụng email, hoặc gọi REVOX.';
       result.querySelector('[data-inquiry-copy]').onclick = async () => {
-        try { await navigator.clipboard.writeText(content); result.querySelector('[data-inquiry-status]').textContent = 'Đã sao chép nội dung. Bạn có thể gửi cho D.KARE qua kênh liên hệ đang sử dụng.'; }
-        catch (_) { result.querySelector('[data-inquiry-status]').textContent = 'Bạn có thể chọn và sao chép nội dung bên trên để gửi cho D.KARE.'; }
+        try { await navigator.clipboard.writeText(content); result.querySelector('[data-inquiry-status]').textContent = 'Đã sao chép nội dung. Bạn có thể gửi cho REVOX qua kênh liên hệ đang sử dụng.'; }
+        catch (_) { result.querySelector('[data-inquiry-status]').textContent = 'Bạn có thể chọn và sao chép nội dung bên trên để gửi cho REVOX.'; }
       };
     });
     form.elements.message.addEventListener('input', () => form.elements.message.setCustomValidity(''));

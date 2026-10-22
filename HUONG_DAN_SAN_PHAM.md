@@ -1,4 +1,4 @@
-# Trang sản phẩm AOYATE trong website D.KARE
+# Trang sản phẩm AOYATE trong website REVOX
 
 ## Cấu trúc
 
@@ -35,9 +35,9 @@ Không đưa `.codex`, `.agents`, tệp riêng của máy hoặc dữ liệu bac
 - Video `thuốc mở sửa chữa.mp4` chưa gắn sản phẩm vì tên không xác định mã; bản file đã được lưu cùng manifest.
 - Ba file 003T, 1209D và 017F–025F có cùng nội dung; dùng một video chung với ghi chú cần đối chiếu mã.
 - Chưa có TDS/SDS khớp từng mã để tải. Catalog có nút tải riêng, ghi rõ nguồn tham khảo.
-- Chưa có bộ ảnh thử nghiệm riêng của D.KARE. Ảnh hãng giữ nhãn tư liệu nhà cung cấp.
+- Chưa có bộ ảnh thử nghiệm riêng của REVOX. Ảnh hãng giữ nhãn tư liệu nhà cung cấp.
 - Form soạn yêu cầu trên thiết bị, có validation, tự gắn mã. Khách chọn mở email để gửi hoặc sao chép nội dung. Chưa kết nối form này với backend và không hiển thị thành công giả.
 
-## Phần DN-1
+## Phần VPL
 
-Giữ nguyên markup của breadcrumb, gallery, tên, mô tả và CTA phía trên. Thêm 8 section bên dưới theo dữ liệu hiện có; không tự xác nhận từng loại nhựa. Chỉnh xử lý pointer của gallery để nút mũi tên không bị lớp chứa ảnh chặn thao tác. Không thay bố cục hay hình ảnh DN-1.
+Giữ nguyên markup của breadcrumb, gallery, tên, mô tả và CTA phía trên. Thêm 8 section bên dưới theo dữ liệu hiện có; không tự xác nhận từng loại nhựa. Chỉnh xử lý pointer của gallery để nút mũi tên không bị lớp chứa ảnh chặn thao tác. Không thay bố cục hay hình ảnh VPL.

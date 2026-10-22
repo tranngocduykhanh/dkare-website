@@ -1,4 +1,4 @@
-# D.KARE — Đề xuất 48 màu theo RAL CLASSIC
+# REVOX — Đề xuất 48 màu theo RAL CLASSIC
 
 Phiên bản 3 · 18/10/2026. Thay thế danh sách mã DK-C trước đây.
 
@@ -80,7 +80,7 @@ RAL 9006 là bạc nhôm (White aluminium), thuộc nhóm 12 màu cơ bản; tha
 
 ## Nội dung gửi nhà sản xuất
 
-D.KARE dự kiến phát triển 48 màu sơn nội thất ô tô theo danh sách RAL CLASSIC trên, chia thành 12 màu cơ bản, 6 màu tươi và 30 màu phổ biến.
+REVOX dự kiến phát triển 48 màu sơn nội thất ô tô theo danh sách RAL CLASSIC trên, chia thành 12 màu cơ bản, 6 màu tươi và 30 màu phổ biến.
 
 Vui lòng phản hồi theo từng mã:
 
@@ -90,7 +90,7 @@ Vui lòng phản hồi theo từng mã:
 4. Báo lượng đặt tối thiểu, giá, thời gian làm mẫu, thời gian sản xuất, khả năng lặp lại màu giữa các lô và tài liệu kỹ thuật/an toàn tương ứng.
 5. Cung cấp công thức hoặc mã quản lý công thức của nhà sản xuất, quy cách và mẫu lưu sau khi màu được duyệt. Không coi danh sách này là xác nhận hàng đã có sẵn.
 
-Mã DN-1/DL-1 vẫn là mã dòng sản phẩm; RAL là mã màu mục tiêu. Không tự kết luận hai hệ dùng chung công thức hoặc chất màu. Danh sách không xác nhận tính tương đương với màu hãng xe hoặc màu SL-5.
+Mã VPL/DL-1 vẫn là mã dòng sản phẩm; RAL là mã màu mục tiêu. Không tự kết luận hai hệ dùng chung công thức hoặc chất màu. Danh sách không xác nhận tính tương đương với màu hãng xe hoặc màu SL-5.
 
 ## Lưu ý đối chiếu
 
@@ -107,7 +107,7 @@ Toàn bộ ô màu HTML đã tự dựng lại, không còn lấy màu từ ản
 - RAL 9005 — Jet black: yêu cầu mẫu đen tuyền; RAL 9010 — Pure white: yêu cầu mẫu trắng tương ứng mã, không tự thay bằng trắng RGB tuyệt đối hoặc RAL 9016.
 - RAL 9011 — Graphite black là mã riêng, không gộp với RAL 9005.
 - RAL 9006 — White aluminium: yêu cầu mẫu bạc nhôm thật; ghi rõ cỡ hạt, định hướng hạt, lớp phủ và độ bóng. Không thay bằng xám phẳng hoặc bạc gương Chrome mà không được duyệt.
-- Căn cứ duyệt: mẫu RAL vật lý đã thống nhất và mẫu phun được D.KARE ký duyệt, trên đúng nền và hệ sơn. Nhà sản xuất đề xuất điều kiện đo, dung sai và phương pháp đánh giá hiệu ứng bạc để hai bên chốt trước sản xuất.
+- Căn cứ duyệt: mẫu RAL vật lý đã thống nhất và mẫu phun được REVOX ký duyệt, trên đúng nền và hệ sơn. Nhà sản xuất đề xuất điều kiện đo, dung sai và phương pháp đánh giá hiệu ứng bạc để hai bên chốt trước sản xuất.
 - Chưa có dữ liệu đo màu hoặc thử mẫu sản xuất. Bản tự dựng chỉ phục vụ chọn nhóm và trao đổi tên/mã màu.
 
 Tham khảo tên mã bạc: https://www.ral-farben.de/en/colour/ral-classic/ral-9006/9288
