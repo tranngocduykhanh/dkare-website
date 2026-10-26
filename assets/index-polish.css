@@ -111,3 +111,32 @@
 @media(prefers-reduced-motion:reduce){
   .dk-home .home-project-card>a:first-child img{transition:none}
 }
+
+/* Homepage review: readable sections and accessible project controls. */
+.dk-home .home-why-layout{grid-template-columns:minmax(240px,300px) minmax(0,1fr);gap:clamp(32px,4vw,56px)}
+.dk-home .home-why-photo{width:100%;max-width:300px;aspect-ratio:9/16;border-radius:18px}
+.dk-home .home-why-copy{padding:28px;border-top-width:3px}
+.dk-home .home-why-copy h2{font-size:clamp(28px,3vw,40px);line-height:1.22;letter-spacing:-.025em;text-wrap:balance}
+.dk-home .home-why-copy .home-body{font-size:16px;line-height:1.7;margin:18px 0}
+.dk-home .home-reasons-five{column-gap:22px}
+.dk-home .home-reasons-five li{font-size:14px;line-height:1.6}
+.dk-home .home-detail-layout{gap:clamp(32px,5vw,64px)}
+.dk-home .home-detail-layout figure{margin:0}
+.dk-home .home-detail-layout figure img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.dk-home .home-detail-copy h2{font-size:clamp(32px,4vw,48px);line-height:1.17;letter-spacing:-.025em}
+.dk-home .home-details{padding-block:80px}
+.dk-home .dk-solutions-list{padding:20px 0}
+.dk-home .dk-solution-story{min-height:clamp(220px,38vh,320px)}
+.dk-home .dk-solution-story>a{padding-block:34px}
+.dk-home .dk-solution-story h3{font-size:clamp(28px,2.8vw,38px);line-height:1.18;letter-spacing:-.025em}
+.dk-home .dk-solution-story p{font-size:16px;line-height:1.7}
+.dk-home .home-project-track{position:relative}
+.dk-home .home-project-controls button:disabled{opacity:.35;cursor:default}
+.dk-home .home-project-dots{gap:0;flex-wrap:wrap;margin-top:18px}
+.dk-home .home-project-dots button{display:grid;place-items:center;width:32px;height:44px;border:0;border-radius:0;background:transparent;transform:none}
+.dk-home .home-project-dots button::before{content:"";width:7px;height:7px;border-radius:50%;background:#858b90}
+.dk-home .home-project-dots button[aria-pressed=true]::before{width:20px;border-radius:5px;background:#b22222}
+.dk-home .home-project-3d{display:flex;width:fit-content;margin:12px auto 0;min-height:44px;align-items:center}
+.dk-home :is(.home-project-controls button,.home-project-dots button,.home-project-read,.home-project-3d,.home-product-resources a):focus-visible{outline:2px solid #b22222;outline-offset:4px}
+@media(max-width:860px){.dk-home .home-why-layout{grid-template-columns:1fr;gap:32px}.dk-home .home-why-photo{max-width:290px}.dk-home .home-why-copy{grid-row:1}.dk-home .dk-solutions-list{padding:0}.dk-home .dk-solution-story{min-height:0}.dk-home .dk-solution-story>a{padding-block:0}}
+@media(max-width:580px){.dk-home .home-why-copy{padding:24px 20px}.dk-home .home-reasons-five{grid-template-columns:1fr}.dk-home .home-why-copy h2{font-size:29px}.dk-home .home-details{padding-block:60px}.dk-home .home-detail-layout{grid-template-columns:1fr}.dk-home .dk-solution-story h3{font-size:28px}}

@@ -43,6 +43,16 @@
   text-align:center;
 }
 
+/* A soft reading area keeps moving reflections behind the copy legible. */
+.home-liquid-hero .home-quordix-content::before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  inset:-30px -20px;
+  background:radial-gradient(ellipse at center,rgba(250,250,250,.94) 26%,rgba(250,250,250,.65) 58%,transparent 78%);
+  pointer-events:none;
+}
+
 
 .dk-home .home-liquid-badge{
   display:inline-flex;
@@ -82,7 +92,7 @@
   font-family:"Inter",Arial,sans-serif;
   font-size:clamp(48px,6.4vw,88px);
   font-weight:800;
-  letter-spacing:-.05em;
+  letter-spacing:-.035em;
   line-height:1.16;
   text-align:center;
   text-wrap:balance;
@@ -107,8 +117,8 @@
   margin:clamp(28px,3.2vw,42px) auto 0;
   color:#303844;
   font-family:"Inter",Arial,sans-serif;
-  font-size:12px;
-  line-height:16px;
+  font-size:16px;
+  line-height:1.65;
   text-align:center;
   text-shadow:0 1px 12px rgba(255,255,255,1),0 0 30px rgba(255,255,255,.96);
   animation:dk-hero-type-enter .75s cubic-bezier(.22,1,.36,1) .32s both;
@@ -195,13 +205,13 @@
 
 @media(max-width:700px){
   .home-quordix.home-liquid-hero{
-    min-height:calc(100svh - 12px);
+    min-height:0;
     margin-top:-78px;
-    padding:126px 20px 78px;
+    padding:142px 20px 106px;
   }
   .dk-home .home-liquid-badge{margin-bottom:24px;padding:7px 13px;font-size:12px}
-  .dk-home .home-liquid-hero h1{font-size:clamp(30px,8.8vw,52px);line-height:1.18;letter-spacing:-.05em}
-  .dk-home .home-liquid-description{max-width:350px;margin-top:27px}
+  .dk-home .home-liquid-hero h1{font-size:clamp(30px,8.8vw,52px);line-height:1.2;letter-spacing:-.035em}
+  .dk-home .home-liquid-description{max-width:35ch;margin-top:24px;font-size:16px;line-height:1.65}
   .home-liquid-actions{width:100%;margin-top:28px;gap:10px;flex-direction:column}
   .home-liquid-primary,.home-liquid-secondary{width:min(100%,280px);min-height:52px;padding:12px 22px}
   .home-liquid-status{display:none}
@@ -209,7 +219,13 @@
 
 @media(hover:none),(pointer:coarse){.home-liquid-status{display:none}}
 
-/* Reference: text-xs, md:text-sm, lg:text-lg. */
+.home-liquid-motion{position:absolute;z-index:3;right:24px;bottom:20px;min-height:44px;padding:10px 15px;border:1px solid #cbd0d6;border-radius:999px;background:#fff;color:#374151;font:500 12px/1.4 Inter,Arial,sans-serif;cursor:pointer}
+.home-liquid-motion:hover{border-color:#b22222;color:#9c2024}
+.home-liquid-motion:focus-visible{outline:2px solid #b22222;outline-offset:4px}
+.home-liquid-motion[hidden]{display:none}
+@media(max-width:700px){.home-liquid-motion{right:20px;bottom:18px}}
+
+/* Hero copy remains readable at every breakpoint. */
 @media(min-width:768px){
   .dk-home .home-liquid-description{font-size:14px;line-height:20px}
 }

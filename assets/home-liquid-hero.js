@@ -211,7 +211,10 @@
   let frame=0;
   let visible=true;
   let tickerActive=false;
-  let start=performance.now();
+  let manualPause=false;
+  let elapsed=0;
+  let lastDraw=0;
+  const motionControl=hero.querySelector('[data-liquid-motion]');
 
   const resize = () => {
     const rect=hero.getBoundingClientRect();
@@ -230,13 +233,17 @@
 
   const draw = now => {
     frame=0;
+    if(lastDraw && visible && !document.hidden && !reducedMotion.matches && !manualPause){
+      elapsed+=Math.min((now-lastDraw)/1000,.05);
+    }
+    lastDraw=now;
     gl.useProgram(program);
     gl.uniform2f(resolution,width,height);
     gl.uniform2f(mouseUniform,motion.x*width,motion.y*height);
-    gl.uniform1f(timeUniform,reducedMotion.matches?1.8:(now-start)/1000);
+    gl.uniform1f(timeUniform,reducedMotion.matches?1.8:elapsed);
     gl.uniform1f(hoverUniform,motion.hover);
     gl.drawArrays(gl.TRIANGLES,0,6);
-    if(!gsapEngine&&visible&&!document.hidden&&!reducedMotion.matches) frame=requestAnimationFrame(draw);
+    if(!gsapEngine&&visible&&!document.hidden&&!reducedMotion.matches&&!manualPause) frame=requestAnimationFrame(draw);
   };
 
   const tick = () => draw(performance.now());
@@ -244,8 +251,14 @@
   const restart = () => {
     cancelAnimationFrame(frame);
     frame=0;
-    const shouldAnimate=visible&&!document.hidden&&!reducedMotion.matches;
+    lastDraw=0;
+    const shouldAnimate=visible&&!document.hidden&&!reducedMotion.matches&&!manualPause;
     hero.classList.toggle('is-motion-paused',!shouldAnimate);
+    if(motionControl){
+      motionControl.hidden=reducedMotion.matches;
+      motionControl.setAttribute('aria-pressed',String(manualPause));
+      motionControl.textContent=manualPause?'Tiếp tục hiệu ứng':'Tạm dừng hiệu ứng';
+    }
     if(gsapEngine){
       if(shouldAnimate&&!tickerActive){gsapEngine.ticker.add(tick);tickerActive=true;}
       if(!shouldAnimate&&tickerActive){gsapEngine.ticker.remove(tick);tickerActive=false;}
@@ -258,7 +271,7 @@
   };
 
   hero.addEventListener('pointermove',event=>{
-    if(event.pointerType==='touch') return;
+    if(event.pointerType==='touch'||manualPause) return;
     const rect=hero.getBoundingClientRect();
     const nextX=(event.clientX-rect.left)/rect.width;
     const nextY=1-(event.clientY-rect.top)/rect.height;
@@ -274,6 +287,7 @@
     if(reducedMotion.matches) draw(performance.now());
   });
   document.addEventListener('visibilitychange',restart);
+  motionControl?.addEventListener('click',()=>{manualPause=!manualPause;restart();});
   reducedMotion.addEventListener('change',restart);
   if('ResizeObserver' in window) new ResizeObserver(()=>{resize();restart();}).observe(hero);
   else window.addEventListener('resize',()=>{resize();restart();});
