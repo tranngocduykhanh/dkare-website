@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# PDF byte offsets must not be changed by line-ending normalization.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary

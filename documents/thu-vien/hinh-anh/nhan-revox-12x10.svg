@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120mm" height="100mm" viewBox="0 0 1200 1000">
+  <title>REVOX — Nhãn 12 × 10 cm, chữ chỉnh sửa được</title>
+  <image id="background" width="1200" height="1000" xlink:href="nen-khong-chu.png" preserveAspectRatio="none"/>
+  <g id="editable-text" font-family="Arial, Helvetica, sans-serif">
+    <image id="brand" x="68" y="65" width="660" height="220" xlink:href="../../../dkare-website/images/logo/revox/wordmark.png" preserveAspectRatio="xMidYMid meet"/>
+    <text id="brand-line" x="80" y="230" font-size="40" fill="#111111">PREMIUM AUTOMOTIVE COATINGS</text>
+    <text id="product-code" x="77" y="480" font-family="Arial Narrow, Arial, sans-serif" font-size="174" font-weight="800" fill="#FFFFFF">DL 1000</text>
+    <text id="product-name-en" x="80" y="563" font-size="65" font-weight="700" fill="#FFFFFF">LEATHER COLOR COAT</text>
+    <text id="product-name-vi" x="82" y="642" font-size="46" fill="#FFFFFF">SƠN PHỤC HỒI VÀ ĐỔI MÀU DA</text>
+    <text id="product-type" x="80" y="797" font-size="65" font-weight="800" fill="#08224A">WATER-BASED</text>
+    <text id="usage-line-1" x="83" y="890" font-size="34" fill="#111111">FOR AUTOMOTIVE</text>
+    <text id="usage-line-2" x="83" y="933" font-size="34" fill="#111111">LEATHER INTERIOR</text>
+    <text id="volume" x="1125" y="935" text-anchor="end" font-size="100" font-weight="800" fill="#050505">1L</text>
+  </g>
+</svg>

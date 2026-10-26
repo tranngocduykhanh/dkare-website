@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="520" viewBox="0 0 300 520">
+<title>REVOX VPL - Bản duyệt bố cục, chưa phát hành in</title>
+<rect x="0" y="0" width="300" height="520" fill="#131a21" stroke="none" stroke-width="1"/>
+<rect x="9" y="22" width="282" height="481" fill="#f5f5f1" stroke="none" stroke-width="1"/>
+<text x="16" y="43" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#5f6b74">REVOX / VPL</text>
+<text x="16" y="72" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#17212b">THÔNG TIN SẢN PHẨM</text>
+<line x1="16" y1="82" x2="284" y2="82" stroke="#bd2538" stroke-width="1"/>
+<text x="16" y="109" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#17212b">THÀNH PHẦN</text>
+<text x="16" y="130" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#bd2538">[Nội dung nhãn do nhà máy xác nhận]</text>
+<text x="16" y="220" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#17212b">ĐƠN VỊ CHỊU TRÁCH NHIỆM</text>
+<text x="16" y="241" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#bd2538">[Tên pháp lý]</text>
+<text x="16" y="255.7" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#bd2538">[Địa chỉ đầy đủ]</text>
+<text x="16" y="311" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#17212b">SẢN XUẤT / ĐÓNG GÓI</text>
+<text x="16" y="332" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#bd2538">[Chốt cách ghi theo hợp đồng]</text>
+<text x="16" y="389" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#17212b">XUẤT XỨ</text>
+<text x="16" y="410" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#bd2538">[Theo hồ sơ nguồn gốc]</text>
+<rect x="16" y="430" width="268" height="66" fill="#ffffff" stroke="#d8dee0" stroke-width="0.8"/>
+<text x="25" y="450" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#bd2538">NSX: [ngày / tháng / năm]</text>
+<text x="25" y="470" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#bd2538">SỐ LÔ: [mã lô thực tế]</text>
+<text x="25" y="489" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#bd2538">HSD: [nếu có, theo hồ sơ]</text>
+<rect x="0" y="515" width="300" height="5" fill="#8e979f" stroke="none" stroke-width="1"/>
+<g class="annotation"><circle cx="278" cy="93" r="11" fill="#243f5a" stroke="white"/><text x="278" y="96" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">11</text></g>
+<g class="annotation"><circle cx="278" cy="221" r="11" fill="#243f5a" stroke="white"/><text x="278" y="224" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">12</text></g>
+<g class="annotation"><circle cx="278" cy="309" r="11" fill="#946013" stroke="white"/><text x="278" y="312" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">13</text></g>
+<g class="annotation"><circle cx="278" cy="389" r="11" fill="#243f5a" stroke="white"/><text x="278" y="392" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">14</text></g>
+<g class="annotation"><circle cx="278" cy="445" r="11" fill="#243f5a" stroke="white"/><text x="278" y="448" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">15</text></g>
+</svg>

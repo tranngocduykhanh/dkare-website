@@ -9,7 +9,7 @@
     { file: 'san-pham.html', label: 'Sản phẩm', match: ['/san-pham', 'san-pham.html'] },
     { file: 'giai-phap.html', label: 'Giải pháp', match: ['giai-phap.html', 'gia-cong-son.html', 'phan-phoi-vat-tu.html', 'dao-tao.html', 'doi-mau.html', 'danh-cho-gara.html', 'danh-cho-detailing.html'] },
     { file: 'du-an.html', label: 'Dự án', match: ['du-an.html'] },
-    { file: 'blog.html', label: 'Kiến thức', match: ['blog.html', '/bai-viet/'] }
+    { file: 'blog.html', label: 'Kiến thức', match: ['blog.html', '/bai-viet/', 'thu-vien.html'] }
   ];
   const activeFor = item => {
     const path = location.pathname.toLowerCase();

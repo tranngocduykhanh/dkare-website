@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="520" viewBox="0 0 300 520">
+<title>REVOX VPL - Bản duyệt bố cục, chưa phát hành in</title>
+<rect x="0" y="0" width="300" height="520" fill="#131a21" stroke="none" stroke-width="1"/>
+<text x="16" y="43" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#c4cbd0">REVOX / VPL</text>
+<text x="16" y="72" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">THI CÔNG</text>
+<line x1="16" y1="82" x2="284" y2="82" stroke="#abb4bc" stroke-width="1"/>
+<text x="16" y="106" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">CÁC BƯỚC THỰC HIỆN</text>
+<text x="16" y="127" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#ff929c">[Chờ hướng dẫn VPL]</text>
+<text x="16" y="141.7" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#ff929c">Chuẩn bị - xử lý nền - phun - làm khô.</text>
+<text x="16" y="229" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">CHẤT PHA / TỶ LỆ</text>
+<text x="16" y="250" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#ff929c">[Tên chất pha]</text>
+<text x="16" y="264.7" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#ff929c">[Tỷ lệ + đơn vị pha]</text>
+<text x="16" y="326" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">SÚNG / KHÍ / LỚP</text>
+<text x="16" y="347" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#ff929c">[Thông số theo TDS VPL]</text>
+<text x="16" y="421" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">KHÔ / ĐÓNG RẮN</text>
+<text x="16" y="442" font-family="Arial, sans-serif" font-size="10.5" font-weight="400" fill="#ff929c">[Điều kiện theo TDS VPL]</text>
+<rect x="0" y="515" width="300" height="5" fill="#8e979f" stroke="none" stroke-width="1"/>
+<g class="annotation"><circle cx="278" cy="91" r="11" fill="#243f5a" stroke="white"/><text x="278" y="94" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">07</text></g>
+<g class="annotation"><circle cx="278" cy="220" r="11" fill="#946013" stroke="white"/><text x="278" y="223" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">08</text></g>
+<g class="annotation"><circle cx="278" cy="317" r="11" fill="#946013" stroke="white"/><text x="278" y="320" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">09</text></g>
+<g class="annotation"><circle cx="278" cy="412" r="11" fill="#946013" stroke="white"/><text x="278" y="415" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="white">10</text></g>
+</svg>
